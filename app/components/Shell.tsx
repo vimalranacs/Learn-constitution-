@@ -1,0 +1,4 @@
+import Link from 'next/link';
+export default function Shell({mode,children}:{mode:'atlas'|'learn';children:React.ReactNode}) {
+  return <><a className="skip" href="#main">Skip to content</a><header className="masthead"><Link className="brand" href="/"><span className="brand-symbol" aria-hidden="true">A</span><span>Constitution Atlas<small>A field guide to Indian democracy</small></span></Link><nav aria-label="Experience"><Link aria-current={mode==='atlas'?'page':undefined} href="/atlas/art_79">Atlas</Link><Link aria-current={mode==='learn'?'page':undefined} href="/learn/parliament-composition">Learn</Link></nav><span className="edition">Early edition · 01</span></header><main id="main">{children}</main><footer>Constitution Atlas <span>Prepared content. Visible sources. Room to question.</span></footer></>;
+}
