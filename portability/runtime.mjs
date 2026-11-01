@@ -11,4 +11,12 @@ export function getDatabase(){
  CREATE TABLE IF NOT EXISTS login_attempts(email TEXT PRIMARY KEY,window INTEGER NOT NULL,count INTEGER NOT NULL);`);
  return database;
 }
-export const env={get GEMINI_API_KEY(){return process.env.GEMINI_API_KEY},get GEMINI_MODEL(){return process.env.GEMINI_MODEL||'gemini-3.1-flash-lite'},DB:{prepare(sql){return {bind(...values){return {async all(){return {results:getDatabase().prepare(sql).all(...values)}},async first(){return getDatabase().prepare(sql).get(...values)||null},async run(){return getDatabase().prepare(sql).run(...values)}}}}}};
+export const env={
+ get GEMINI_API_KEY(){return process.env.GEMINI_API_KEY},
+ get GEMINI_MODEL(){return process.env.GEMINI_MODEL||'gemini-3.1-flash-lite'},
+ DB:{prepare(sql){return {bind(...values){return {
+  async all(){return {results:getDatabase().prepare(sql).all(...values)}},
+  async first(){return getDatabase().prepare(sql).get(...values)||null},
+  async run(){return getDatabase().prepare(sql).run(...values)}
+ }}}}}
+};

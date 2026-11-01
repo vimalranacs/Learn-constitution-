@@ -1,2 +1,0 @@
-import {cookieName} from '../../lib/session.mjs';
-export function GET(){return new Response(null,{status:303,headers:{Location:'/signin-with-chatgpt','Cache-Control':'no-store','Set-Cookie':`${cookieName}=; HttpOnly; SameSite=Lax; Path=/; Max-Age=0`}})}

@@ -1,9 +1,0 @@
-import {getDatabase} from '../../../lib/runtime.mjs';
-import {verifyPassword,createSession,cookieName,safeReturn} from '../../../lib/session.mjs';
-export async function POST(request:Request){
- const origin=process.env.ATLAS_ORIGIN;if(!origin||request.headers.get('origin')!==origin)return new Response('Invalid origin',{status:403});
- const body=await request.text();if(body.length>4096)return new Response('Too large',{status:413});const form=new URLSearchParams(body);const email=(form.get('email')||'').trim().toLowerCase(),password=form.get('password')||'';
- const db=getDatabase(),window=Math.floor(Date.now()/900000);db.prepare('INSERT INTO login_attempts(email,window,count) VALUES(?,?,1) ON CONFLICT(email) DO UPDATE SET count=CASE WHEN window=excluded.window THEN count+1 ELSE 1 END,window=excluded.window').run(email,window);
- const row=db.prepare('SELECT count FROM login_attempts WHERE email=?').get(email);if(Number(row?.count)>10||!verifyPassword(email,password))return new Response(null,{status:303,headers:{Location:'/signin-with-chatgpt?error=1','Cache-Control':'no-store'}});
- return new Response(null,{status:303,headers:{Location:safeReturn(form.get('return_to')),'Cache-Control':'no-store','Set-Cookie':`${cookieName}=${createSession(email)}; HttpOnly; SameSite=Lax; Path=/; Max-Age=604800${origin.startsWith('https:')?'; Secure':''}`}});
-}

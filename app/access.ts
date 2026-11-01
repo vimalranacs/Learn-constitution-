@@ -1,2 +1,2 @@
-import {requireChatGPTUser} from './chatgpt-auth';
-export async function protectPage(path:string){return requireChatGPTUser(path);}
+// Public reading is intentional. Personal APIs still require a unique device cookie.
+export async function protectPage(_path:string){}

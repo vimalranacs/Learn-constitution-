@@ -1,5 +1,0 @@
-import {cookies} from 'next/headers';
-import {redirect} from 'next/navigation';
-import {cookieName,verifySession,safeReturn} from '../lib/session.mjs';
-export async function getChatGPTUser(){return verifySession((await cookies()).get(cookieName)?.value||'')}
-export async function requireChatGPTUser(returnTo:string){const user=await getChatGPTUser();if(user)return user;redirect('/signin-with-chatgpt?return_to='+encodeURIComponent(safeReturn(returnTo)))}
