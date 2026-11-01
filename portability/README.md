@@ -7,6 +7,7 @@ Install Node 24 LTS (minimum 22.13). In this folder run `npm install`, `npm run 
 
 ```
 GEMINI_API_KEY=your-own-secret-key
+ATLAS_ORIGIN=https://your-actual-domain.example
 GEMINI_MODEL=gemini-3.1-flash-lite
 ATLAS_DATABASE_PATH=/persistent-data/atlas.sqlite
 ```
