@@ -1,0 +1,4 @@
+[submodule "atlas-web"]
+	path = atlas-web
+	url = https://github.com/vimalranacs/Learn-constitution-.git
+	branch = site-source

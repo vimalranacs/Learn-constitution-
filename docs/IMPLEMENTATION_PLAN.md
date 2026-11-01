@@ -1,3 +1,6 @@
+# Current release - 2 November 2026
+Trace recovery and capability gating deployed version7.17Node tests, TypeScript, production build, HTTP filter matrix/session isolation and desktop Trace checks passed. Current audience custom, URL https://constitutionatlas.blondebarge1.chatgpt.site . Preserve hosting settings. Curriculum cleanup retained261sections. No new legal assertions. Next work is prioritized in ARGON_DATA_BRIEF.md: extraction repair,23isolated entities, amendment/judgment evidence, then reviewed activities. Broader mobile/accessibility and content acceptance remain open.
+
 # Constitution Atlas implementation plan
 Updated 2026-11-01. Track working behavior and remaining acceptance gates.
 

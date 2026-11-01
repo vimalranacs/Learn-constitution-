@@ -3,7 +3,7 @@
 You have two independent options.
 
 ## Keep the existing Sites deployment
-The current URL is https://constitution-atlas-vimal.blondebarge1.chatgpt.site .
+The current URL is https://constitutionatlas.blondebarge1.chatgpt.site .
 - To change its first label, choose the exact new slug (for example constitution-study). Sites provides a change_site_slug operation; it changes asynchronously and availability must be checked. The rest of the platform hostname remains platform-owned. No new label was guessed or applied.
 - To use your own full domain (for example learn.your-domain.example), first own that domain and have access to its DNS. Sites provides add_custom_domain. It returns the exact CNAME or apex A records plus verification records. Add every returned record at the DNS provider, then refresh domain validation until verified. Do not invent DNS target addresses.
 - You need to supply the desired slug or actual owned domain. No purchase or DNS change has been made.

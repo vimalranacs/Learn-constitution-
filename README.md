@@ -3,7 +3,7 @@
 
 Constitution Atlas is an interactive, full-stack educational platform and knowledge graph designed to help students, legal researchers, and citizens explore, trace, and understand the Constitution of India (2026 Edition) and the structural mechanisms of Indian democracy.
 
-[![Live Demo](https://img.shields.io/badge/Demo-Live%20Website-teal?style=for-the-badge)](https://constitution-atlas-vimal.blondebarge1.chatgpt.site)
+[![Live Demo](https://img.shields.io/badge/Demo-Live%20Website-teal?style=for-the-badge)](https://constitutionatlas.blondebarge1.chatgpt.site)
 [![License](https://img.shields.io/badge/License-Proprietary%20%2F%20Educational-blue?style=for-the-badge)](#license)
 [![Next.js](https://img.shields.io/badge/Next.js-16-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
 [![React](https://img.shields.io/badge/React-19-blue?style=for-the-badge&logo=react)](https://react.dev/)
@@ -14,7 +14,7 @@ Constitution Atlas is an interactive, full-stack educational platform and knowle
 ## 🏛️ Key Features
 
 ### 1. 🌌 Interactive Constitutional Knowledge Graph (`/explore`)
-- **635 canonical constitutional entities** and **1,258 verified relationships**.
+- **635 canonical constitutional entities** and **1,258 recorded relationships (3 source-checked; remaining relationships await review)**.
 - **Dynamic Physics-Based Canvas:** Powered by D3.js and GSAP with smooth collision relaxation, drag/zoom/pan, and interactive minimap.
 - **8 Visual Themes:** Light, dark, and specialized reading palettes.
 - **Progressive Node Discovery:** Expand related nodes in place, explore nearby institutional cards, and inspect legal authorities and constitutional limits.
@@ -45,8 +45,8 @@ Constitution Atlas is an interactive, full-stack educational platform and knowle
 
 ### 7. 🔒 Private Device Workspace (`/workspace`)
 - Save personal study notes, bookmarks, lesson progress, and custom graph views.
-- **Privacy by Design:** Stored directly on your device via secure HTTP-only cookies without requiring complex third-party account registration.
-- **Spaced Repetition:** Built-in FSRS review scheduling for key constitutional concepts.
+- **Privacy by Design:** Stored server-side in a workspace identified by a secure HTTP-only device cookie without requiring complex third-party account registration.
+- **Spaced Repetition:** Simple spaced review scheduling for key constitutional concepts.
 
 ### 8. 🤖 Contextual AI Constitutional Tutor
 - Integrated AI tutor powered by Google Gemini (`gemini-3.1-flash-lite`).
