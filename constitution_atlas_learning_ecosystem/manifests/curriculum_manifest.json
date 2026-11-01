@@ -1,0 +1,575 @@
+{
+  "manifest_version": "1.0.0",
+  "generated_at": "2026-11-01T09:04:36.932103Z",
+  "platform": "CONSTITUTION ATLAS — Learning Mode & Atlas Mode Unified Ecosystem",
+  "primary_source_pdf": "88cca69e868e50b217f855be2fb8bdba.pdf (1 May 2026 Official Edition, 402 pages, up to 106th Amendment Act, 2023)",
+  "levels": [
+    {
+      "level_id": "level_00",
+      "level_number": 0,
+      "title": "Understanding Society, Rules, and Government",
+      "estimated_hours": 3.5,
+      "prerequisites": [],
+      "course_volume_file": "courses/VOL_1_LEVELS_0_AND_1_SOCIETY_STATE_AND_POLITICAL_PHILOSOPHY.md",
+      "lessons": [
+        {
+          "lesson_id": "les_00_01_why_rules",
+          "title": "Why Humans Create Rules: From Village Commons & School Norms to Enforceable Law",
+          "canonical_nodes": [
+            "const_india",
+            "inst_citizens",
+            "art_13",
+            "art_15",
+            "inst_panchayati_raj"
+          ],
+          "activity_id": "act_00_01_commons_rule_builder",
+          "status": "COMPLETE"
+        },
+        {
+          "lesson_id": "les_00_02_power_authority_legitimacy",
+          "title": "Power vs. Legitimate Authority: Coercion, Consent, and the Constitutional Transformation of Power",
+          "canonical_nodes": [
+            "phil_rule_of_law",
+            "art_14",
+            "art_21",
+            "art_300A",
+            "judg_maneka",
+            "admin_tehsildar"
+          ],
+          "activity_id": "act_00_02_authority_audit",
+          "status": "COMPLETE"
+        },
+        {
+          "lesson_id": "les_00_03_state_nation_sovereignty",
+          "title": "What Is a State, a Nation, a Government, and Sovereignty? Unpacking 'We, the People of India'",
+          "canonical_nodes": [
+            "preamble",
+            "art_1",
+            "art_12",
+            "art_395",
+            "sched_1",
+            "hist_obj_resolution"
+          ],
+          "activity_id": "act_00_03_article12_classifier",
+          "status": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "level_id": "level_01",
+      "level_number": 1,
+      "title": "Foundations of Political Thought & Constitutionalism",
+      "estimated_hours": 4.0,
+      "prerequisites": [
+        "level_00"
+      ],
+      "course_volume_file": "courses/VOL_1_LEVELS_0_AND_1_SOCIETY_STATE_AND_POLITICAL_PHILOSOPHY.md",
+      "lessons": [
+        {
+          "lesson_id": "les_01_01_liberty_equality_justice_fraternity",
+          "title": "Liberty, Equality, Justice, and Fraternity: Dr. B.R. Ambedkar's Trinity and the Moral Foundations of the Preamble",
+          "canonical_nodes": [
+            "phil_liberty",
+            "phil_equality",
+            "phil_justice",
+            "phil_fraternity",
+            "phil_dignity",
+            "art_14",
+            "art_15",
+            "art_16",
+            "art_17",
+            "art_38",
+            "judg_indra_sawhney"
+          ],
+          "activity_id": "act_01_01_trinity_balance_sim",
+          "status": "COMPLETE"
+        },
+        {
+          "lesson_id": "les_01_02_constitutionalism_rule_of_law_sep_powers",
+          "title": "Having a Constitution vs. Constitutionalism: Limited Government, Rule of Law, and Indian Checks and Balances",
+          "canonical_nodes": [
+            "phil_rule_of_law",
+            "phil_sep_powers",
+            "phil_const_morality",
+            "art_50",
+            "art_75",
+            "art_121",
+            "art_122"
+          ],
+          "activity_id": "act_01_02_checks_and_balances_matrix",
+          "status": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "level_id": "level_02",
+      "level_number": 2,
+      "title": "Origins of the Indian Constitutional System (1935–1950)",
+      "estimated_hours": 4.5,
+      "prerequisites": [
+        "level_01"
+      ],
+      "course_volume_file": "courses/VOL_2_LEVELS_2_AND_3_CONSTITUTIONAL_ORIGINS_AND_FUNDAMENTAL_RIGHTS.md",
+      "lessons": [
+        {
+          "lesson_id": "les_02_01_colonial_origins_constituent_assembly",
+          "title": "From the Government of India Act 1935 & the Freedom Movement to the Constituent Assembly Debates (1946–1949)",
+          "canonical_nodes": [
+            "hist_goi_1935",
+            "hist_const_assembly",
+            "hist_obj_resolution",
+            "hist_drafting_comm",
+            "hist_adoption_1949",
+            "art_394",
+            "art_395"
+          ],
+          "activity_id": "act_02_01_cad_floor_simulator",
+          "status": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "level_id": "level_03",
+      "level_number": 3,
+      "title": "Constitutional Structure, Fundamental Rights, DPSPs & Fundamental Duties",
+      "estimated_hours": 6.5,
+      "prerequisites": [
+        "level_02"
+      ],
+      "course_volume_file": "courses/VOL_2_LEVELS_2_AND_3_CONSTITUTIONAL_ORIGINS_AND_FUNDAMENTAL_RIGHTS.md",
+      "lessons": [
+        {
+          "lesson_id": "les_03_01_structure_territory_citizenship",
+          "title": "Architectural Map of the 2026 Constitution: Internal Reorganization of States (Arts. 1–4) & Citizenship (Arts. 5–11)",
+          "canonical_nodes": [
+            "part_I",
+            "art_1",
+            "art_2",
+            "art_3",
+            "art_4",
+            "part_II",
+            "art_5",
+            "art_11",
+            "sched_1",
+            "sched_4",
+            "appendix_1"
+          ],
+          "activity_id": "act_03_01_state_reorg_and_citizenship_lab",
+          "status": "COMPLETE"
+        },
+        {
+          "lesson_id": "les_03_02_fundamental_rights_deep_dive",
+          "title": "The Charter of Enforceable Liberties: Part III (Arts. 12–35), the Golden Triangle, Reasonable Restrictions & Art. 32",
+          "canonical_nodes": [
+            "part_III",
+            "art_14",
+            "art_19",
+            "art_20",
+            "art_21",
+            "art_21A",
+            "art_22",
+            "art_25",
+            "art_32",
+            "phil_privacy",
+            "doc_golden_triangle",
+            "doc_proportionality",
+            "judg_maneka",
+            "judg_puttaswamy",
+            "judg_shreya_singhal",
+            "judg_dk_basu"
+          ],
+          "activity_id": "act_03_02_golden_triangle_docket",
+          "status": "COMPLETE"
+        },
+        {
+          "lesson_id": "les_03_03_dpsp_duties_harmony",
+          "title": "The Conscience of the Constitution: Directive Principles (Part IV), Fundamental Duties (Part IVA) & Harmonious Construction",
+          "canonical_nodes": [
+            "part_IV",
+            "art_37",
+            "art_38",
+            "art_39",
+            "art_39A",
+            "art_40",
+            "art_44",
+            "art_50",
+            "art_51",
+            "part_IVA",
+            "art_51A",
+            "judg_minerva",
+            "doc_harmonious_const"
+          ],
+          "activity_id": "act_03_03_harmony_chariot_sim",
+          "status": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "level_id": "level_04",
+      "level_number": 4,
+      "title": "Parliament and the Union Government",
+      "estimated_hours": 6.0,
+      "prerequisites": [
+        "level_03"
+      ],
+      "course_volume_file": "courses/VOL_3_LEVELS_4_AND_5_PARLIAMENT_UNION_STATES_AND_LOCAL_GOVT.md",
+      "lessons": [
+        {
+          "lesson_id": "les_04_01_union_executive_president_pm_cabinet",
+          "title": "Formal vs. Real Executive Power: The President (Arts. 52–73), PM & Council of Ministers (Arts. 74–78), and Ordinances (Art. 123)",
+          "canonical_nodes": [
+            "inst_president",
+            "inst_vice_president",
+            "inst_pm",
+            "inst_council_ministers",
+            "inst_ag",
+            "art_52",
+            "art_53",
+            "art_54",
+            "art_61",
+            "art_72",
+            "art_74",
+            "art_75",
+            "art_78",
+            "art_123"
+          ],
+          "activity_id": "act_04_01_cabinet_and_ordinance_sim",
+          "status": "COMPLETE"
+        },
+        {
+          "lesson_id": "les_04_02_parliament_lawmaking_money_bills_budget",
+          "title": "The Architecture of Sansad: Lok Sabha vs. Rajya Sabha, Ordinary vs. Money Bills (Arts. 107–111), Budget (Arts. 112–117) & Committees",
+          "canonical_nodes": [
+            "inst_parliament",
+            "inst_lok_sabha",
+            "inst_rajya_sabha",
+            "inst_speaker_ls",
+            "inst_parl_committees",
+            "proc_ordinary_bill",
+            "proc_money_bill",
+            "art_79",
+            "art_80",
+            "art_81",
+            "art_107",
+            "art_108",
+            "art_109",
+            "art_110",
+            "art_111",
+            "art_112",
+            "art_249",
+            "art_266",
+            "art_267",
+            "art_312"
+          ],
+          "activity_id": "act_04_02_parliament_bill_and_budget_sim",
+          "status": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "level_id": "level_05",
+      "level_number": 5,
+      "title": "States, Federalism, and Local Self-Government",
+      "estimated_hours": 6.0,
+      "prerequisites": [
+        "level_03"
+      ],
+      "course_volume_file": "courses/VOL_3_LEVELS_4_AND_5_PARLIAMENT_UNION_STATES_AND_LOCAL_GOVT.md",
+      "lessons": [
+        {
+          "lesson_id": "les_05_01_states_governor_federalism",
+          "title": "The Federal Architecture: State Governments (Part VI), Governor's Assent (Arts. 200–201), Seventh Schedule, GST Council & Finance Commission",
+          "canonical_nodes": [
+            "part_VI",
+            "inst_state_govt",
+            "inst_governor",
+            "inst_state_legislature",
+            "part_XI",
+            "sched_7",
+            "inst_gst_council",
+            "inst_finance_comm",
+            "doc_pith_substance",
+            "judg_bommai",
+            "art_153",
+            "art_163",
+            "art_200",
+            "art_246",
+            "art_246A",
+            "art_254",
+            "art_279A",
+            "art_280",
+            "art_356"
+          ],
+          "activity_id": "act_05_01_federal_and_governor_sim",
+          "status": "COMPLETE"
+        },
+        {
+          "lesson_id": "les_05_02_local_self_government_panchayats_municipalities",
+          "title": "The Third Tier of Indian Democracy: 73rd & 74th Amendments (Parts IX & IXA), Gram Sabhas, ULBs, and Part IXB Co-operatives",
+          "canonical_nodes": [
+            "part_IX",
+            "part_IXA",
+            "part_IXB",
+            "inst_panchayati_raj",
+            "inst_municipalities",
+            "amend_73_74",
+            "sched_11",
+            "sched_12",
+            "art_243A",
+            "art_243D",
+            "art_243E",
+            "art_243G",
+            "art_243I",
+            "art_243K",
+            "art_243W",
+            "art_243ZD"
+          ],
+          "activity_id": "act_05_02_panchayat_and_ulb_builder",
+          "status": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "level_id": "level_06",
+      "level_number": 6,
+      "title": "Judiciary and Constitutional Law",
+      "estimated_hours": 5.5,
+      "prerequisites": [
+        "level_03",
+        "level_04"
+      ],
+      "course_volume_file": "courses/VOL_4_LEVELS_6_AND_7_JUDICIARY_ELECTIONS_AND_REPRESENTATION.md",
+      "lessons": [
+        {
+          "lesson_id": "les_06_01_integrated_judiciary_jurisdiction_independence",
+          "title": "Guardian of the Constitution: Integrated Judiciary, Supreme Court Jurisdictions (Arts. 124–147), High Courts (Arts. 214–231), District Courts & Collegium",
+          "canonical_nodes": [
+            "inst_supreme_court",
+            "inst_high_courts",
+            "inst_subordinate_courts",
+            "proc_judicial_review",
+            "judg_njac",
+            "art_32",
+            "art_124",
+            "art_129",
+            "art_131",
+            "art_136",
+            "art_141",
+            "art_142",
+            "art_143",
+            "art_145",
+            "art_214",
+            "art_226",
+            "art_227",
+            "art_233",
+            "art_235",
+            "art_262",
+            "art_323A"
+          ],
+          "activity_id": "act_06_01_jurisdiction_router_sim",
+          "status": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "level_id": "level_07",
+      "level_number": 7,
+      "title": "Elections, Representation, and Political Institutions",
+      "estimated_hours": 5.0,
+      "prerequisites": [
+        "level_04",
+        "level_05"
+      ],
+      "course_volume_file": "courses/VOL_4_LEVELS_6_AND_7_JUDICIARY_ELECTIONS_AND_REPRESENTATION.md",
+      "lessons": [
+        {
+          "lesson_id": "les_07_01_elections_rpa_anti_defection",
+          "title": "Architecture of Free and Fair Elections: Article 324, RPA 1950 & 1951, 106th Amendment Women's Reservation, and Tenth Schedule Anti-Defection",
+          "canonical_nodes": [
+            "part_XV",
+            "inst_eci",
+            "proc_rpa_1951",
+            "part_XVI",
+            "amend_106",
+            "sched_10",
+            "judg_kihoto",
+            "art_102",
+            "art_103",
+            "art_324",
+            "art_325",
+            "art_326",
+            "art_329",
+            "art_330",
+            "art_330A",
+            "art_332A",
+            "art_334A"
+          ],
+          "activity_id": "act_07_01_anti_defection_and_election_tribunal",
+          "status": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "level_id": "level_08",
+      "level_number": 8,
+      "title": "Indian Public Administration in Practice",
+      "estimated_hours": 6.5,
+      "prerequisites": [
+        "level_04",
+        "level_05"
+      ],
+      "course_volume_file": "courses/VOL_5_LEVELS_8_AND_9_PUBLIC_ADMINISTRATION_AND_CONSTITUTIONAL_HISTORY.md",
+      "lessons": [
+        {
+          "lesson_id": "les_08_01_secretariat_civil_services_upsc",
+          "title": "How the Executive Machine Actually Works: Rules of Business (Arts. 77 & 166), Cabinet Secretariat, Civil Services (Arts. 309–312), Art. 311 & UPSC",
+          "canonical_nodes": [
+            "admin_ministries",
+            "admin_cabinet_sec",
+            "admin_civil_services",
+            "admin_regulatory_bodies",
+            "inst_upsc",
+            "art_77",
+            "art_166",
+            "art_309",
+            "art_310",
+            "art_311",
+            "art_312",
+            "art_315",
+            "art_317"
+          ],
+          "activity_id": "act_08_01_civil_service_and_secretariat_lab",
+          "status": "COMPLETE"
+        },
+        {
+          "lesson_id": "les_08_02_district_administration_collector_sdm_tehsildar",
+          "title": "Where the State Meets the Citizen: District Magistrate / Collector, SDM, Tehsildar, BDO, Patwari/Lekhpal, Police & Citizen Redress",
+          "canonical_nodes": [
+            "admin_dm_collector",
+            "admin_sdm",
+            "admin_tehsildar",
+            "inst_subordinate_courts",
+            "art_50",
+            "art_226",
+            "art_235"
+          ],
+          "activity_id": "act_08_02_collectorate_crisis_command",
+          "status": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "level_id": "level_09",
+      "level_number": 9,
+      "title": "Constitutional History and Transformation (1950–2026)",
+      "estimated_hours": 5.5,
+      "prerequisites": [
+        "level_06",
+        "level_07",
+        "level_08"
+      ],
+      "course_volume_file": "courses/VOL_5_LEVELS_8_AND_9_PUBLIC_ADMINISTRATION_AND_CONSTITUTIONAL_HISTORY.md",
+      "lessons": [
+        {
+          "lesson_id": "les_09_01_article_368_amendments_basic_structure",
+          "title": "How the Living Constitution Changes Without Losing Its Soul: Article 368, Basic Structure Doctrine (Kesavananda to Coelho) & Amendments 1st–106th",
+          "canonical_nodes": [
+            "part_XX",
+            "art_368",
+            "proc_const_amend_bill",
+            "doc_basic_structure",
+            "judg_kesavananda",
+            "judg_golaknath",
+            "judg_minerva",
+            "judg_coelho",
+            "sched_9",
+            "amend_1",
+            "amend_42",
+            "amend_44",
+            "amend_73_74",
+            "amend_86",
+            "amend_101",
+            "amend_106"
+          ],
+          "activity_id": "act_09_01_amendment_and_basic_structure_sim",
+          "status": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "level_id": "level_10",
+      "level_number": 10,
+      "title": "Advanced Constitutional and Political Analysis",
+      "estimated_hours": 5.5,
+      "prerequisites": [
+        "level_09"
+      ],
+      "course_volume_file": "courses/VOL_6_LEVELS_10_AND_11_ADVANCED_CONSTITUTIONAL_ANALYSIS_AND_APPLIED_REASONING.md",
+      "lessons": [
+        {
+          "lesson_id": "les_10_01_interpretive_theories_constitutional_morality_fourth_branch",
+          "title": "How Constitutional Meaning Is Constructed and Contested: Interpretive Methodologies, Constitutional Morality & Fourth-Branch Guarantor Institutions",
+          "canonical_nodes": [
+            "phil_const_morality",
+            "phil_sep_powers",
+            "inst_cag",
+            "inst_eci",
+            "inst_upsc",
+            "inst_finance_comm",
+            "inst_ncsc",
+            "judg_navtej",
+            "judg_vishaka",
+            "art_51",
+            "art_142",
+            "art_148",
+            "art_253"
+          ],
+          "activity_id": "act_10_01_interpretive_method_and_fourth_branch_lab",
+          "status": "COMPLETE"
+        }
+      ]
+    },
+    {
+      "level_id": "level_11",
+      "level_number": 11,
+      "title": "Applied Constitutional Reasoning & Crisis Synthesis",
+      "estimated_hours": 6.5,
+      "prerequisites": [
+        "level_10"
+      ],
+      "course_volume_file": "courses/VOL_6_LEVELS_10_AND_11_ADVANCED_CONSTITUTIONAL_ANALYSIS_AND_APPLIED_REASONING.md",
+      "lessons": [
+        {
+          "lesson_id": "les_11_01_capstone_applied_constitutional_reasoning",
+          "title": "Applied Constitutional Reasoning: Resolving the 5-Layer Samvidhan Pradesh Multi-Institution Crisis",
+          "canonical_nodes": [
+            "const_india",
+            "art_14",
+            "art_19",
+            "art_21",
+            "art_22",
+            "art_32",
+            "art_200",
+            "art_213",
+            "art_226",
+            "art_254",
+            "art_300A",
+            "art_311",
+            "art_352",
+            "art_356",
+            "art_358",
+            "art_359",
+            "admin_dm_collector",
+            "admin_sdm",
+            "admin_tehsildar",
+            "judg_puttaswamy",
+            "judg_bommai",
+            "judg_kihoto"
+          ],
+          "activity_id": "act_11_01_samvidhan_pradesh_capstone_bench",
+          "status": "COMPLETE"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+import {byId,sourceUrl,edges} from '../../../../lib/knowledge';
+export async function GET(_request:Request,{params}:{params:Promise<{id:string}>}){const {id}=await params;const entity=byId.get(id);if(!entity)return Response.json({error:'Unknown entity'},{status:404});return Response.json({entity,sourceUrl,relationships:edges.filter(e=>e.source===id||e.target===id)},{headers:{'Cache-Control':'public, max-age=300'}})}

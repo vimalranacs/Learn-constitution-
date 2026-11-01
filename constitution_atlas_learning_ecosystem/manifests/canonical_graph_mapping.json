@@ -1,0 +1,5248 @@
+{
+  "existing_canonical_nodes_count": 635,
+  "existing_canonical_edges_count": 1255,
+  "proposed_learning_mode_additions": [
+    {
+      "id": "prop_soc_norms_vs_law",
+      "node_type": "Philosophical",
+      "subcategory": "Foundational Civic Concept",
+      "title": "Social Norms vs. Enforceable Public Law (Hart's Primary & Secondary Rules)",
+      "status": "proposed_addition",
+      "connected_canonical_nodes": [
+        "const_india",
+        "art_13",
+        "art_15"
+      ],
+      "taught_in_lesson": "les_00_01_why_rules"
+    },
+    {
+      "id": "prop_soc_collective_action",
+      "node_type": "Philosophical",
+      "subcategory": "Foundational Civic Concept",
+      "title": "Coordination & Collective Action Problems (Commons Governance)",
+      "status": "proposed_addition",
+      "connected_canonical_nodes": [
+        "inst_panchayati_raj",
+        "art_243G",
+        "art_39"
+      ],
+      "taught_in_lesson": "les_00_01_why_rules"
+    },
+    {
+      "id": "prop_phil_weber_legitimacy",
+      "node_type": "Philosophical",
+      "subcategory": "Political Sociology",
+      "title": "Rational-Legal Constitutional Legitimacy (Weberian Typology)",
+      "status": "proposed_addition",
+      "connected_canonical_nodes": [
+        "phil_rule_of_law",
+        "art_14",
+        "const_india"
+      ],
+      "taught_in_lesson": "les_00_02_power_authority_legitimacy"
+    },
+    {
+      "id": "prop_admin_divisional_comm",
+      "node_type": "Administrative",
+      "subcategory": "Divisional Administration",
+      "title": "Divisional Commissioner (Appellate Revenue & Divisional Coordinator)",
+      "status": "proposed_addition",
+      "connected_canonical_nodes": [
+        "admin_dm_collector",
+        "inst_state_govt"
+      ],
+      "taught_in_lesson": "les_08_02_district_administration_collector_sdm_tehsildar"
+    },
+    {
+      "id": "prop_admin_sp_commissioner",
+      "node_type": "Administrative",
+      "subcategory": "Police Administration",
+      "title": "Superintendent of Police (SP) & Commissioner of Police (Police Act 1861 & BNSS 2023)",
+      "status": "proposed_addition",
+      "connected_canonical_nodes": [
+        "admin_dm_collector",
+        "admin_civil_services",
+        "art_22",
+        "judg_dk_basu"
+      ],
+      "taught_in_lesson": "les_08_02_district_administration_collector_sdm_tehsildar"
+    },
+    {
+      "id": "prop_admin_kanungo_ri",
+      "node_type": "Administrative",
+      "subcategory": "Circle Revenue Administration",
+      "title": "Kanungo / Revenue Inspector (Circle Land Records Supervisor)",
+      "status": "proposed_addition",
+      "connected_canonical_nodes": [
+        "admin_tehsildar",
+        "prop_admin_patwari_lekhpal"
+      ],
+      "taught_in_lesson": "les_08_02_district_administration_collector_sdm_tehsildar"
+    },
+    {
+      "id": "prop_admin_patwari_lekhpal",
+      "node_type": "Administrative",
+      "subcategory": "Village Revenue Administration",
+      "title": "Patwari / Lekhpal / Talathi / Village Administrative Officer (VAO)",
+      "status": "proposed_addition",
+      "connected_canonical_nodes": [
+        "admin_tehsildar",
+        "inst_panchayati_raj",
+        "inst_citizens"
+      ],
+      "taught_in_lesson": "les_08_02_district_administration_collector_sdm_tehsildar"
+    },
+    {
+      "id": "prop_stat_bnss_2023",
+      "node_type": "Process",
+      "subcategory": "Criminal Procedure Statute",
+      "title": "Bharatiya Nagarik Suraksha Sanhita, 2023 (BNSS / CrPC — Executive vs. Judicial Magistracy)",
+      "status": "proposed_addition",
+      "connected_canonical_nodes": [
+        "art_21",
+        "art_22",
+        "art_50",
+        "admin_dm_collector",
+        "inst_subordinate_courts"
+      ],
+      "taught_in_lesson": "les_08_02_district_administration_collector_sdm_tehsildar"
+    },
+    {
+      "id": "prop_stat_rti_act_2005",
+      "node_type": "Process",
+      "subcategory": "Transparency Statute",
+      "title": "Right to Information Act, 2005 (PIO, 30-Day / 48-Hour Life & Liberty Mandate, CIC/SIC)",
+      "status": "proposed_addition",
+      "connected_canonical_nodes": [
+        "art_19",
+        "art_21",
+        "admin_regulatory_bodies",
+        "inst_citizens"
+      ],
+      "taught_in_lesson": "les_08_02_district_administration_collector_sdm_tehsildar"
+    },
+    {
+      "id": "prop_judg_anuradha_bhasin",
+      "node_type": "Judicial",
+      "subcategory": "Landmark Judgment",
+      "title": "Anuradha Bhasin v. Union of India, (2020) 3 SCC 637 (Internet Shutdowns & s. 144/163 Proportionality)",
+      "status": "proposed_addition",
+      "connected_canonical_nodes": [
+        "art_19",
+        "art_21",
+        "doc_proportionality",
+        "admin_dm_collector"
+      ],
+      "taught_in_lesson": "les_08_02_district_administration_collector_sdm_tehsildar"
+    },
+    {
+      "id": "prop_judg_krishna_kumar_singh",
+      "node_type": "Judicial",
+      "subcategory": "Landmark Judgment (7-Judge Bench)",
+      "title": "Krishna Kumar Singh v. State of Bihar, (2017) 3 SCC 1 (Ordinance Re-Promulgation Unconstitutional)",
+      "status": "proposed_addition",
+      "connected_canonical_nodes": [
+        "art_123",
+        "art_213",
+        "inst_president",
+        "inst_governor"
+      ],
+      "taught_in_lesson": "les_04_01_union_executive_president_pm_cabinet"
+    },
+    {
+      "id": "prop_judg_punjab_governor_2023",
+      "node_type": "Judicial",
+      "subcategory": "Landmark Judgment",
+      "title": "State of Punjab v. Principal Secretary to the Governor of Punjab, 2023 INSC 1017 (No Pocket Veto under Art. 200)",
+      "status": "proposed_addition",
+      "connected_canonical_nodes": [
+        "art_200",
+        "inst_governor",
+        "inst_state_legislature"
+      ],
+      "taught_in_lesson": "les_05_01_states_governor_federalism"
+    }
+  ],
+  "existing_canonical_node_index": [
+    {
+      "id": "const_india",
+      "node_type": "Constitutional",
+      "subcategory": "Supreme Foundational Charter",
+      "title": "The Constitution of India",
+      "code": "1 May 2026 Edition",
+      "page_start": 1
+    },
+    {
+      "id": "cluster_rights",
+      "node_type": "Cluster",
+      "subcategory": "Constitutional Pillar",
+      "title": "Fundamental Rights (Part III)",
+      "code": "Cluster 1",
+      "page_start": 1
+    },
+    {
+      "id": "cluster_dpsp",
+      "node_type": "Cluster",
+      "subcategory": "Constitutional Pillar",
+      "title": "Directive Principles of State Policy (Part IV)",
+      "code": "Cluster 2",
+      "page_start": 1
+    },
+    {
+      "id": "cluster_duties",
+      "node_type": "Cluster",
+      "subcategory": "Constitutional Pillar",
+      "title": "Fundamental Duties (Part IVA)",
+      "code": "Cluster 3",
+      "page_start": 1
+    },
+    {
+      "id": "cluster_union_exec",
+      "node_type": "Cluster",
+      "subcategory": "Institutional Pillar",
+      "title": "Union Executive",
+      "code": "Cluster 4",
+      "page_start": 1
+    },
+    {
+      "id": "cluster_parliament",
+      "node_type": "Cluster",
+      "subcategory": "Institutional Pillar",
+      "title": "Parliament of India",
+      "code": "Cluster 5",
+      "page_start": 1
+    },
+    {
+      "id": "cluster_judiciary",
+      "node_type": "Cluster",
+      "subcategory": "Institutional Pillar",
+      "title": "Integrated Judiciary",
+      "code": "Cluster 6",
+      "page_start": 1
+    },
+    {
+      "id": "cluster_states",
+      "node_type": "Cluster",
+      "subcategory": "Institutional Pillar",
+      "title": "State Governments",
+      "code": "Cluster 7",
+      "page_start": 1
+    },
+    {
+      "id": "cluster_federalism",
+      "node_type": "Cluster",
+      "subcategory": "Structural Pillar",
+      "title": "Federalism & Centre–State Relations",
+      "code": "Cluster 8",
+      "page_start": 1
+    },
+    {
+      "id": "cluster_local_govt",
+      "node_type": "Cluster",
+      "subcategory": "Institutional Pillar",
+      "title": "Local Self-Government (Panchayats & Municipalities)",
+      "code": "Cluster 9",
+      "page_start": 1
+    },
+    {
+      "id": "cluster_const_bodies",
+      "node_type": "Cluster",
+      "subcategory": "Institutional Pillar",
+      "title": "Independent Constitutional Bodies",
+      "code": "Cluster 10",
+      "page_start": 1
+    },
+    {
+      "id": "cluster_elections",
+      "node_type": "Cluster",
+      "subcategory": "Democratic Pillar",
+      "title": "Elections & Democratic Representation",
+      "code": "Cluster 11",
+      "page_start": 1
+    },
+    {
+      "id": "cluster_administration",
+      "node_type": "Cluster",
+      "subcategory": "Administrative Pillar",
+      "title": "Indian Administrative System",
+      "code": "Cluster 12",
+      "page_start": 1
+    },
+    {
+      "id": "cluster_amendments",
+      "node_type": "Cluster",
+      "subcategory": "Constitutional Pillar",
+      "title": "Constitutional Amendments",
+      "code": "Cluster 13",
+      "page_start": 1
+    },
+    {
+      "id": "cluster_history",
+      "node_type": "Cluster",
+      "subcategory": "Historical Pillar",
+      "title": "Constitutional History & Constituent Assembly",
+      "code": "Cluster 14",
+      "page_start": 1
+    },
+    {
+      "id": "cluster_philosophy",
+      "node_type": "Cluster",
+      "subcategory": "Philosophical Pillar",
+      "title": "Political Philosophy & Constitutional Doctrines",
+      "code": "Cluster 15",
+      "page_start": 1
+    },
+    {
+      "id": "cluster_processes",
+      "node_type": "Cluster",
+      "subcategory": "Process Pillar",
+      "title": "Democratic & Legislative Processes",
+      "code": "Cluster 16",
+      "page_start": 1
+    },
+    {
+      "id": "preamble",
+      "node_type": "Constitutional",
+      "subcategory": "Preamble",
+      "title": "The Preamble to the Constitution of India",
+      "code": "Preamble",
+      "page_start": 32
+    },
+    {
+      "id": "part_I",
+      "node_type": "Constitutional",
+      "subcategory": "Part",
+      "title": "Part I: The Union And Its Territory",
+      "code": "Part I",
+      "page_start": 33
+    },
+    {
+      "id": "part_II",
+      "node_type": "Constitutional",
+      "subcategory": "Part",
+      "title": "Part II: Citizenship",
+      "code": "Part II",
+      "page_start": 35
+    },
+    {
+      "id": "part_III",
+      "node_type": "Constitutional",
+      "subcategory": "Part",
+      "title": "Part III: Fundamental Rights General",
+      "code": "Part III",
+      "page_start": 37
+    },
+    {
+      "id": "part_IV",
+      "node_type": "Constitutional",
+      "subcategory": "Part",
+      "title": "Part IV: Directive Principles Of State Policy",
+      "code": "Part IV",
+      "page_start": 52
+    },
+    {
+      "id": "part_IVA",
+      "node_type": "Constitutional",
+      "subcategory": "Part",
+      "title": "Part IVA: Fundamental Duties",
+      "code": "Part IVA",
+      "page_start": 56
+    },
+    {
+      "id": "part_V",
+      "node_type": "Constitutional",
+      "subcategory": "Part",
+      "title": "Part V: The Union",
+      "code": "Part V",
+      "page_start": 57
+    },
+    {
+      "id": "part_VI",
+      "node_type": "Constitutional",
+      "subcategory": "Part",
+      "title": "Part VI: The States",
+      "code": "Part VI",
+      "page_start": 101
+    },
+    {
+      "id": "part_VIII",
+      "node_type": "Constitutional",
+      "subcategory": "Part",
+      "title": "Part VIII: The Union Territories",
+      "code": "Part VIII",
+      "page_start": 143
+    },
+    {
+      "id": "part_IX",
+      "node_type": "Constitutional",
+      "subcategory": "Part",
+      "title": "Part IX: The Panchayats",
+      "code": "Part IX",
+      "page_start": 150
+    },
+    {
+      "id": "part_IXA",
+      "node_type": "Constitutional",
+      "subcategory": "Part",
+      "title": "Part IXA: The Municipalities",
+      "code": "Part IXA",
+      "page_start": 158
+    },
+    {
+      "id": "part_IXB",
+      "node_type": "Constitutional",
+      "subcategory": "Part",
+      "title": "Part IXB: The Co-Operative Societies",
+      "code": "Part IXB",
+      "page_start": 168
+    },
+    {
+      "id": "part_X",
+      "node_type": "Constitutional",
+      "subcategory": "Part",
+      "title": "Part X: The Scheduled And Tribal Areas",
+      "code": "Part X",
+      "page_start": 174
+    },
+    {
+      "id": "part_XI",
+      "node_type": "Constitutional",
+      "subcategory": "Part",
+      "title": "Part XI: Relations Between The Union And The States",
+      "code": "Part XI",
+      "page_start": 176
+    },
+    {
+      "id": "part_XII",
+      "node_type": "Constitutional",
+      "subcategory": "Part",
+      "title": "Part XII: Finance, Property, Contracts And Suits",
+      "code": "Part XII",
+      "page_start": 183
+    },
+    {
+      "id": "part_XIII",
+      "node_type": "Constitutional",
+      "subcategory": "Part",
+      "title": "Part XIII: Trade, Commerce And Intercourse Within The Territory Of India",
+      "code": "Part XIII",
+      "page_start": 202
+    },
+    {
+      "id": "part_XIV",
+      "node_type": "Constitutional",
+      "subcategory": "Part",
+      "title": "Part XIV: Services Under The Union And The States",
+      "code": "Part XIV",
+      "page_start": 204
+    },
+    {
+      "id": "part_XIVA",
+      "node_type": "Constitutional",
+      "subcategory": "Part",
+      "title": "Part XIVA: Tribunals",
+      "code": "Part XIVA",
+      "page_start": 214
+    },
+    {
+      "id": "part_XV",
+      "node_type": "Constitutional",
+      "subcategory": "Part",
+      "title": "Part XV: Elections",
+      "code": "Part XV",
+      "page_start": 217
+    },
+    {
+      "id": "part_XVI",
+      "node_type": "Constitutional",
+      "subcategory": "Part",
+      "title": "Part XVI: Special Provisions Relating To Certain Classes",
+      "code": "Part XVI",
+      "page_start": 220
+    },
+    {
+      "id": "part_XVII",
+      "node_type": "Constitutional",
+      "subcategory": "Part",
+      "title": "Part XVII: Official Language",
+      "code": "Part XVII",
+      "page_start": 234
+    },
+    {
+      "id": "part_XVIII",
+      "node_type": "Constitutional",
+      "subcategory": "Part",
+      "title": "Part XVIII: Emergency Provisions",
+      "code": "Part XVIII",
+      "page_start": 239
+    },
+    {
+      "id": "part_XIX",
+      "node_type": "Constitutional",
+      "subcategory": "Part",
+      "title": "Part XIX: Miscellaneous",
+      "code": "Part XIX",
+      "page_start": 250
+    },
+    {
+      "id": "part_XX",
+      "node_type": "Constitutional",
+      "subcategory": "Part",
+      "title": "Part XX: Amendment Of The Constitution",
+      "code": "Part XX",
+      "page_start": 259
+    },
+    {
+      "id": "part_XXI",
+      "node_type": "Constitutional",
+      "subcategory": "Part",
+      "title": "Part XXI: Temporary, Transitional And Special Provisions",
+      "code": "Part XXI",
+      "page_start": 261
+    },
+    {
+      "id": "part_XXII",
+      "node_type": "Constitutional",
+      "subcategory": "Part",
+      "title": "Part XXII: Short Title, Commencement, Authoritative Text In Hindi And Repeals",
+      "code": "Part XXII",
+      "page_start": 283
+    },
+    {
+      "id": "part_V_chap_I",
+      "node_type": "Constitutional",
+      "subcategory": "Chapter",
+      "title": "Part V Chapter I: ⎯The Executive The President And Vice-President",
+      "code": "Pt. V Ch. I",
+      "page_start": 7
+    },
+    {
+      "id": "part_V_chap_II",
+      "node_type": "Constitutional",
+      "subcategory": "Chapter",
+      "title": "Part V Chapter II: ⎯Parliament General",
+      "code": "Pt. V Ch. II",
+      "page_start": 9
+    },
+    {
+      "id": "part_V_chap_III",
+      "node_type": "Constitutional",
+      "subcategory": "Chapter",
+      "title": "Part V Chapter III: ⎯Legislative Powers Of The President",
+      "code": "Pt. V Ch. III",
+      "page_start": 11
+    },
+    {
+      "id": "part_V_chap_IV",
+      "node_type": "Constitutional",
+      "subcategory": "Chapter",
+      "title": "Part V Chapter IV: ⎯ The Union Judiciary",
+      "code": "Pt. V Ch. IV",
+      "page_start": 11
+    },
+    {
+      "id": "part_V_chap_V",
+      "node_type": "Constitutional",
+      "subcategory": "Chapter",
+      "title": "Part V Chapter V: ⎯Comptroller And Auditor General Of India",
+      "code": "Pt. V Ch. V",
+      "page_start": 12
+    },
+    {
+      "id": "part_VI_chap_I",
+      "node_type": "Constitutional",
+      "subcategory": "Chapter",
+      "title": "Part VI Chapter I: ⎯ General",
+      "code": "Pt. VI Ch. I",
+      "page_start": 12
+    },
+    {
+      "id": "part_VI_chap_II",
+      "node_type": "Constitutional",
+      "subcategory": "Chapter",
+      "title": "Part VI Chapter II: ⎯ The Executive The Governor",
+      "code": "Pt. VI Ch. II",
+      "page_start": 13
+    },
+    {
+      "id": "part_VI_chap_III",
+      "node_type": "Constitutional",
+      "subcategory": "Chapter",
+      "title": "Part VI Chapter III: ⎯The State Legislature General",
+      "code": "Pt. VI Ch. III",
+      "page_start": 13
+    },
+    {
+      "id": "part_VI_chap_IV",
+      "node_type": "Constitutional",
+      "subcategory": "Chapter",
+      "title": "Part VI Chapter IV: ⎯Legislative Power Of The Governor",
+      "code": "Pt. VI Ch. IV",
+      "page_start": 16
+    },
+    {
+      "id": "part_VI_chap_V",
+      "node_type": "Constitutional",
+      "subcategory": "Chapter",
+      "title": "Part VI Chapter V: ⎯The High Courts In The States",
+      "code": "Pt. VI Ch. V",
+      "page_start": 16
+    },
+    {
+      "id": "part_VI_chap_VI",
+      "node_type": "Constitutional",
+      "subcategory": "Chapter",
+      "title": "Part VI Chapter VI: ⎯Subordinate Courts",
+      "code": "Pt. VI Ch. VI",
+      "page_start": 17
+    },
+    {
+      "id": "part_XI_chap_I",
+      "node_type": "Constitutional",
+      "subcategory": "Chapter",
+      "title": "Part XI Chapter I: ⎯Legislative Relations Distribution Of Legislative Powers",
+      "code": "Pt. XI Ch. I",
+      "page_start": 20
+    },
+    {
+      "id": "part_XI_chap_II",
+      "node_type": "Constitutional",
+      "subcategory": "Chapter",
+      "title": "Part XI Chapter II: ⎯ Administrative Relations General",
+      "code": "Pt. XI Ch. II",
+      "page_start": 20
+    },
+    {
+      "id": "part_XII_chap_I",
+      "node_type": "Constitutional",
+      "subcategory": "Chapter",
+      "title": "Part XII Chapter I: ⎯Finance General",
+      "code": "Pt. XII Ch. I",
+      "page_start": 21
+    },
+    {
+      "id": "part_XII_chap_II",
+      "node_type": "Constitutional",
+      "subcategory": "Chapter",
+      "title": "Part XII Chapter II: ⎯ Borrowing",
+      "code": "Pt. XII Ch. II",
+      "page_start": 22
+    },
+    {
+      "id": "part_XII_chap_III",
+      "node_type": "Constitutional",
+      "subcategory": "Chapter",
+      "title": "Part XII Chapter III: ⎯ Property, Contracts, Rights, Liabilities, Obligations And Suits",
+      "code": "Pt. XII Ch. III",
+      "page_start": 23
+    },
+    {
+      "id": "part_XII_chap_IV",
+      "node_type": "Constitutional",
+      "subcategory": "Chapter",
+      "title": "Part XII Chapter IV: ⎯ Right To Property",
+      "code": "Pt. XII Ch. IV",
+      "page_start": 23
+    },
+    {
+      "id": "part_XIV_chap_I",
+      "node_type": "Constitutional",
+      "subcategory": "Chapter",
+      "title": "Part XIV Chapter I: ⎯ Services",
+      "code": "Pt. XIV Ch. I",
+      "page_start": 23
+    },
+    {
+      "id": "part_XIV_chap_II",
+      "node_type": "Constitutional",
+      "subcategory": "Chapter",
+      "title": "Part XIV Chapter II: Public Service Commissions",
+      "code": "Pt. XIV Ch. II",
+      "page_start": 24
+    },
+    {
+      "id": "part_XVII_chap_I",
+      "node_type": "Constitutional",
+      "subcategory": "Chapter",
+      "title": "Part XVII Chapter I: Language Of The Union",
+      "code": "Pt. XVII Ch. I",
+      "page_start": 26
+    },
+    {
+      "id": "part_XVII_chap_II",
+      "node_type": "Constitutional",
+      "subcategory": "Chapter",
+      "title": "Part XVII Chapter II: ⎯ Regional Languages",
+      "code": "Pt. XVII Ch. II",
+      "page_start": 26
+    },
+    {
+      "id": "part_XVII_chap_III",
+      "node_type": "Constitutional",
+      "subcategory": "Chapter",
+      "title": "Part XVII Chapter III: ⎯Language Of The Supreme Court, High Courts, Etc.",
+      "code": "Pt. XVII Ch. III",
+      "page_start": 26
+    },
+    {
+      "id": "part_XVII_chap_IV",
+      "node_type": "Constitutional",
+      "subcategory": "Chapter",
+      "title": "Part XVII Chapter IV: ⎯Special Directives",
+      "code": "Pt. XVII Ch. IV",
+      "page_start": 27
+    },
+    {
+      "id": "art_1",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 1 — Name and territory of the Union",
+      "code": "Art. 1",
+      "page_start": 33
+    },
+    {
+      "id": "art_2",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 2 — Admission or establishment of new States. [2A. Sikkim to be associated with the Union.—Omitted.]",
+      "code": "Art. 2",
+      "page_start": 33
+    },
+    {
+      "id": "art_3",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 3 — Formation of new States and alteration of areas, boundaries or names of existing States",
+      "code": "Art. 3",
+      "page_start": 33
+    },
+    {
+      "id": "art_4",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 4 — Laws made under articles 2 and 3 to provide for the amendment of the First and the Fourth Schedules and supplemental, incidental and consequential matters",
+      "code": "Art. 4",
+      "page_start": 34
+    },
+    {
+      "id": "art_5",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 5 — Citizenship at the commencement of the Constitution",
+      "code": "Art. 5",
+      "page_start": 35
+    },
+    {
+      "id": "art_6",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 6 — Rights of citizenship of certain persons who have migrated to India from Pakistan",
+      "code": "Art. 6",
+      "page_start": 35
+    },
+    {
+      "id": "art_7",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 7 — Rights of citizenship of certain migrants to Pakistan",
+      "code": "Art. 7",
+      "page_start": 35
+    },
+    {
+      "id": "art_8",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 8 — Rights of citizenship of certain persons of Indian origin residing outside India",
+      "code": "Art. 8",
+      "page_start": 36
+    },
+    {
+      "id": "art_9",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 9 — Persons voluntarily acquiring citizenship of a foreign State not to be citizens",
+      "code": "Art. 9",
+      "page_start": 36
+    },
+    {
+      "id": "art_10",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 10 — Continuance of the rights of citizenship",
+      "code": "Art. 10",
+      "page_start": 36
+    },
+    {
+      "id": "art_11",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 11 — Parliament to regulate the right of citizenship by law",
+      "code": "Art. 11",
+      "page_start": 36
+    },
+    {
+      "id": "art_12",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 12 — Definition",
+      "code": "Art. 12",
+      "page_start": 37
+    },
+    {
+      "id": "art_13",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 13 — Laws inconsistent with or in derogation of the fundamental rights. Right to Equality",
+      "code": "Art. 13",
+      "page_start": 37
+    },
+    {
+      "id": "art_14",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 14 — Equality before law",
+      "code": "Art. 14",
+      "page_start": 37
+    },
+    {
+      "id": "art_15",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 15 — Prohibition of discrimination on grounds of religion, race, caste, sex or place of birth",
+      "code": "Art. 15",
+      "page_start": 37
+    },
+    {
+      "id": "art_16",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 16 — Equality of opportunity in matters of public employment",
+      "code": "Art. 16",
+      "page_start": 39
+    },
+    {
+      "id": "art_17",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 17 — Abolition of Untouchability",
+      "code": "Art. 17",
+      "page_start": 40
+    },
+    {
+      "id": "art_18",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 18 — Abolition of titles. Right to Freedom",
+      "code": "Art. 18",
+      "page_start": 40
+    },
+    {
+      "id": "art_19",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 19 — Protection of certain rights regarding freedom of speech, etc",
+      "code": "Art. 19",
+      "page_start": 40
+    },
+    {
+      "id": "art_20",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 20 — Protection in respect of conviction for offences",
+      "code": "Art. 20",
+      "page_start": 42
+    },
+    {
+      "id": "art_21",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 21 — Protection of life and personal liberty",
+      "code": "Art. 21",
+      "page_start": 42
+    },
+    {
+      "id": "art_21A",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 21A — Right to education",
+      "code": "Art. 21A",
+      "page_start": 42
+    },
+    {
+      "id": "art_22",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 22 — Protection against arrest and detention in certain cases. Right against Exploitation",
+      "code": "Art. 22",
+      "page_start": 42
+    },
+    {
+      "id": "art_23",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 23 — Prohibition of traffic in human beings and forced labour",
+      "code": "Art. 23",
+      "page_start": 45
+    },
+    {
+      "id": "art_24",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 24 — Prohibition of employment of children in factories, etc. Right to Freedom of Religion",
+      "code": "Art. 24",
+      "page_start": 45
+    },
+    {
+      "id": "art_25",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 25 — Freedom of conscience and free profession, practice and propagation of religion",
+      "code": "Art. 25",
+      "page_start": 45
+    },
+    {
+      "id": "art_26",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 26 — Freedom to manage religious affairs",
+      "code": "Art. 26",
+      "page_start": 45
+    },
+    {
+      "id": "art_27",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 27 — Freedom as to payment of taxes for promotion of any particular religion",
+      "code": "Art. 27",
+      "page_start": 46
+    },
+    {
+      "id": "art_28",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 28 — Freedom as to attendance at religious instruction or religious worship in certain educational institutions. Cultural and Educational Rights",
+      "code": "Art. 28",
+      "page_start": 46
+    },
+    {
+      "id": "art_29",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 29 — Protection of interests of minorities",
+      "code": "Art. 29",
+      "page_start": 46
+    },
+    {
+      "id": "art_30",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 30 — Right of minorities to establish and administer educational institutions. [31. Compulsory acquisition of property —Omitted.] Saving of Certain Laws",
+      "code": "Art. 30",
+      "page_start": 46
+    },
+    {
+      "id": "art_31A",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 31A — Saving of Laws providing for acquisition of estates, etc",
+      "code": "Art. 31A",
+      "page_start": 47
+    },
+    {
+      "id": "art_31B",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 31B — Validation of certain Acts and Regulations",
+      "code": "Art. 31B",
+      "page_start": 49
+    },
+    {
+      "id": "art_31C",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 31C — Saving of laws giving effect to certain directive principles. [31D. Saving of laws in respect of anti-national activities.—Omitted.] Right to Constitutional Remedies",
+      "code": "Art. 31C",
+      "page_start": 49
+    },
+    {
+      "id": "art_32",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 32 — Remedies for enforcement of rights conferred by this Part. [32A. Constitutional validity of State laws not to be considered in proceedings under article 32.—Omitted.]",
+      "code": "Art. 32",
+      "page_start": 50
+    },
+    {
+      "id": "art_33",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 33 — Power of Parliament to modify the rights conferred by this Part in their application to Forces, etc",
+      "code": "Art. 33",
+      "page_start": 50
+    },
+    {
+      "id": "art_34",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 34 — Restriction on rights conferred by this Part while martial law is in force in any area",
+      "code": "Art. 34",
+      "page_start": 51
+    },
+    {
+      "id": "art_35",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 35 — Legislation to give effect to the provisions of this Part",
+      "code": "Art. 35",
+      "page_start": 51
+    },
+    {
+      "id": "art_36",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 36 — Definition",
+      "code": "Art. 36",
+      "page_start": 52
+    },
+    {
+      "id": "art_37",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 37 — Application of the principles contained in this Part",
+      "code": "Art. 37",
+      "page_start": 52
+    },
+    {
+      "id": "art_38",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 38 — State to secure a social order for the promotion of welfare of the people",
+      "code": "Art. 38",
+      "page_start": 52
+    },
+    {
+      "id": "art_39",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 39 — Certain principles of policy to be followed by the State",
+      "code": "Art. 39",
+      "page_start": 52
+    },
+    {
+      "id": "art_39A",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 39A — Equal justice and free legal aid",
+      "code": "Art. 39A",
+      "page_start": 53
+    },
+    {
+      "id": "art_40",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 40 — Organisation of village panchayats",
+      "code": "Art. 40",
+      "page_start": 53
+    },
+    {
+      "id": "art_41",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 41 — Right to work, to education and to public assistance in certain cases",
+      "code": "Art. 41",
+      "page_start": 53
+    },
+    {
+      "id": "art_42",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 42 — Provision for just and humane conditions of work and maternity relief",
+      "code": "Art. 42",
+      "page_start": 53
+    },
+    {
+      "id": "art_43",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 43 — Living wage, etc., for workers",
+      "code": "Art. 43",
+      "page_start": 53
+    },
+    {
+      "id": "art_43A",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 43A — Participation of workers in management of Industries",
+      "code": "Art. 43A",
+      "page_start": 53
+    },
+    {
+      "id": "art_43B",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 43B — Promotion of co-operative societies",
+      "code": "Art. 43B",
+      "page_start": 54
+    },
+    {
+      "id": "art_44",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 44 — Uniform civil code for the citizens",
+      "code": "Art. 44",
+      "page_start": 54
+    },
+    {
+      "id": "art_45",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 45 — Provision for early childhood care and education to children below the age of six years",
+      "code": "Art. 45",
+      "page_start": 54
+    },
+    {
+      "id": "art_46",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 46 — Promotion of educational and economic interests of Scheduled Castes, Scheduled Tribes and other weaker sections",
+      "code": "Art. 46",
+      "page_start": 54
+    },
+    {
+      "id": "art_47",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 47 — Duty of the State to raise the level of nutrition and the standard of living and to improve public health",
+      "code": "Art. 47",
+      "page_start": 54
+    },
+    {
+      "id": "art_48",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 48 — Organisation of agriculture and animal husbandry",
+      "code": "Art. 48",
+      "page_start": 54
+    },
+    {
+      "id": "art_48A",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 48A — Protection and improvement of environment and safeguarding of forests and wild life",
+      "code": "Art. 48A",
+      "page_start": 54
+    },
+    {
+      "id": "art_49",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 49 — Protection of monuments and places and objects of national importance",
+      "code": "Art. 49",
+      "page_start": 55
+    },
+    {
+      "id": "art_50",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 50 — Separation of judiciary from executive",
+      "code": "Art. 50",
+      "page_start": 55
+    },
+    {
+      "id": "art_51",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 51 — Promotion of international peace and security",
+      "code": "Art. 51",
+      "page_start": 55
+    },
+    {
+      "id": "art_51A",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 51A — Fundamental duties",
+      "code": "Art. 51A",
+      "page_start": 56
+    },
+    {
+      "id": "art_52",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 52 — The President of India",
+      "code": "Art. 52",
+      "page_start": 57
+    },
+    {
+      "id": "art_53",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 53 — Executive power of the Union",
+      "code": "Art. 53",
+      "page_start": 57
+    },
+    {
+      "id": "art_54",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 54 — Election of President",
+      "code": "Art. 54",
+      "page_start": 57
+    },
+    {
+      "id": "art_55",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 55 — Manner of election of President",
+      "code": "Art. 55",
+      "page_start": 57
+    },
+    {
+      "id": "art_56",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 56 — Term of office of President",
+      "code": "Art. 56",
+      "page_start": 58
+    },
+    {
+      "id": "art_57",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 57 — Eligibility for re-election",
+      "code": "Art. 57",
+      "page_start": 59
+    },
+    {
+      "id": "art_58",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 58 — Qualifications for election as President",
+      "code": "Art. 58",
+      "page_start": 59
+    },
+    {
+      "id": "art_59",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 59 — Conditions of President’s office",
+      "code": "Art. 59",
+      "page_start": 59
+    },
+    {
+      "id": "art_60",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 60 — Oath or affirmation by the President",
+      "code": "Art. 60",
+      "page_start": 59
+    },
+    {
+      "id": "art_61",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 61 — Procedure for impeachment of the President",
+      "code": "Art. 61",
+      "page_start": 60
+    },
+    {
+      "id": "art_62",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 62 — Time of holding election to fill vacancy in the office of President and the term of office of person elected to fill casual vacancy",
+      "code": "Art. 62",
+      "page_start": 60
+    },
+    {
+      "id": "art_63",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 63 — The Vice-President of India",
+      "code": "Art. 63",
+      "page_start": 60
+    },
+    {
+      "id": "art_64",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 64 — The Vice-President to be ex officio Chairman of the Council of States",
+      "code": "Art. 64",
+      "page_start": 60
+    },
+    {
+      "id": "art_65",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 65 — The Vice-President to act as President or to discharge his functions during casual vacancies in the office, or during the absence, of President",
+      "code": "Art. 65",
+      "page_start": 61
+    },
+    {
+      "id": "art_66",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 66 — Election of Vice-President",
+      "code": "Art. 66",
+      "page_start": 61
+    },
+    {
+      "id": "art_67",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 67 — Term of office of Vice-President",
+      "code": "Art. 67",
+      "page_start": 62
+    },
+    {
+      "id": "art_68",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 68 — Time of holding election to fill vacancy in the office of Vice-President and the term of office of person elected to fill casual vacancy",
+      "code": "Art. 68",
+      "page_start": 62
+    },
+    {
+      "id": "art_69",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 69 — Oath or affirmation by the Vice-President",
+      "code": "Art. 69",
+      "page_start": 62
+    },
+    {
+      "id": "art_70",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 70 — Discharge of President’s functions in other contingencies",
+      "code": "Art. 70",
+      "page_start": 63
+    },
+    {
+      "id": "art_71",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 71 — Matters relating to, or connected with, the election of a President or Vice-President",
+      "code": "Art. 71",
+      "page_start": 63
+    },
+    {
+      "id": "art_72",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 72 — Power of President to grant pardons, etc., and to suspend, remit or commute sentences in certain cases",
+      "code": "Art. 72",
+      "page_start": 63
+    },
+    {
+      "id": "art_73",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 73 — Extent of executive power of the Union. Council of Ministers",
+      "code": "Art. 73",
+      "page_start": 64
+    },
+    {
+      "id": "art_74",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 74 — Council of Ministers to aid and advise President",
+      "code": "Art. 74",
+      "page_start": 65
+    },
+    {
+      "id": "art_75",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 75 — Other provisions as to Ministers. The Attorney-General for India",
+      "code": "Art. 75",
+      "page_start": 65
+    },
+    {
+      "id": "art_76",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 76 — Attorney-General for India. Conduct of Government Business",
+      "code": "Art. 76",
+      "page_start": 66
+    },
+    {
+      "id": "art_77",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 77 — Conduct of business of the Government of India",
+      "code": "Art. 77",
+      "page_start": 66
+    },
+    {
+      "id": "art_78",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 78 — Duties of Prime Minister as respects the furnishing of information to the President, etc",
+      "code": "Art. 78",
+      "page_start": 67
+    },
+    {
+      "id": "art_79",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 79 — Constitution of Parliament",
+      "code": "Art. 79",
+      "page_start": 67
+    },
+    {
+      "id": "art_80",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 80 — Composition of the Council of States",
+      "code": "Art. 80",
+      "page_start": 67
+    },
+    {
+      "id": "art_81",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 81 — Composition of the House of the People",
+      "code": "Art. 81",
+      "page_start": 68
+    },
+    {
+      "id": "art_82",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 82 — Readjustment after each census",
+      "code": "Art. 82",
+      "page_start": 69
+    },
+    {
+      "id": "art_83",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 83 — Duration of Houses of Parliament",
+      "code": "Art. 83",
+      "page_start": 70
+    },
+    {
+      "id": "art_84",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 84 — Qualification for membership of Parliament",
+      "code": "Art. 84",
+      "page_start": 70
+    },
+    {
+      "id": "art_85",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 85 — Sessions of Parliament, prorogation and dissolution",
+      "code": "Art. 85",
+      "page_start": 71
+    },
+    {
+      "id": "art_86",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 86 — Right of President to address and send messages to Houses",
+      "code": "Art. 86",
+      "page_start": 71
+    },
+    {
+      "id": "art_87",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 87 — Special address by the President",
+      "code": "Art. 87",
+      "page_start": 71
+    },
+    {
+      "id": "art_88",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 88 — Rights of Ministers and Attorney-General as respects Houses. Officers of Parliament",
+      "code": "Art. 88",
+      "page_start": 71
+    },
+    {
+      "id": "art_89",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 89 — The Chairman and Deputy Chairman of the Council of States",
+      "code": "Art. 89",
+      "page_start": 72
+    },
+    {
+      "id": "art_90",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 90 — Vacation and resignation of, and removal from, the office of Deputy Chairman",
+      "code": "Art. 90",
+      "page_start": 72
+    },
+    {
+      "id": "art_91",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 91 — Power of the Deputy Chairman or other person to perform the duties of the office of, or to act as, Chairman",
+      "code": "Art. 91",
+      "page_start": 72
+    },
+    {
+      "id": "art_92",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 92 — The Chairman or the Deputy Chairman not to preside while a resolution for his removal from office is under consideration",
+      "code": "Art. 92",
+      "page_start": 72
+    },
+    {
+      "id": "art_93",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 93 — The Speaker and Deputy Speaker of the House of the People",
+      "code": "Art. 93",
+      "page_start": 73
+    },
+    {
+      "id": "art_94",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 94 — Vacation and resignation of, and removal from, the offices of Speaker and Deputy Speaker",
+      "code": "Art. 94",
+      "page_start": 73
+    },
+    {
+      "id": "art_95",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 95 — Power of the Deputy Speaker or other person to perform the duties of the office of, or to act as, Speaker",
+      "code": "Art. 95",
+      "page_start": 73
+    },
+    {
+      "id": "art_96",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 96 — The Speaker or the Deputy Speaker not to preside while a resolution for his removal from office is under consideration",
+      "code": "Art. 96",
+      "page_start": 74
+    },
+    {
+      "id": "art_97",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 97 — Salaries and allowances of the Chairman and Deputy Chairman and the Speaker and Deputy Speaker",
+      "code": "Art. 97",
+      "page_start": 74
+    },
+    {
+      "id": "art_98",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 98 — Secretariat of Parliament. Conduct of Business",
+      "code": "Art. 98",
+      "page_start": 74
+    },
+    {
+      "id": "art_99",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 99 — Oath or affirmation by members",
+      "code": "Art. 99",
+      "page_start": 75
+    },
+    {
+      "id": "art_100",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 100 — Voting in Houses, power of Houses to act notwithstanding vacancies and quorum. Disqualifications of Members",
+      "code": "Art. 100",
+      "page_start": 75
+    },
+    {
+      "id": "art_101",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 101 — Vacation of seats",
+      "code": "Art. 101",
+      "page_start": 75
+    },
+    {
+      "id": "art_102",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 102 — Disqualifications for membership",
+      "code": "Art. 102",
+      "page_start": 77
+    },
+    {
+      "id": "art_103",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 103 — Decision on questions as to disqualifications of members",
+      "code": "Art. 103",
+      "page_start": 77
+    },
+    {
+      "id": "art_104",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 104 — Penalty for sitting and voting before making oath or affirmation under article 99 or when not qualified or when disqualified. Powers, Privileges and Immunities of Parliament and its Members",
+      "code": "Art. 104",
+      "page_start": 78
+    },
+    {
+      "id": "art_105",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 105 — Powers, privileges, etc., of the Houses of Parliament and of the members and committees thereof",
+      "code": "Art. 105",
+      "page_start": 78
+    },
+    {
+      "id": "art_106",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 106 — Salaries and allowances of members. Legislative Procedure",
+      "code": "Art. 106",
+      "page_start": 79
+    },
+    {
+      "id": "art_107",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 107 — Provisions as to introduction and passing of Bills",
+      "code": "Art. 107",
+      "page_start": 79
+    },
+    {
+      "id": "art_108",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 108 — Joint sitting of both Houses in certain cases",
+      "code": "Art. 108",
+      "page_start": 79
+    },
+    {
+      "id": "art_109",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 109 — Special procedure in respect of Money Bills",
+      "code": "Art. 109",
+      "page_start": 80
+    },
+    {
+      "id": "art_110",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 110 — Definition of “Money Bills”",
+      "code": "Art. 110",
+      "page_start": 81
+    },
+    {
+      "id": "art_111",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 111 — Assent to Bills. Procedure in Financial Matters",
+      "code": "Art. 111",
+      "page_start": 82
+    },
+    {
+      "id": "art_112",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 112 — Annual financial statement",
+      "code": "Art. 112",
+      "page_start": 82
+    },
+    {
+      "id": "art_113",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 113 — Procedure in Parliament with respect to estimates",
+      "code": "Art. 113",
+      "page_start": 83
+    },
+    {
+      "id": "art_114",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 114 — Appropriation Bills",
+      "code": "Art. 114",
+      "page_start": 84
+    },
+    {
+      "id": "art_115",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 115 — Supplementary, additional or excess grants",
+      "code": "Art. 115",
+      "page_start": 84
+    },
+    {
+      "id": "art_116",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 116 — Votes on account, votes of credit and exceptional grants",
+      "code": "Art. 116",
+      "page_start": 85
+    },
+    {
+      "id": "art_117",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 117 — Special provisions as to financial Bills. Procedure Generally",
+      "code": "Art. 117",
+      "page_start": 85
+    },
+    {
+      "id": "art_118",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 118 — Rules of procedure",
+      "code": "Art. 118",
+      "page_start": 86
+    },
+    {
+      "id": "art_119",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 119 — Regulation by law of procedure in Parliament in relation to financial business",
+      "code": "Art. 119",
+      "page_start": 86
+    },
+    {
+      "id": "art_120",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 120 — Language to be used in Parliament",
+      "code": "Art. 120",
+      "page_start": 87
+    },
+    {
+      "id": "art_121",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 121 — Restriction on discussion in Parliament",
+      "code": "Art. 121",
+      "page_start": 87
+    },
+    {
+      "id": "art_122",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 122 — Courts not to inquire into proceedings of Parliament",
+      "code": "Art. 122",
+      "page_start": 87
+    },
+    {
+      "id": "art_123",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 123 — Power of President to promulgate Ordinances during recess of Parliament",
+      "code": "Art. 123",
+      "page_start": 87
+    },
+    {
+      "id": "art_124",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 124 — Establishment and constitution of the Supreme Court",
+      "code": "Art. 124",
+      "page_start": 88
+    },
+    {
+      "id": "art_124A",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 124A — National Judicial Appointments Commission",
+      "code": "Art. 124A",
+      "page_start": 89
+    },
+    {
+      "id": "art_124B",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 124B — Functions of Commission",
+      "code": "Art. 124B",
+      "page_start": 90
+    },
+    {
+      "id": "art_124C",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 124C — Power of Parliament to make law",
+      "code": "Art. 124C",
+      "page_start": 90
+    },
+    {
+      "id": "art_125",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 125 — Salaries, etc., of Judges",
+      "code": "Art. 125",
+      "page_start": 90
+    },
+    {
+      "id": "art_126",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 126 — Appointment of acting Chief Justice",
+      "code": "Art. 126",
+      "page_start": 91
+    },
+    {
+      "id": "art_127",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 127 — Appointment of ad hoc Judges",
+      "code": "Art. 127",
+      "page_start": 91
+    },
+    {
+      "id": "art_128",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 128 — Attendance of retired Judges at sittings of the Supreme Court",
+      "code": "Art. 128",
+      "page_start": 91
+    },
+    {
+      "id": "art_129",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 129 — Supreme Court to be a court of record",
+      "code": "Art. 129",
+      "page_start": 92
+    },
+    {
+      "id": "art_130",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 130 — Seat of Supreme Court",
+      "code": "Art. 130",
+      "page_start": 92
+    },
+    {
+      "id": "art_131",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 131 — Original jurisdiction of the Supreme Court. [131A. Exclusive jurisdiction of the Supreme Court in regard to questions as to constitutional validity of Central laws.⎯Omitted.]",
+      "code": "Art. 131",
+      "page_start": 92
+    },
+    {
+      "id": "art_132",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 132 — Appellate jurisdiction of the Supreme Court in appeals from High Courts in certain cases",
+      "code": "Art. 132",
+      "page_start": 92
+    },
+    {
+      "id": "art_133",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 133 — Appellate jurisdiction of the Supreme Court in appeals from High Courts in regard to civil matters",
+      "code": "Art. 133",
+      "page_start": 93
+    },
+    {
+      "id": "art_134",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 134 — Appellate jurisdiction of the Supreme Court in regard to criminal matters",
+      "code": "Art. 134",
+      "page_start": 93
+    },
+    {
+      "id": "art_134A",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 134A — Certificate for appeal to the Supreme Court",
+      "code": "Art. 134A",
+      "page_start": 94
+    },
+    {
+      "id": "art_135",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 135 — Jurisdiction and powers of the Federal Court under existing law to be exercisable by the Supreme Court",
+      "code": "Art. 135",
+      "page_start": 94
+    },
+    {
+      "id": "art_136",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 136 — Special leave to appeal by the Supreme Court",
+      "code": "Art. 136",
+      "page_start": 94
+    },
+    {
+      "id": "art_137",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 137 — Review of judgments or orders by the Supreme Court",
+      "code": "Art. 137",
+      "page_start": 94
+    },
+    {
+      "id": "art_138",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 138 — Enlargement of the jurisdiction of the Supreme Court",
+      "code": "Art. 138",
+      "page_start": 95
+    },
+    {
+      "id": "art_139",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 139 — Conferment on the Supreme Court of powers to issue certain writs",
+      "code": "Art. 139",
+      "page_start": 95
+    },
+    {
+      "id": "art_139A",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 139A — Transfer of certain cases",
+      "code": "Art. 139A",
+      "page_start": 95
+    },
+    {
+      "id": "art_140",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 140 — Ancillary powers of the Supreme Court",
+      "code": "Art. 140",
+      "page_start": 95
+    },
+    {
+      "id": "art_141",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 141 — Law declared by Supreme Court to be binding on all courts",
+      "code": "Art. 141",
+      "page_start": 96
+    },
+    {
+      "id": "art_142",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 142 — Enforcement of decrees and orders of the Supreme Court and orders as to discovery, etc",
+      "code": "Art. 142",
+      "page_start": 96
+    },
+    {
+      "id": "art_143",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 143 — Power of the President to consult the Supreme Court",
+      "code": "Art. 143",
+      "page_start": 96
+    },
+    {
+      "id": "art_144",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 144 — Civil and judicial authorities to act in aid of the Supreme Court. [144A. Special provisions as to disposal of questions relating to constitutional validity of laws.⎯Omitted.]",
+      "code": "Art. 144",
+      "page_start": 96
+    },
+    {
+      "id": "art_145",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 145 — Rules of Court, etc",
+      "code": "Art. 145",
+      "page_start": 96
+    },
+    {
+      "id": "art_146",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 146 — Officers and servants and the expenses of the Supreme Court",
+      "code": "Art. 146",
+      "page_start": 98
+    },
+    {
+      "id": "art_147",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 147 — Interpretation",
+      "code": "Art. 147",
+      "page_start": 99
+    },
+    {
+      "id": "art_148",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 148 — Comptroller and Auditor-General of India",
+      "code": "Art. 148",
+      "page_start": 99
+    },
+    {
+      "id": "art_149",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 149 — Duties and powers of the Comptroller and Auditor-General",
+      "code": "Art. 149",
+      "page_start": 100
+    },
+    {
+      "id": "art_150",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 150 — Form of accounts of the Union and of the States",
+      "code": "Art. 150",
+      "page_start": 100
+    },
+    {
+      "id": "art_151",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 151 — Audit reports",
+      "code": "Art. 151",
+      "page_start": 100
+    },
+    {
+      "id": "art_152",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 152 — Definition",
+      "code": "Art. 152",
+      "page_start": 101
+    },
+    {
+      "id": "art_153",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 153 — Governors of States",
+      "code": "Art. 153",
+      "page_start": 101
+    },
+    {
+      "id": "art_154",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 154 — Executive power of State",
+      "code": "Art. 154",
+      "page_start": 101
+    },
+    {
+      "id": "art_155",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 155 — Appointment of Governor",
+      "code": "Art. 155",
+      "page_start": 101
+    },
+    {
+      "id": "art_156",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 156 — Term of office of Governor",
+      "code": "Art. 156",
+      "page_start": 101
+    },
+    {
+      "id": "art_157",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 157 — Qualifications for appointment as Governor",
+      "code": "Art. 157",
+      "page_start": 102
+    },
+    {
+      "id": "art_158",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 158 — Conditions of Governor’s office",
+      "code": "Art. 158",
+      "page_start": 102
+    },
+    {
+      "id": "art_159",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 159 — Oath or affirmation by the Governor",
+      "code": "Art. 159",
+      "page_start": 102
+    },
+    {
+      "id": "art_160",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 160 — Discharge of the functions of the Governor in certain contingencies",
+      "code": "Art. 160",
+      "page_start": 103
+    },
+    {
+      "id": "art_161",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 161 — Power of Governor to grant pardons, etc., and to suspend, remit or commute sentences in certain cases",
+      "code": "Art. 161",
+      "page_start": 103
+    },
+    {
+      "id": "art_162",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 162 — Extent of executive power of State. Council of Ministers",
+      "code": "Art. 162",
+      "page_start": 103
+    },
+    {
+      "id": "art_163",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 163 — Council of Ministers to aid and advise Governor",
+      "code": "Art. 163",
+      "page_start": 103
+    },
+    {
+      "id": "art_164",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 164 — Other provisions as to Ministers. The Advocate-General for the State",
+      "code": "Art. 164",
+      "page_start": 103
+    },
+    {
+      "id": "art_165",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 165 — Advocate-General for the State. Conduct of Government Business",
+      "code": "Art. 165",
+      "page_start": 105
+    },
+    {
+      "id": "art_166",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 166 — Conduct of business of the Government of a State",
+      "code": "Art. 166",
+      "page_start": 105
+    },
+    {
+      "id": "art_167",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 167 — Duties of Chief Minister as respects the furnishing of information to Governor, etc",
+      "code": "Art. 167",
+      "page_start": 106
+    },
+    {
+      "id": "art_168",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 168 — Constitution of Legislatures in States",
+      "code": "Art. 168",
+      "page_start": 106
+    },
+    {
+      "id": "art_169",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 169 — Abolition or creation of Legislative Councils in States",
+      "code": "Art. 169",
+      "page_start": 107
+    },
+    {
+      "id": "art_170",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 170 — Composition of the Legislative Assemblies",
+      "code": "Art. 170",
+      "page_start": 107
+    },
+    {
+      "id": "art_171",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 171 — Composition of the Legislative Councils",
+      "code": "Art. 171",
+      "page_start": 109
+    },
+    {
+      "id": "art_172",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 172 — Duration of State Legislatures",
+      "code": "Art. 172",
+      "page_start": 110
+    },
+    {
+      "id": "art_173",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 173 — Qualification for membership of the State Legislature",
+      "code": "Art. 173",
+      "page_start": 110
+    },
+    {
+      "id": "art_174",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 174 — Sessions of the State Legislature, prorogation and dissolution",
+      "code": "Art. 174",
+      "page_start": 111
+    },
+    {
+      "id": "art_175",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 175 — Right of Governor to address and send messages to the House or Houses",
+      "code": "Art. 175",
+      "page_start": 111
+    },
+    {
+      "id": "art_176",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 176 — Special address by the Governor",
+      "code": "Art. 176",
+      "page_start": 111
+    },
+    {
+      "id": "art_177",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 177 — Rights of Ministers and Advocate-General as respects the Houses. Officers of the State Legislature",
+      "code": "Art. 177",
+      "page_start": 112
+    },
+    {
+      "id": "art_178",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 178 — The Speaker and Deputy Speaker of the Legislative Assembly",
+      "code": "Art. 178",
+      "page_start": 112
+    },
+    {
+      "id": "art_179",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 179 — Vacation and resignation of, and removal from, the offices of Speaker and Deputy Speaker",
+      "code": "Art. 179",
+      "page_start": 112
+    },
+    {
+      "id": "art_180",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 180 — Power of the Deputy Speaker or other person to perform the duties of the office of, or to act as, Speaker",
+      "code": "Art. 180",
+      "page_start": 112
+    },
+    {
+      "id": "art_181",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 181 — The Speaker or the Deputy Speaker not to preside while a resolution for his removal from office is under consideration",
+      "code": "Art. 181",
+      "page_start": 113
+    },
+    {
+      "id": "art_182",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 182 — The Chairman and Deputy Chairman of the Legislative Council",
+      "code": "Art. 182",
+      "page_start": 113
+    },
+    {
+      "id": "art_183",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 183 — Vacation and resignation of, and removal from, the offices of Chairman and Deputy Chairman",
+      "code": "Art. 183",
+      "page_start": 113
+    },
+    {
+      "id": "art_184",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 184 — Power of the Deputy Chairman or other person to perform the duties of the office of, or to act as, Chairman",
+      "code": "Art. 184",
+      "page_start": 113
+    },
+    {
+      "id": "art_185",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 185 — The Chairman or the Deputy Chairman not to preside while a resolution for his removal from office is under consideration",
+      "code": "Art. 185",
+      "page_start": 114
+    },
+    {
+      "id": "art_186",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 186 — Salaries and allowances of the Speaker and Deputy Speaker and the Chairman and Deputy Chairman",
+      "code": "Art. 186",
+      "page_start": 114
+    },
+    {
+      "id": "art_187",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 187 — Secretariat of State Legislature. Conduct of Business",
+      "code": "Art. 187",
+      "page_start": 114
+    },
+    {
+      "id": "art_188",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 188 — Oath or affirmation by members",
+      "code": "Art. 188",
+      "page_start": 115
+    },
+    {
+      "id": "art_189",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 189 — Voting in Houses, power of Houses to act notwithstanding vacancies and quorum. Disqualifications of Members",
+      "code": "Art. 189",
+      "page_start": 115
+    },
+    {
+      "id": "art_190",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 190 — Vacation of seats",
+      "code": "Art. 190",
+      "page_start": 116
+    },
+    {
+      "id": "art_191",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 191 — Disqualifications for membership",
+      "code": "Art. 191",
+      "page_start": 117
+    },
+    {
+      "id": "art_192",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 192 — Decision on questions as to disqualifications of members",
+      "code": "Art. 192",
+      "page_start": 117
+    },
+    {
+      "id": "art_193",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 193 — Penalty for sitting and voting before making oath or affirmation under article 188 or when not qualified or when disqualified. Powers, privileges and immunities of State Legislatures and their Members",
+      "code": "Art. 193",
+      "page_start": 118
+    },
+    {
+      "id": "art_194",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 194 — Powers, privileges, etc., of the Houses of Legislatures and of the members and committees thereof",
+      "code": "Art. 194",
+      "page_start": 118
+    },
+    {
+      "id": "art_195",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 195 — Salaries and allowances of members. Legislative Procedure",
+      "code": "Art. 195",
+      "page_start": 119
+    },
+    {
+      "id": "art_196",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 196 — Provisions as to introduction and passing of Bills",
+      "code": "Art. 196",
+      "page_start": 119
+    },
+    {
+      "id": "art_197",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 197 — Restriction on powers of Legislative Council as to Bills other than Money Bills",
+      "code": "Art. 197",
+      "page_start": 119
+    },
+    {
+      "id": "art_198",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 198 — Special procedure in respect of Money Bills",
+      "code": "Art. 198",
+      "page_start": 120
+    },
+    {
+      "id": "art_199",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 199 — Definition of “Money Bills”",
+      "code": "Art. 199",
+      "page_start": 121
+    },
+    {
+      "id": "art_200",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 200 — Assent to Bills",
+      "code": "Art. 200",
+      "page_start": 122
+    },
+    {
+      "id": "art_201",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 201 — Bills reserved for consideration. Procedure in Financial Matters",
+      "code": "Art. 201",
+      "page_start": 122
+    },
+    {
+      "id": "art_202",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 202 — Annual financial statement",
+      "code": "Art. 202",
+      "page_start": 123
+    },
+    {
+      "id": "art_203",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 203 — Procedure in Legislature with respect to estimates",
+      "code": "Art. 203",
+      "page_start": 123
+    },
+    {
+      "id": "art_204",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 204 — Appropriation Bills",
+      "code": "Art. 204",
+      "page_start": 124
+    },
+    {
+      "id": "art_205",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 205 — Supplementary, additional or excess grants",
+      "code": "Art. 205",
+      "page_start": 124
+    },
+    {
+      "id": "art_206",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 206 — Votes on account, votes of credit and exceptional grants",
+      "code": "Art. 206",
+      "page_start": 125
+    },
+    {
+      "id": "art_207",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 207 — Special provisions as to financial Bills. Procedure Generally",
+      "code": "Art. 207",
+      "page_start": 126
+    },
+    {
+      "id": "art_208",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 208 — Rules of procedure",
+      "code": "Art. 208",
+      "page_start": 126
+    },
+    {
+      "id": "art_209",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 209 — Regulation by law of procedure in the Legislature of the State in relation to financial business",
+      "code": "Art. 209",
+      "page_start": 127
+    },
+    {
+      "id": "art_210",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 210 — Language to be used in the Legislature",
+      "code": "Art. 210",
+      "page_start": 127
+    },
+    {
+      "id": "art_211",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 211 — Restriction on discussion in the Legislature",
+      "code": "Art. 211",
+      "page_start": 128
+    },
+    {
+      "id": "art_212",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 212 — Courts not to inquire into proceedings of the Legislature",
+      "code": "Art. 212",
+      "page_start": 128
+    },
+    {
+      "id": "art_213",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 213 — Power of Governor to promulgate Ordinances during recess of Legislature",
+      "code": "Art. 213",
+      "page_start": 128
+    },
+    {
+      "id": "art_214",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 214 — High Courts for States",
+      "code": "Art. 214",
+      "page_start": 130
+    },
+    {
+      "id": "art_215",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 215 — High Courts to be courts of record",
+      "code": "Art. 215",
+      "page_start": 130
+    },
+    {
+      "id": "art_216",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 216 — Constitution of High Courts",
+      "code": "Art. 216",
+      "page_start": 130
+    },
+    {
+      "id": "art_217",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 217 — Appointment and conditions of the office of a Judge of a High Court",
+      "code": "Art. 217",
+      "page_start": 130
+    },
+    {
+      "id": "art_218",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 218 — Application of certain provisions relating to Supreme Court to High Courts",
+      "code": "Art. 218",
+      "page_start": 132
+    },
+    {
+      "id": "art_219",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 219 — Oath or affirmation by Judges of High Courts",
+      "code": "Art. 219",
+      "page_start": 132
+    },
+    {
+      "id": "art_220",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 220 — Restriction on practice after being a permanent Judge",
+      "code": "Art. 220",
+      "page_start": 132
+    },
+    {
+      "id": "art_221",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 221 — Salaries, etc., of Judges",
+      "code": "Art. 221",
+      "page_start": 132
+    },
+    {
+      "id": "art_222",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 222 — Transfer of a Judge from one High Court to another",
+      "code": "Art. 222",
+      "page_start": 133
+    },
+    {
+      "id": "art_223",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 223 — Appointment of acting Chief Justice",
+      "code": "Art. 223",
+      "page_start": 133
+    },
+    {
+      "id": "art_224",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 224 — Appointment of additional and acting Judges",
+      "code": "Art. 224",
+      "page_start": 133
+    },
+    {
+      "id": "art_224A",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 224A — Appointment of retired Judges at sittings of High Courts",
+      "code": "Art. 224A",
+      "page_start": 134
+    },
+    {
+      "id": "art_225",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 225 — Jurisdiction of existing High Courts",
+      "code": "Art. 225",
+      "page_start": 135
+    },
+    {
+      "id": "art_226",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 226 — Power of High Courts to issue certain writs. [226A. Constitutional validity of Central laws not to be considered in proceedings under article 226.⎯Omitted.]",
+      "code": "Art. 226",
+      "page_start": 135
+    },
+    {
+      "id": "art_227",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 227 — Power of superintendence over all courts by the High Court",
+      "code": "Art. 227",
+      "page_start": 136
+    },
+    {
+      "id": "art_228",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 228 — Transfer of certain cases to High Court. [228A. Special provisions as to disposal of questions relating to constitutional validity of State laws.⎯Omitted.]",
+      "code": "Art. 228",
+      "page_start": 137
+    },
+    {
+      "id": "art_229",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 229 — Officers and servants and the expenses of High Courts",
+      "code": "Art. 229",
+      "page_start": 138
+    },
+    {
+      "id": "art_230",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 230 — Extension of jurisdiction of High Courts to Union territories",
+      "code": "Art. 230",
+      "page_start": 138
+    },
+    {
+      "id": "art_231",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 231 — Establishment of a common High Court for two or more States. [232. Articles 230, 231 and 232 substituted by articles 230 and 231]",
+      "code": "Art. 231",
+      "page_start": 139
+    },
+    {
+      "id": "art_233",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 233 — Appointment of district judges",
+      "code": "Art. 233",
+      "page_start": 139
+    },
+    {
+      "id": "art_233A",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 233A — Validation of appointments of, and judgments, etc., delivered by, certain district judges",
+      "code": "Art. 233A",
+      "page_start": 140
+    },
+    {
+      "id": "art_234",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 234 — Recruitment of persons other than district judges to the judicial service",
+      "code": "Art. 234",
+      "page_start": 140
+    },
+    {
+      "id": "art_235",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 235 — Control over subordinate courts",
+      "code": "Art. 235",
+      "page_start": 141
+    },
+    {
+      "id": "art_236",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 236 — Interpretation",
+      "code": "Art. 236",
+      "page_start": 141
+    },
+    {
+      "id": "art_237",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 237 — Application of the provisions of this Chapter to certain class or classes of magistrates. [PART VII.—Omitted] THE STATES IN PART B OF THE FIRST SCHEDULE [238. Omitted.]",
+      "code": "Art. 237",
+      "page_start": 141
+    },
+    {
+      "id": "art_239",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 239 — Administration of Union territories",
+      "code": "Art. 239",
+      "page_start": 143
+    },
+    {
+      "id": "art_239A",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 239A — Creation of local Legislatures or Council of Ministers or both for certain Union territories",
+      "code": "Art. 239A",
+      "page_start": 143
+    },
+    {
+      "id": "art_239AA",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 239AA — Special provisions with respect to Delhi",
+      "code": "Art. 239AA",
+      "page_start": 144
+    },
+    {
+      "id": "art_239AB",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 239AB — Provision in case of failure of constitutional machinery",
+      "code": "Art. 239AB",
+      "page_start": 146
+    },
+    {
+      "id": "art_239B",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 239B — Power of administrator to promulgate Ordinances during recess of Legislature",
+      "code": "Art. 239B",
+      "page_start": 147
+    },
+    {
+      "id": "art_240",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 240 — Power of President to make regulations for certain Union territories",
+      "code": "Art. 240",
+      "page_start": 148
+    },
+    {
+      "id": "art_241",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 241 — High Courts for Union territories. [242. Coorg.⎯Omitted.]",
+      "code": "Art. 241",
+      "page_start": 149
+    },
+    {
+      "id": "art_243",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 243 — Definitions",
+      "code": "Art. 243",
+      "page_start": 150
+    },
+    {
+      "id": "art_243A",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 243A — Gram Sabha",
+      "code": "Art. 243A",
+      "page_start": 150
+    },
+    {
+      "id": "art_243B",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 243B — Constitution of Panchayats",
+      "code": "Art. 243B",
+      "page_start": 150
+    },
+    {
+      "id": "art_243C",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 243C — Composition of Panchayats",
+      "code": "Art. 243C",
+      "page_start": 150
+    },
+    {
+      "id": "art_243D",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 243D — Reservation of seats",
+      "code": "Art. 243D",
+      "page_start": 152
+    },
+    {
+      "id": "art_243E",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 243E — Duration of Panchayats, etc",
+      "code": "Art. 243E",
+      "page_start": 153
+    },
+    {
+      "id": "art_243F",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 243F — Disqualifications for membership",
+      "code": "Art. 243F",
+      "page_start": 153
+    },
+    {
+      "id": "art_243G",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 243G — Powers, authority and responsibilities of Panchayats",
+      "code": "Art. 243G",
+      "page_start": 154
+    },
+    {
+      "id": "art_243H",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 243H — Powers to impose taxes by, and Funds of, the Panchayats",
+      "code": "Art. 243H",
+      "page_start": 154
+    },
+    {
+      "id": "art_243I",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 243I — Constitution of Finance Commission to review financial position",
+      "code": "Art. 243I",
+      "page_start": 154
+    },
+    {
+      "id": "art_243J",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 243J — Audit of accounts of Panchayats",
+      "code": "Art. 243J",
+      "page_start": 155
+    },
+    {
+      "id": "art_243K",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 243K — Elections to the Panchayats",
+      "code": "Art. 243K",
+      "page_start": 155
+    },
+    {
+      "id": "art_243L",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 243L — Application to Union territories",
+      "code": "Art. 243L",
+      "page_start": 156
+    },
+    {
+      "id": "art_243M",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 243M — Part not to apply to certain areas",
+      "code": "Art. 243M",
+      "page_start": 156
+    },
+    {
+      "id": "art_243N",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 243N — Continuance of existing laws and Panchayats",
+      "code": "Art. 243N",
+      "page_start": 157
+    },
+    {
+      "id": "art_243O",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 243O — Bar to interference by courts in electoral matters",
+      "code": "Art. 243O",
+      "page_start": 157
+    },
+    {
+      "id": "art_243P",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 243P — Definitions",
+      "code": "Art. 243P",
+      "page_start": 158
+    },
+    {
+      "id": "art_243Q",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 243Q — Constitution of Municipalities",
+      "code": "Art. 243Q",
+      "page_start": 158
+    },
+    {
+      "id": "art_243R",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 243R — Composition of Municipalities",
+      "code": "Art. 243R",
+      "page_start": 159
+    },
+    {
+      "id": "art_243S",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 243S — Constitution and composition of Wards Committees, etc",
+      "code": "Art. 243S",
+      "page_start": 160
+    },
+    {
+      "id": "art_243T",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 243T — Reservation of seats",
+      "code": "Art. 243T",
+      "page_start": 160
+    },
+    {
+      "id": "art_243U",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 243U — Duration of Municipalities, etc",
+      "code": "Art. 243U",
+      "page_start": 161
+    },
+    {
+      "id": "art_243V",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 243V — Disqualifications for membership",
+      "code": "Art. 243V",
+      "page_start": 162
+    },
+    {
+      "id": "art_243W",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 243W — Powers, authority and responsibilities of Municipalities, etc",
+      "code": "Art. 243W",
+      "page_start": 162
+    },
+    {
+      "id": "art_243X",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 243X — Power to impose taxes by, and Funds of, the Municipalities",
+      "code": "Art. 243X",
+      "page_start": 162
+    },
+    {
+      "id": "art_243Y",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 243Y — Finance Commission",
+      "code": "Art. 243Y",
+      "page_start": 163
+    },
+    {
+      "id": "art_243Z",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 243Z — Audit of accounts of Municipalities",
+      "code": "Art. 243Z",
+      "page_start": 163
+    },
+    {
+      "id": "art_243ZA",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 243ZA — Elections to the Municipalities",
+      "code": "Art. 243ZA",
+      "page_start": 164
+    },
+    {
+      "id": "art_243ZB",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 243ZB — Application to Union territories",
+      "code": "Art. 243ZB",
+      "page_start": 164
+    },
+    {
+      "id": "art_243ZC",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 243ZC — Part not to apply to certain areas",
+      "code": "Art. 243ZC",
+      "page_start": 164
+    },
+    {
+      "id": "art_243ZD",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 243ZD — Committee for district planning",
+      "code": "Art. 243ZD",
+      "page_start": 164
+    },
+    {
+      "id": "art_243ZE",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 243ZE — Committee for Metropolitan planning",
+      "code": "Art. 243ZE",
+      "page_start": 165
+    },
+    {
+      "id": "art_243ZF",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 243ZF — Continuance of existing laws and Municipalities",
+      "code": "Art. 243ZF",
+      "page_start": 167
+    },
+    {
+      "id": "art_243ZG",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 243ZG — Bar to interference by courts in electoral matters",
+      "code": "Art. 243ZG",
+      "page_start": 167
+    },
+    {
+      "id": "art_243ZH",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 243ZH — Definitions",
+      "code": "Art. 243ZH",
+      "page_start": 168
+    },
+    {
+      "id": "art_243ZI",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 243ZI — Incorporation of co-operative societies",
+      "code": "Art. 243ZI",
+      "page_start": 168
+    },
+    {
+      "id": "art_243ZJ",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 243ZJ — Number and term of members of board and its office bearers",
+      "code": "Art. 243ZJ",
+      "page_start": 169
+    },
+    {
+      "id": "art_243ZK",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 243ZK — Election of members of board",
+      "code": "Art. 243ZK",
+      "page_start": 170
+    },
+    {
+      "id": "art_243ZL",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 243ZL — Supersession and suspension of board and interim management",
+      "code": "Art. 243ZL",
+      "page_start": 170
+    },
+    {
+      "id": "art_243ZM",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 243ZM — Audit of accounts of co-operative societies",
+      "code": "Art. 243ZM",
+      "page_start": 171
+    },
+    {
+      "id": "art_243ZN",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 243ZN — Convening of general body meetings",
+      "code": "Art. 243ZN",
+      "page_start": 171
+    },
+    {
+      "id": "art_243ZO",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 243ZO — Right of a member to get information",
+      "code": "Art. 243ZO",
+      "page_start": 172
+    },
+    {
+      "id": "art_243ZP",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 243ZP — Returns",
+      "code": "Art. 243ZP",
+      "page_start": 172
+    },
+    {
+      "id": "art_243ZQ",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 243ZQ — Offences and penalties",
+      "code": "Art. 243ZQ",
+      "page_start": 172
+    },
+    {
+      "id": "art_243ZR",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 243ZR — Application to multi-State co-operative societies",
+      "code": "Art. 243ZR",
+      "page_start": 173
+    },
+    {
+      "id": "art_243ZS",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 243ZS — Application to Union territories",
+      "code": "Art. 243ZS",
+      "page_start": 173
+    },
+    {
+      "id": "art_243ZT",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 243ZT — Continuance of existing laws",
+      "code": "Art. 243ZT",
+      "page_start": 173
+    },
+    {
+      "id": "art_244",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 244 — Administration of Scheduled Areas and Tribal Areas",
+      "code": "Art. 244",
+      "page_start": 174
+    },
+    {
+      "id": "art_244A",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 244A — Formation of an autonomous State comprising certain tribal areas in Assam and creation of local Legislature or Council of Ministers or both therefor",
+      "code": "Art. 244A",
+      "page_start": 174
+    },
+    {
+      "id": "art_245",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 245 — Extent of laws made by Parliament and by the Legislatures of States",
+      "code": "Art. 245",
+      "page_start": 176
+    },
+    {
+      "id": "art_246",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 246 — Subject-matter of laws made by Parliament and by the Legislatures of States",
+      "code": "Art. 246",
+      "page_start": 176
+    },
+    {
+      "id": "art_246A",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 246A — Special provision with respect to goods and services tax",
+      "code": "Art. 246A",
+      "page_start": 176
+    },
+    {
+      "id": "art_247",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 247 — Power of Parliament to provide for the establishment of certain additional courts",
+      "code": "Art. 247",
+      "page_start": 177
+    },
+    {
+      "id": "art_248",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 248 — Residuary powers of legislation",
+      "code": "Art. 248",
+      "page_start": 177
+    },
+    {
+      "id": "art_249",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 249 — Power of Parliament to legislate with respect to a matter in the State List in the national interest",
+      "code": "Art. 249",
+      "page_start": 177
+    },
+    {
+      "id": "art_250",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 250 — Power of Parliament to legislate with respect to any matter in the State List if a Proclamation of Emergency is in operation",
+      "code": "Art. 250",
+      "page_start": 178
+    },
+    {
+      "id": "art_251",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 251 — Inconsistency between laws made by Parliament under articles 249 and 250 and laws made by the Legislatures of States",
+      "code": "Art. 251",
+      "page_start": 178
+    },
+    {
+      "id": "art_252",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 252 — Power of Parliament to legislate for two or more States by consent and adoption of such legislation by any other State",
+      "code": "Art. 252",
+      "page_start": 178
+    },
+    {
+      "id": "art_253",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 253 — Legislation for giving effect to international agreements",
+      "code": "Art. 253",
+      "page_start": 179
+    },
+    {
+      "id": "art_254",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 254 — Inconsistency between laws made by Parliament and laws made by the Legislatures of States",
+      "code": "Art. 254",
+      "page_start": 179
+    },
+    {
+      "id": "art_255",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 255 — Requirements as to recommendations and previous sanctions to be regarded as matters of procedure only",
+      "code": "Art. 255",
+      "page_start": 179
+    },
+    {
+      "id": "art_256",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 256 — Obligation of States and the Union",
+      "code": "Art. 256",
+      "page_start": 180
+    },
+    {
+      "id": "art_257",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 257 — Control of the Union over States in certain cases. [257A. Assistance to States by deployment of armed forces or other forces of the Union.⎯Omitted.]",
+      "code": "Art. 257",
+      "page_start": 180
+    },
+    {
+      "id": "art_258",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 258 — Power of the Union to confer powers, etc., on States in certain cases",
+      "code": "Art. 258",
+      "page_start": 181
+    },
+    {
+      "id": "art_258A",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 258A — Power of the States to entrust functions to the Union. [259. Armed Forces in States in Part B of the First Schedule.⎯ Omitted.]",
+      "code": "Art. 258A",
+      "page_start": 181
+    },
+    {
+      "id": "art_260",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 260 — Jurisdiction of the Union in relation to territories outside India",
+      "code": "Art. 260",
+      "page_start": 181
+    },
+    {
+      "id": "art_261",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 261 — Public acts, records and judicial proceedings. Disputes relating to Waters",
+      "code": "Art. 261",
+      "page_start": 182
+    },
+    {
+      "id": "art_262",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 262 — Adjudication of disputes relating to waters of inter-State rivers or river valleys. Co-ordination between States",
+      "code": "Art. 262",
+      "page_start": 182
+    },
+    {
+      "id": "art_263",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 263 — Provisions with respect to an inter-State Council",
+      "code": "Art. 263",
+      "page_start": 182
+    },
+    {
+      "id": "art_264",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 264 — Interpretation",
+      "code": "Art. 264",
+      "page_start": 183
+    },
+    {
+      "id": "art_265",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 265 — Taxes not to be imposed save by authority of law",
+      "code": "Art. 265",
+      "page_start": 183
+    },
+    {
+      "id": "art_266",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 266 — Consolidated Funds and public accounts of India and of the States",
+      "code": "Art. 266",
+      "page_start": 183
+    },
+    {
+      "id": "art_267",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 267 — Contingency Fund. Distribution of Revenues between the Union and the States",
+      "code": "Art. 267",
+      "page_start": 183
+    },
+    {
+      "id": "art_268",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 268 — Duties levied by the Union but collected and appropriated by the States. [268A. Service tax levied by Union and collected by the Union and the States.⎯Omitted.]",
+      "code": "Art. 268",
+      "page_start": 184
+    },
+    {
+      "id": "art_269",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 269 — Taxes levied and collected by the Union but assigned to the States",
+      "code": "Art. 269",
+      "page_start": 185
+    },
+    {
+      "id": "art_269A",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 269A — Levy and collection of goods and services tax in course of inter- State trade or commerce",
+      "code": "Art. 269A",
+      "page_start": 185
+    },
+    {
+      "id": "art_270",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 270 — Taxes levied and distributed between the Union and the States",
+      "code": "Art. 270",
+      "page_start": 186
+    },
+    {
+      "id": "art_271",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 271 — Surcharge on certain duties and taxes for purposes of the Union. [272. Taxes which are levied and collected by the Union and may be distributed between the Union and the States.⎯Omitted.]",
+      "code": "Art. 271",
+      "page_start": 187
+    },
+    {
+      "id": "art_273",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 273 — Grants in lieu of export duty on jute and jute products",
+      "code": "Art. 273",
+      "page_start": 187
+    },
+    {
+      "id": "art_274",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 274 — Prior recommendation of President required to Bills affecting taxation in which States are interested",
+      "code": "Art. 274",
+      "page_start": 188
+    },
+    {
+      "id": "art_275",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 275 — Grants from the Union to certain States",
+      "code": "Art. 275",
+      "page_start": 188
+    },
+    {
+      "id": "art_276",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 276 — Taxes on professions, trades, callings and employments",
+      "code": "Art. 276",
+      "page_start": 189
+    },
+    {
+      "id": "art_277",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 277 — Savings. [278. Agreement with States in Part B of the First Schedule with regard to certain financial matters.⎯Omitted.]",
+      "code": "Art. 277",
+      "page_start": 190
+    },
+    {
+      "id": "art_279",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 279 — Calculation of “net proceeds”, etc",
+      "code": "Art. 279",
+      "page_start": 190
+    },
+    {
+      "id": "art_279A",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 279A — Goods and Services Tax Council",
+      "code": "Art. 279A",
+      "page_start": 191
+    },
+    {
+      "id": "art_280",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 280 — Finance Commission",
+      "code": "Art. 280",
+      "page_start": 193
+    },
+    {
+      "id": "art_281",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 281 — Recommendations of the Finance Commission. Miscellaneous Financial Provisions",
+      "code": "Art. 281",
+      "page_start": 194
+    },
+    {
+      "id": "art_282",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 282 — Expenditure defrayable by the Union or a State out of its revenues",
+      "code": "Art. 282",
+      "page_start": 194
+    },
+    {
+      "id": "art_283",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 283 — Custody, etc., of Consolidated Funds, Contingency Funds and moneys credited to the public accounts",
+      "code": "Art. 283",
+      "page_start": 194
+    },
+    {
+      "id": "art_284",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 284 — Custody of suitors’ deposits and other moneys received by public servants and courts",
+      "code": "Art. 284",
+      "page_start": 194
+    },
+    {
+      "id": "art_285",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 285 — Exemption of property of the Union from State taxation",
+      "code": "Art. 285",
+      "page_start": 195
+    },
+    {
+      "id": "art_286",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 286 — Restrictions as to imposition of tax on the sale or purchase of goods",
+      "code": "Art. 286",
+      "page_start": 195
+    },
+    {
+      "id": "art_287",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 287 — Exemption from taxes on electricity",
+      "code": "Art. 287",
+      "page_start": 195
+    },
+    {
+      "id": "art_288",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 288 — Exemption from taxation by States in respect of water or electricity in certain cases",
+      "code": "Art. 288",
+      "page_start": 196
+    },
+    {
+      "id": "art_289",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 289 — Exemption of property and income of a State from Union taxation",
+      "code": "Art. 289",
+      "page_start": 196
+    },
+    {
+      "id": "art_290",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 290 — Adjustment in respect of certain expenses and pensions",
+      "code": "Art. 290",
+      "page_start": 197
+    },
+    {
+      "id": "art_290A",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 290A — Annual payment to certain Devaswom Funds. [291. Privy purse sums of Rulers.⎯Omitted.]",
+      "code": "Art. 290A",
+      "page_start": 197
+    },
+    {
+      "id": "art_292",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 292 — Borrowing by the Government of India",
+      "code": "Art. 292",
+      "page_start": 198
+    },
+    {
+      "id": "art_293",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 293 — Borrowing by States",
+      "code": "Art. 293",
+      "page_start": 198
+    },
+    {
+      "id": "art_294",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 294 — Succession to property, assets, rights, liabilities and obligations in certain cases",
+      "code": "Art. 294",
+      "page_start": 198
+    },
+    {
+      "id": "art_295",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 295 — Succession to property, assets, rights, liabilities and obligations in other cases",
+      "code": "Art. 295",
+      "page_start": 199
+    },
+    {
+      "id": "art_296",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 296 — Property accruing by escheat or lapse or as bona vacantia",
+      "code": "Art. 296",
+      "page_start": 199
+    },
+    {
+      "id": "art_297",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 297 — Things of value within territorial waters or continental shelf and resources of the exclusive economic zone to vest in the Union",
+      "code": "Art. 297",
+      "page_start": 200
+    },
+    {
+      "id": "art_298",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 298 — Power to carry on trade, etc",
+      "code": "Art. 298",
+      "page_start": 200
+    },
+    {
+      "id": "art_299",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 299 — Contracts",
+      "code": "Art. 299",
+      "page_start": 201
+    },
+    {
+      "id": "art_300",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 300 — Suits and proceedings",
+      "code": "Art. 300",
+      "page_start": 201
+    },
+    {
+      "id": "art_300A",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 300A — Persons not to be deprived of property save by authority of law",
+      "code": "Art. 300A",
+      "page_start": 201
+    },
+    {
+      "id": "art_301",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 301 — Freedom of trade, commerce and intercourse",
+      "code": "Art. 301",
+      "page_start": 202
+    },
+    {
+      "id": "art_302",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 302 — Power of Parliament to impose restrictions on trade, commerce and intercourse",
+      "code": "Art. 302",
+      "page_start": 202
+    },
+    {
+      "id": "art_303",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 303 — Restrictions on the legislative powers of the Union and of the States with regard to trade and commerce",
+      "code": "Art. 303",
+      "page_start": 202
+    },
+    {
+      "id": "art_304",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 304 — Restrictions on trade, commerce and intercourse among States",
+      "code": "Art. 304",
+      "page_start": 202
+    },
+    {
+      "id": "art_305",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 305 — Saving of existing laws and laws providing for State monopolies. [306. Power of certain States in Part B of the First Schedule to impose restrictions on trade and commerce.⎯Omitted]",
+      "code": "Art. 305",
+      "page_start": 203
+    },
+    {
+      "id": "art_307",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 307 — Appointment of authority for carrying out the purposes of articles 301 to 304",
+      "code": "Art. 307",
+      "page_start": 203
+    },
+    {
+      "id": "art_308",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 308 — Interpretation",
+      "code": "Art. 308",
+      "page_start": 204
+    },
+    {
+      "id": "art_309",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 309 — Recruitment and conditions of service of persons serving the Union or a State",
+      "code": "Art. 309",
+      "page_start": 204
+    },
+    {
+      "id": "art_310",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 310 — Tenure of office of persons serving the Union or a State",
+      "code": "Art. 310",
+      "page_start": 204
+    },
+    {
+      "id": "art_311",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 311 — Dismissal, removal or reduction in rank of persons employed in civil capacities under the Union or a State",
+      "code": "Art. 311",
+      "page_start": 205
+    },
+    {
+      "id": "art_312",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 312 — All-India services",
+      "code": "Art. 312",
+      "page_start": 206
+    },
+    {
+      "id": "art_312A",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 312A — Power of Parliament to vary or revoke conditions of service of officers of certain services",
+      "code": "Art. 312A",
+      "page_start": 206
+    },
+    {
+      "id": "art_313",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 313 — Transitional provisions. [314. Provision for protection of existing officers of certain services.⎯ Omitted.]",
+      "code": "Art. 313",
+      "page_start": 208
+    },
+    {
+      "id": "art_315",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 315 — Public Service Commissions for the Union and for the States",
+      "code": "Art. 315",
+      "page_start": 208
+    },
+    {
+      "id": "art_316",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 316 — Appointment and term of office of members",
+      "code": "Art. 316",
+      "page_start": 208
+    },
+    {
+      "id": "art_317",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 317 — Removal and suspension of a member of a Public Service Commission",
+      "code": "Art. 317",
+      "page_start": 210
+    },
+    {
+      "id": "art_318",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 318 — Power to make regulations as to conditions of service of members and staff of the Commission",
+      "code": "Art. 318",
+      "page_start": 210
+    },
+    {
+      "id": "art_319",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 319 — Prohibition as to the holding of offices by members of Commission on ceasing to be such members",
+      "code": "Art. 319",
+      "page_start": 211
+    },
+    {
+      "id": "art_320",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 320 — Functions of Public Service Commissions",
+      "code": "Art. 320",
+      "page_start": 211
+    },
+    {
+      "id": "art_321",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 321 — Power to extend functions of Public Service Commissions",
+      "code": "Art. 321",
+      "page_start": 213
+    },
+    {
+      "id": "art_322",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 322 — Expenses of Public Service Commissions",
+      "code": "Art. 322",
+      "page_start": 213
+    },
+    {
+      "id": "art_323",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 323 — Reports of Public Service Commissions",
+      "code": "Art. 323",
+      "page_start": 213
+    },
+    {
+      "id": "art_323A",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 323A — Administrative tribunals",
+      "code": "Art. 323A",
+      "page_start": 214
+    },
+    {
+      "id": "art_323B",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 323B — Tribunals for other matters",
+      "code": "Art. 323B",
+      "page_start": 215
+    },
+    {
+      "id": "art_324",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 324 — Superintendence, direction and control of elections to be vested in an Election Commission",
+      "code": "Art. 324",
+      "page_start": 217
+    },
+    {
+      "id": "art_325",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 325 — No person to be ineligible for inclusion in, or to claim to be included in a special, electoral roll on grounds of religion, race, caste or sex",
+      "code": "Art. 325",
+      "page_start": 218
+    },
+    {
+      "id": "art_326",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 326 — Elections to the House of the People and to the Legislative Assemblies of States to be on the basis of adult suffrage",
+      "code": "Art. 326",
+      "page_start": 218
+    },
+    {
+      "id": "art_327",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 327 — Power of Parliament to make provision with respect to elections to Legislatures",
+      "code": "Art. 327",
+      "page_start": 218
+    },
+    {
+      "id": "art_328",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 328 — Power of Legislature of a State to make provision with respect to elections to such Legislature",
+      "code": "Art. 328",
+      "page_start": 219
+    },
+    {
+      "id": "art_329",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 329 — Bar to interference by courts in electoral matters. [329A. Special provision as to elections to Parliament in the case of Prime Minister and Speaker.⎯Omitted.]",
+      "code": "Art. 329",
+      "page_start": 219
+    },
+    {
+      "id": "art_330",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 330 — Reservation of seats for Scheduled Castes and Scheduled Tribes in the House of the People",
+      "code": "Art. 330",
+      "page_start": 220
+    },
+    {
+      "id": "art_330A",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 330A — Reservation of seats for women in the House of the People",
+      "code": "Art. 330A",
+      "page_start": 221
+    },
+    {
+      "id": "art_331",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 331 — Representation of the Anglo-Indian community in the House of the People",
+      "code": "Art. 331",
+      "page_start": 221
+    },
+    {
+      "id": "art_332",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 332 — Reservation of seats for Scheduled Castes and Scheduled Tribes in the Legislative Assemblies of the States",
+      "code": "Art. 332",
+      "page_start": 221
+    },
+    {
+      "id": "art_332A",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 332A — Reservation of seats for women in the Legislative Assemblies of the States",
+      "code": "Art. 332A",
+      "page_start": 223
+    },
+    {
+      "id": "art_333",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 333 — Representation of the Anglo-Indian community in the Legislative Assemblies of the States",
+      "code": "Art. 333",
+      "page_start": 223
+    },
+    {
+      "id": "art_334",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 334 — Reservation of seats and special representation to cease after certain period",
+      "code": "Art. 334",
+      "page_start": 223
+    },
+    {
+      "id": "art_334A",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 334A — Reservation of seats for women take effect",
+      "code": "Art. 334A",
+      "page_start": 224
+    },
+    {
+      "id": "art_335",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 335 — Claims of Scheduled Castes and Scheduled Tribes to services and posts",
+      "code": "Art. 335",
+      "page_start": 224
+    },
+    {
+      "id": "art_336",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 336 — Special provision for Anglo-Indian community in certain services",
+      "code": "Art. 336",
+      "page_start": 225
+    },
+    {
+      "id": "art_337",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 337 — Special provision with respect to educational grants for the benefit of Anglo-Indian Community",
+      "code": "Art. 337",
+      "page_start": 225
+    },
+    {
+      "id": "art_338",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 338 — National Commission for Scheduled Castes",
+      "code": "Art. 338",
+      "page_start": 226
+    },
+    {
+      "id": "art_338A",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 338A — National Commission for Scheduled Tribes",
+      "code": "Art. 338A",
+      "page_start": 227
+    },
+    {
+      "id": "art_338B",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 338B — National Commission for Backward Classes",
+      "code": "Art. 338B",
+      "page_start": 229
+    },
+    {
+      "id": "art_339",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 339 — Control of the Union over the administration of Scheduled Areas and the welfare of Scheduled Tribes",
+      "code": "Art. 339",
+      "page_start": 231
+    },
+    {
+      "id": "art_340",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 340 — Appointment of a Commission to investigate the conditions of backward classes",
+      "code": "Art. 340",
+      "page_start": 231
+    },
+    {
+      "id": "art_341",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 341 — Scheduled Castes",
+      "code": "Art. 341",
+      "page_start": 231
+    },
+    {
+      "id": "art_342",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 342 — Scheduled Tribes",
+      "code": "Art. 342",
+      "page_start": 232
+    },
+    {
+      "id": "art_342A",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 342A — Socially and educationally backward classes",
+      "code": "Art. 342A",
+      "page_start": 233
+    },
+    {
+      "id": "art_343",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 343 — Official language of the Union",
+      "code": "Art. 343",
+      "page_start": 234
+    },
+    {
+      "id": "art_344",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 344 — Commission and Committee of Parliament on official language",
+      "code": "Art. 344",
+      "page_start": 234
+    },
+    {
+      "id": "art_345",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 345 — Official language or languages of a State",
+      "code": "Art. 345",
+      "page_start": 235
+    },
+    {
+      "id": "art_346",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 346 — Official language for communication between one State and another or between a State and the Union",
+      "code": "Art. 346",
+      "page_start": 235
+    },
+    {
+      "id": "art_347",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 347 — Special provision relating to language spoken by a section of the population of a State",
+      "code": "Art. 347",
+      "page_start": 236
+    },
+    {
+      "id": "art_348",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 348 — Language to be used in the Supreme Court and in the High Courts and for Acts, Bills, etc",
+      "code": "Art. 348",
+      "page_start": 236
+    },
+    {
+      "id": "art_349",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 349 — Special procedure for enactment of certain laws relating to language",
+      "code": "Art. 349",
+      "page_start": 237
+    },
+    {
+      "id": "art_350",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 350 — Language to be used in representations for redress of grievances",
+      "code": "Art. 350",
+      "page_start": 237
+    },
+    {
+      "id": "art_350A",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 350A — Facilities for instruction in mother-tongue at primary stage",
+      "code": "Art. 350A",
+      "page_start": 237
+    },
+    {
+      "id": "art_350B",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 350B — Special Officer for linguistic minorities",
+      "code": "Art. 350B",
+      "page_start": 238
+    },
+    {
+      "id": "art_351",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 351 — Directive for development of the Hindi language",
+      "code": "Art. 351",
+      "page_start": 238
+    },
+    {
+      "id": "art_352",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 352 — Proclamation of Emergency",
+      "code": "Art. 352",
+      "page_start": 239
+    },
+    {
+      "id": "art_353",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 353 — Effect of Proclamation of Emergency",
+      "code": "Art. 353",
+      "page_start": 241
+    },
+    {
+      "id": "art_354",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 354 — Application of provisions relating to distribution of revenues while a Proclamation of Emergency is in operation",
+      "code": "Art. 354",
+      "page_start": 242
+    },
+    {
+      "id": "art_355",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 355 — Duty of the Union to protect States against external aggression and internal disturbance",
+      "code": "Art. 355",
+      "page_start": 242
+    },
+    {
+      "id": "art_356",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 356 — Provisions in case of failure of constitutional machinery in States",
+      "code": "Art. 356",
+      "page_start": 242
+    },
+    {
+      "id": "art_357",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 357 — Exercise of legislative powers under Proclamation issued under article 356",
+      "code": "Art. 357",
+      "page_start": 245
+    },
+    {
+      "id": "art_358",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 358 — Suspension of provisions of article 19 during emergencies",
+      "code": "Art. 358",
+      "page_start": 246
+    },
+    {
+      "id": "art_359",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 359 — Suspension of the enforcement of the rights conferred by Part III during emergencies. [359A. Application of this Part to the State of Punjab.⎯Omitted.]",
+      "code": "Art. 359",
+      "page_start": 247
+    },
+    {
+      "id": "art_360",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 360 — Provisions as to financial emergency",
+      "code": "Art. 360",
+      "page_start": 248
+    },
+    {
+      "id": "art_361",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 361 — Protection of President and Governors and Rajpramukhs",
+      "code": "Art. 361",
+      "page_start": 250
+    },
+    {
+      "id": "art_361A",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 361A — Protection of publication of proceedings of Parliament and State Legislatures",
+      "code": "Art. 361A",
+      "page_start": 251
+    },
+    {
+      "id": "art_361B",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 361B — Disqualification for appointment on remunerative political post. [362. Rights and privileges of Rulers of Indian States.⎯Omitted.]",
+      "code": "Art. 361B",
+      "page_start": 251
+    },
+    {
+      "id": "art_363",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 363 — Bar to interference by courts in disputes arising out of certain treaties, agreements, etc",
+      "code": "Art. 363",
+      "page_start": 252
+    },
+    {
+      "id": "art_363A",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 363A — Recognition granted to Rulers of Indian States to cease and privy purses to be abolished",
+      "code": "Art. 363A",
+      "page_start": 252
+    },
+    {
+      "id": "art_364",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 364 — Special provisions as to major ports and aerodromes",
+      "code": "Art. 364",
+      "page_start": 253
+    },
+    {
+      "id": "art_365",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 365 — Effect of failure to comply with, or to give effect to, directions given by the Union",
+      "code": "Art. 365",
+      "page_start": 253
+    },
+    {
+      "id": "art_366",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 366 — Definitions",
+      "code": "Art. 366",
+      "page_start": 253
+    },
+    {
+      "id": "art_367",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 367 — Interpretation",
+      "code": "Art. 367",
+      "page_start": 258
+    },
+    {
+      "id": "art_368",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 368 — Power of Parliament to amend the Constitution and procedure therefor",
+      "code": "Art. 368",
+      "page_start": 259
+    },
+    {
+      "id": "art_369",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 369 — Temporary power to Parliament to make laws with respect to certain matters in the State List as if they were matters in the Concurrent List",
+      "code": "Art. 369",
+      "page_start": 261
+    },
+    {
+      "id": "art_370",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 370 — Temporary provisions with respect to the State of Jammu and Kashmir",
+      "code": "Art. 370",
+      "page_start": 262
+    },
+    {
+      "id": "art_371",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 371 — Special provision with respect to the States of Maharashtra and Gujarat",
+      "code": "Art. 371",
+      "page_start": 264
+    },
+    {
+      "id": "art_371A",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 371A — Special provision with respect to the State of Nagaland. 371B . Special provision with respect to the State of Assam",
+      "code": "Art. 371A",
+      "page_start": 264
+    },
+    {
+      "id": "art_371C",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 371C — Special provision with respect to the State of Manipur",
+      "code": "Art. 371C",
+      "page_start": 268
+    },
+    {
+      "id": "art_371D",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 371D — Special provisions with respect to the State of Andhra Pradesh or the State of Telangana",
+      "code": "Art. 371D",
+      "page_start": 268
+    },
+    {
+      "id": "art_371E",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 371E — Establishment of Central University in Andhra Pradesh",
+      "code": "Art. 371E",
+      "page_start": 272
+    },
+    {
+      "id": "art_371F",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 371F — Special provisions with respect to the State of Sikkim",
+      "code": "Art. 371F",
+      "page_start": 272
+    },
+    {
+      "id": "art_371G",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 371G — Special provision with respect to the State of Mizoram",
+      "code": "Art. 371G",
+      "page_start": 275
+    },
+    {
+      "id": "art_371H",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 371H — Special provision with respect to the State of Arunachal Pradesh",
+      "code": "Art. 371H",
+      "page_start": 275
+    },
+    {
+      "id": "art_371I",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 371I — Special provision with respect to the State of Goa",
+      "code": "Art. 371I",
+      "page_start": 276
+    },
+    {
+      "id": "art_371J",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 371J — Special provisions with respect to the State of Karnataka",
+      "code": "Art. 371J",
+      "page_start": 276
+    },
+    {
+      "id": "art_372",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 372 — Continuance in force of existing laws and their adaptation",
+      "code": "Art. 372",
+      "page_start": 277
+    },
+    {
+      "id": "art_372A",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 372A — Power of the President to adapt laws",
+      "code": "Art. 372A",
+      "page_start": 278
+    },
+    {
+      "id": "art_373",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 373 — Power of President to make order in respect of persons under preventive detention in certain cases",
+      "code": "Art. 373",
+      "page_start": 279
+    },
+    {
+      "id": "art_374",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 374 — Provisions as to Judges of the Federal Court and proceedings pending in the Federal Court or before His Majesty in Council",
+      "code": "Art. 374",
+      "page_start": 279
+    },
+    {
+      "id": "art_375",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 375 — Courts, authorities and officers to continue to function subject to the provisions of the Constitution",
+      "code": "Art. 375",
+      "page_start": 280
+    },
+    {
+      "id": "art_376",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 376 — Provisions as to Judges of High Courts",
+      "code": "Art. 376",
+      "page_start": 280
+    },
+    {
+      "id": "art_377",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 377 — Provisions as to Comptroller and Auditor-General of India",
+      "code": "Art. 377",
+      "page_start": 280
+    },
+    {
+      "id": "art_378",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 378 — Provisions as to Public Service Commissions",
+      "code": "Art. 378",
+      "page_start": 281
+    },
+    {
+      "id": "art_378A",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 378A — Special provision as to duration of Andhra Pradesh Legislative Assembly. [379. Provisions as to provisional Parliament and the Speaker and Deputy Speaker thereof.⎯Omitted.] [380. Provision as to President.⎯ Omitted.] [381. Council of Ministers of the President.⎯Omitted.] [382. Provisions as to provisional Legislatures for States in Part A of the First Schedule. ⎯ Omitted.] [383. Provision as to Governors of Provinces. ⎯Omitted.] [384. Council of Ministers of the Governors.⎯Omitted.] [385. Provision as to provisional Legislatures in States in Part B of the First Schedule.⎯Omitted.] [386. Council of Ministers for States in Part B of the First Schedule. ⎯Omitted.] [387. Special provision as to determination of population for the purposes of certain elections.⎯Omitted.] [388. Provisions as to the filling of casual vacancies in the provisional Parliament and provisional Legislatures of the States. ⎯ Omitted.] [389. Provision as to Bills pending in the Dominion Legislatures and in the Legislatures of Provinces and Indian States.⎯Omitted.] [390. Money received or raised or expenditure incurred between the commencement of the Constitution and the 31st day of March, 1950. ⎯Omitted.] [391. Power of the President to amend the First and Fourth Schedules in certain contingencies.⎯Omitted.]",
+      "code": "Art. 378A",
+      "page_start": 281
+    },
+    {
+      "id": "art_392",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 392 — Power of the President to remove difficulties",
+      "code": "Art. 392",
+      "page_start": 282
+    },
+    {
+      "id": "art_393",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 393 — Short title",
+      "code": "Art. 393",
+      "page_start": 283
+    },
+    {
+      "id": "art_394",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 394 — Commencement",
+      "code": "Art. 394",
+      "page_start": 283
+    },
+    {
+      "id": "art_394A",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 394A — Authoritative text in the Hindi language",
+      "code": "Art. 394A",
+      "page_start": 283
+    },
+    {
+      "id": "art_395",
+      "node_type": "Constitutional",
+      "subcategory": "Article",
+      "title": "Article 395 — Repeals",
+      "code": "Art. 395",
+      "page_start": 283
+    },
+    {
+      "id": "sched_1",
+      "node_type": "Constitutional",
+      "subcategory": "Schedule",
+      "title": "First Schedule — I. The States (28 States); II. The Union territories (8 UTs)",
+      "code": "Schedule 1",
+      "page_start": 284
+    },
+    {
+      "id": "sched_2",
+      "node_type": "Constitutional",
+      "subcategory": "Schedule",
+      "title": "Second Schedule — Emoluments, Allowances and Privileges of Constitutional Offices",
+      "code": "Schedule 2",
+      "page_start": 294
+    },
+    {
+      "id": "sched_3",
+      "node_type": "Constitutional",
+      "subcategory": "Schedule",
+      "title": "Third Schedule — Forms of Oaths or Affirmations",
+      "code": "Schedule 3",
+      "page_start": 300
+    },
+    {
+      "id": "sched_4",
+      "node_type": "Constitutional",
+      "subcategory": "Schedule",
+      "title": "Fourth Schedule — Allocation of Seats in the Council of States (Rajya Sabha)",
+      "code": "Schedule 4",
+      "page_start": 304
+    },
+    {
+      "id": "sched_5",
+      "node_type": "Constitutional",
+      "subcategory": "Schedule",
+      "title": "Fifth Schedule — Provisions as to the Administration and Control of Scheduled Areas and Scheduled Tribes",
+      "code": "Schedule 5",
+      "page_start": 307
+    },
+    {
+      "id": "sched_6",
+      "node_type": "Constitutional",
+      "subcategory": "Schedule",
+      "title": "Sixth Schedule — Provisions as to the Administration of Tribal Areas in the States of Assam, Meghalaya, Tripura and Mizoram",
+      "code": "Schedule 6",
+      "page_start": 311
+    },
+    {
+      "id": "sched_7",
+      "node_type": "Constitutional",
+      "subcategory": "Schedule",
+      "title": "Seventh Schedule — List I (Union List), List II (State List), List III (Concurrent List)",
+      "code": "Schedule 7",
+      "page_start": 341
+    },
+    {
+      "id": "sched_8",
+      "node_type": "Constitutional",
+      "subcategory": "Schedule",
+      "title": "Eighth Schedule — Languages Recognized by the Constitution (22 Languages)",
+      "code": "Schedule 8",
+      "page_start": 356
+    },
+    {
+      "id": "sched_9",
+      "node_type": "Constitutional",
+      "subcategory": "Schedule",
+      "title": "Ninth Schedule — Validation of Certain Acts and Regulations",
+      "code": "Schedule 9",
+      "page_start": 358
+    },
+    {
+      "id": "sched_10",
+      "node_type": "Constitutional",
+      "subcategory": "Schedule",
+      "title": "Tenth Schedule — Provisions as to Disqualification on Ground of Defection (Anti-Defection Law)",
+      "code": "Schedule 10",
+      "page_start": 376
+    },
+    {
+      "id": "sched_11",
+      "node_type": "Constitutional",
+      "subcategory": "Schedule",
+      "title": "Eleventh Schedule — Powers, Authority and Responsibilities of Panchayats (29 Subjects)",
+      "code": "Schedule 11",
+      "page_start": 380
+    },
+    {
+      "id": "sched_12",
+      "node_type": "Constitutional",
+      "subcategory": "Schedule",
+      "title": "Twelfth Schedule — Powers, Authority and Responsibilities of Municipalities (18 Subjects)",
+      "code": "Schedule 12",
+      "page_start": 381
+    },
+    {
+      "id": "appendix_1",
+      "node_type": "Constitutional",
+      "subcategory": "Constitutional Order / Appendix",
+      "title": "Appendix I — The Constitution (One Hundredth Amendment) Act, 2015",
+      "code": "Appendix 1",
+      "page_start": 382
+    },
+    {
+      "id": "appendix_2",
+      "node_type": "Constitutional",
+      "subcategory": "Constitutional Order / Appendix",
+      "title": "Appendix II — The Constitution (Application to Jammu and Kashmir) Order, 2019 (C.O. 272)",
+      "code": "Appendix 2",
+      "page_start": 401
+    },
+    {
+      "id": "appendix_3",
+      "node_type": "Constitutional",
+      "subcategory": "Constitutional Order / Appendix",
+      "title": "Appendix III — Declaration under Article 370(3) of the Constitution (C.O. 273)",
+      "code": "Appendix 3",
+      "page_start": 402
+    },
+    {
+      "id": "inst_parliament",
+      "node_type": "Institutional",
+      "subcategory": "Union Legislature",
+      "title": "Parliament of India (Sansad)",
+      "code": "Art. 79",
+      "page_start": null
+    },
+    {
+      "id": "inst_lok_sabha",
+      "node_type": "Institutional",
+      "subcategory": "Lower House of Parliament",
+      "title": "Lok Sabha (House of the People)",
+      "code": "Art. 81",
+      "page_start": null
+    },
+    {
+      "id": "inst_rajya_sabha",
+      "node_type": "Institutional",
+      "subcategory": "Upper House of Parliament",
+      "title": "Rajya Sabha (Council of States)",
+      "code": "Art. 80",
+      "page_start": null
+    },
+    {
+      "id": "inst_speaker_ls",
+      "node_type": "Institutional",
+      "subcategory": "Parliamentary Office",
+      "title": "Speaker of the Lok Sabha",
+      "code": "Art. 93",
+      "page_start": null
+    },
+    {
+      "id": "inst_parl_committees",
+      "node_type": "Institutional",
+      "subcategory": "Legislative Oversight",
+      "title": "Parliamentary Committees (PAC, Estimates, DRSCs)",
+      "code": "Art. 105 / 118",
+      "page_start": null
+    },
+    {
+      "id": "inst_president",
+      "node_type": "Institutional",
+      "subcategory": "Head of State",
+      "title": "President of India (Rashtrapati)",
+      "code": "Art. 52",
+      "page_start": null
+    },
+    {
+      "id": "inst_vice_president",
+      "node_type": "Institutional",
+      "subcategory": "Union Executive & Presiding Officer",
+      "title": "Vice-President of India",
+      "code": "Art. 63",
+      "page_start": null
+    },
+    {
+      "id": "inst_pm",
+      "node_type": "Institutional",
+      "subcategory": "Head of Government",
+      "title": "Prime Minister of India",
+      "code": "Art. 74–75",
+      "page_start": null
+    },
+    {
+      "id": "inst_council_ministers",
+      "node_type": "Institutional",
+      "subcategory": "Union Executive",
+      "title": "Union Council of Ministers & Cabinet",
+      "code": "Art. 74–75",
+      "page_start": null
+    },
+    {
+      "id": "inst_supreme_court",
+      "node_type": "Institutional",
+      "subcategory": "Apex Judiciary",
+      "title": "Supreme Court of India",
+      "code": "Art. 124",
+      "page_start": null
+    },
+    {
+      "id": "inst_high_courts",
+      "node_type": "Institutional",
+      "subcategory": "State Judiciary",
+      "title": "High Courts",
+      "code": "Art. 214 / 226",
+      "page_start": null
+    },
+    {
+      "id": "inst_subordinate_courts",
+      "node_type": "Institutional",
+      "subcategory": "District Judiciary",
+      "title": "District & Subordinate Courts",
+      "code": "Art. 233–237",
+      "page_start": null
+    },
+    {
+      "id": "inst_eci",
+      "node_type": "Institutional",
+      "subcategory": "Constitutional Body",
+      "title": "Election Commission of India (ECI)",
+      "code": "Art. 324",
+      "page_start": null
+    },
+    {
+      "id": "inst_cag",
+      "node_type": "Institutional",
+      "subcategory": "Constitutional Body",
+      "title": "Comptroller and Auditor-General of India (CAG)",
+      "code": "Art. 148",
+      "page_start": null
+    },
+    {
+      "id": "inst_finance_comm",
+      "node_type": "Institutional",
+      "subcategory": "Constitutional Body",
+      "title": "Finance Commission of India",
+      "code": "Art. 280",
+      "page_start": null
+    },
+    {
+      "id": "inst_gst_council",
+      "node_type": "Institutional",
+      "subcategory": "Constitutional Federal Body",
+      "title": "Goods and Services Tax (GST) Council",
+      "code": "Art. 279A",
+      "page_start": null
+    },
+    {
+      "id": "inst_upsc",
+      "node_type": "Institutional",
+      "subcategory": "Constitutional Body",
+      "title": "Union Public Service Commission (UPSC) & State PSCs",
+      "code": "Art. 315",
+      "page_start": null
+    },
+    {
+      "id": "inst_ag",
+      "node_type": "Institutional",
+      "subcategory": "Constitutional Office",
+      "title": "Attorney-General for India & Advocates-General",
+      "code": "Art. 76 / 165",
+      "page_start": null
+    },
+    {
+      "id": "inst_ncsc",
+      "node_type": "Institutional",
+      "subcategory": "Constitutional Commission",
+      "title": "National Commissions for SCs, STs, and BCs",
+      "code": "Art. 338–338B",
+      "page_start": null
+    },
+    {
+      "id": "inst_state_govt",
+      "node_type": "Institutional",
+      "subcategory": "State Executive & Legislature",
+      "title": "State Governments (Governor, CM, Council of Ministers, State Legislature)",
+      "code": "Part VI",
+      "page_start": null
+    },
+    {
+      "id": "inst_governor",
+      "node_type": "Institutional",
+      "subcategory": "State Head",
+      "title": "Governor of a State",
+      "code": "Art. 153",
+      "page_start": null
+    },
+    {
+      "id": "inst_state_legislature",
+      "node_type": "Institutional",
+      "subcategory": "State Legislature",
+      "title": "State Legislature (Vidhan Sabha & Vidhan Parishad)",
+      "code": "Art. 168",
+      "page_start": null
+    },
+    {
+      "id": "inst_panchayati_raj",
+      "node_type": "Institutional",
+      "subcategory": "Rural Local Self-Government",
+      "title": "Panchayati Raj Institutions (Gram Sabha, Gram Panchayat, Panchayat Samiti, Zila Parishad)",
+      "code": "Part IX",
+      "page_start": null
+    },
+    {
+      "id": "inst_municipalities",
+      "node_type": "Institutional",
+      "subcategory": "Urban Local Self-Government",
+      "title": "Municipalities & Urban Local Bodies (Nagar Panchayat, Municipal Council, Municipal Corporation)",
+      "code": "Part IXA",
+      "page_start": null
+    },
+    {
+      "id": "inst_citizens",
+      "node_type": "Institutional",
+      "subcategory": "Sovereign People",
+      "title": "We, the People of India (Citizens & Voters)",
+      "code": "Preamble / Art. 326",
+      "page_start": null
+    },
+    {
+      "id": "admin_ministries",
+      "node_type": "Administrative",
+      "subcategory": "Union Executive Machinery",
+      "title": "Union Ministries & Departments (Allocation of Business Rules)",
+      "code": "Art. 77(3)",
+      "page_start": null
+    },
+    {
+      "id": "admin_cabinet_sec",
+      "node_type": "Administrative",
+      "subcategory": "Apex Executive Coordination",
+      "title": "Cabinet Secretariat & Prime Minister's Office (PMO)",
+      "code": "Art. 77(3)",
+      "page_start": null
+    },
+    {
+      "id": "admin_civil_services",
+      "node_type": "Administrative",
+      "subcategory": "Permanent Executive",
+      "title": "All-India Services (IAS, IPS, IFoS) & Central/State Civil Services",
+      "code": "Art. 309–312",
+      "page_start": null
+    },
+    {
+      "id": "admin_dm_collector",
+      "node_type": "Administrative",
+      "subcategory": "District Administration",
+      "title": "District Magistrate / District Collector / Deputy Commissioner",
+      "code": "District Admin",
+      "page_start": null
+    },
+    {
+      "id": "admin_sdm",
+      "node_type": "Administrative",
+      "subcategory": "Sub-Divisional Administration",
+      "title": "Sub-Divisional Magistrate (SDM) / Sub-Collector",
+      "code": "Sub-Division",
+      "page_start": null
+    },
+    {
+      "id": "admin_tehsildar",
+      "node_type": "Administrative",
+      "subcategory": "Tehsil / Taluka Administration",
+      "title": "Tehsildar / Mamlatdar & Block Development Officer (BDO)",
+      "code": "Tehsil / Block",
+      "page_start": null
+    },
+    {
+      "id": "admin_regulatory_bodies",
+      "node_type": "Administrative",
+      "subcategory": "Statutory Regulators & Watchdogs",
+      "title": "Statutory Regulatory Authorities & Accountability Bodies (RBI, SEBI, TRAI, Lokpal, CIC, NHRC)",
+      "code": "Statutory Acts",
+      "page_start": null
+    },
+    {
+      "id": "phil_liberty",
+      "node_type": "Philosophical",
+      "subcategory": "Preamble Ideal & Core Value",
+      "title": "Liberty (of Thought, Expression, Belief, Faith and Worship)",
+      "code": "Preamble / Arts. 19–22, 25–28",
+      "page_start": null
+    },
+    {
+      "id": "phil_equality",
+      "node_type": "Philosophical",
+      "subcategory": "Preamble Ideal & Core Value",
+      "title": "Equality (of Status and of Opportunity)",
+      "code": "Preamble / Arts. 14–18",
+      "page_start": null
+    },
+    {
+      "id": "phil_justice",
+      "node_type": "Philosophical",
+      "subcategory": "Preamble Ideal & Core Value",
+      "title": "Justice (Social, Economic and Political)",
+      "code": "Preamble / Art. 38",
+      "page_start": null
+    },
+    {
+      "id": "phil_fraternity",
+      "node_type": "Philosophical",
+      "subcategory": "Preamble Ideal & Core Value",
+      "title": "Fraternity (Assuring the Dignity of the Individual and the Unity and Integrity of the Nation)",
+      "code": "Preamble / Art. 51A(e)",
+      "page_start": null
+    },
+    {
+      "id": "phil_const_morality",
+      "node_type": "Philosophical",
+      "subcategory": "Constitutional Philosophy",
+      "title": "Constitutional Morality",
+      "code": "CAD Vol. VII / Art. 14, 21",
+      "page_start": null
+    },
+    {
+      "id": "phil_rule_of_law",
+      "node_type": "Philosophical",
+      "subcategory": "Foundational Doctrine",
+      "title": "Rule of Law",
+      "code": "Art. 14 / 21",
+      "page_start": null
+    },
+    {
+      "id": "phil_dignity",
+      "node_type": "Philosophical",
+      "subcategory": "Core Constitutional Value",
+      "title": "Human Dignity & Individual Autonomy",
+      "code": "Preamble / Art. 21",
+      "page_start": null
+    },
+    {
+      "id": "phil_privacy",
+      "node_type": "Philosophical",
+      "subcategory": "Fundamental Right & Value",
+      "title": "Right to Privacy",
+      "code": "Art. 21 (Puttaswamy 2017)",
+      "page_start": null
+    },
+    {
+      "id": "phil_secularism",
+      "node_type": "Philosophical",
+      "subcategory": "Preamble Ideal & Basic Structure",
+      "title": "Indian Secularism (Principled Distance & Sarva Dharma Sambhava)",
+      "code": "Preamble / Arts. 25–28",
+      "page_start": null
+    },
+    {
+      "id": "phil_federalism",
+      "node_type": "Philosophical",
+      "subcategory": "Constitutional Principle",
+      "title": "Cooperative & Asymmetric Federalism",
+      "code": "Art. 1 / Part XI",
+      "page_start": null
+    },
+    {
+      "id": "phil_sep_powers",
+      "node_type": "Philosophical",
+      "subcategory": "Constitutional Principle",
+      "title": "Separation of Powers & Checks and Balances",
+      "code": "Art. 50 / Part V",
+      "page_start": null
+    },
+    {
+      "id": "doc_basic_structure",
+      "node_type": "Judicial",
+      "subcategory": "Constitutional Doctrine",
+      "title": "Basic Structure Doctrine",
+      "code": "Art. 368 Limit",
+      "page_start": null
+    },
+    {
+      "id": "doc_golden_triangle",
+      "node_type": "Judicial",
+      "subcategory": "Constitutional Doctrine",
+      "title": "Golden Triangle of the Constitution (Articles 14, 19, and 21)",
+      "code": "Arts. 14, 19, 21",
+      "page_start": null
+    },
+    {
+      "id": "doc_harmonious_const",
+      "node_type": "Judicial",
+      "subcategory": "Constitutional Doctrine",
+      "title": "Doctrine of Harmonious Construction (Fundamental Rights & DPSPs)",
+      "code": "Part III & Part IV",
+      "page_start": null
+    },
+    {
+      "id": "doc_proportionality",
+      "node_type": "Judicial",
+      "subcategory": "Legal Test",
+      "title": "Proportionality Test & Non-Arbitrariness Test",
+      "code": "Arts. 14, 19, 21",
+      "page_start": null
+    },
+    {
+      "id": "doc_pith_substance",
+      "node_type": "Judicial",
+      "subcategory": "Federalism Doctrine",
+      "title": "Doctrines of Pith and Substance, Colourable Legislation & Repugnancy",
+      "code": "Arts. 245, 246, 254",
+      "page_start": null
+    },
+    {
+      "id": "judg_kesavananda",
+      "node_type": "Judicial",
+      "subcategory": "Landmark Judgment (13-Judge Bench)",
+      "title": "Kesavananda Bharati v. State of Kerala (1973)",
+      "code": "(1973) 4 SCC 225",
+      "page_start": null
+    },
+    {
+      "id": "judg_maneka",
+      "node_type": "Judicial",
+      "subcategory": "Landmark Judgment (7-Judge Bench)",
+      "title": "Maneka Gandhi v. Union of India (1978)",
+      "code": "(1978) 1 SCC 248",
+      "page_start": null
+    },
+    {
+      "id": "judg_minerva",
+      "node_type": "Judicial",
+      "subcategory": "Landmark Judgment (5-Judge Bench)",
+      "title": "Minerva Mills Ltd. v. Union of India (1980)",
+      "code": "(1980) 3 SCC 625",
+      "page_start": null
+    },
+    {
+      "id": "judg_puttaswamy",
+      "node_type": "Judicial",
+      "subcategory": "Landmark Judgment (9-Judge Bench)",
+      "title": "Justice K.S. Puttaswamy (Retd.) v. Union of India (2017)",
+      "code": "(2017) 10 SCC 1",
+      "page_start": null
+    },
+    {
+      "id": "judg_bommai",
+      "node_type": "Judicial",
+      "subcategory": "Landmark Judgment (9-Judge Bench)",
+      "title": "S.R. Bommai v. Union of India (1994)",
+      "code": "(1994) 3 SCC 1",
+      "page_start": null
+    },
+    {
+      "id": "judg_golaknath",
+      "node_type": "Judicial",
+      "subcategory": "Landmark Judgment (11-Judge Bench)",
+      "title": "I.C. Golaknath v. State of Punjab (1967)",
+      "code": "AIR 1967 SC 1643",
+      "page_start": null
+    },
+    {
+      "id": "judg_gopalan",
+      "node_type": "Judicial",
+      "subcategory": "Historical Landmark Judgment (6-Judge Bench)",
+      "title": "A.K. Gopalan v. State of Madras (1950)",
+      "code": "AIR 1950 SC 27",
+      "page_start": null
+    },
+    {
+      "id": "judg_indra_sawhney",
+      "node_type": "Judicial",
+      "subcategory": "Landmark Judgment (9-Judge Bench)",
+      "title": "Indra Sawhney v. Union of India (Mandal Commission Case, 1992)",
+      "code": "1992 Supp (3) SCC 217",
+      "page_start": null
+    },
+    {
+      "id": "judg_vishaka",
+      "node_type": "Judicial",
+      "subcategory": "Landmark Judgment",
+      "title": "Vishaka v. State of Rajasthan (1997)",
+      "code": "(1997) 6 SCC 241",
+      "page_start": null
+    },
+    {
+      "id": "judg_coelho",
+      "node_type": "Judicial",
+      "subcategory": "Landmark Judgment (9-Judge Bench)",
+      "title": "I.R. Coelho v. State of Tamil Nadu (Ninth Schedule Case, 2007)",
+      "code": "(2007) 2 SCC 1",
+      "page_start": null
+    },
+    {
+      "id": "judg_njac",
+      "node_type": "Judicial",
+      "subcategory": "Landmark Judgment (5-Judge Bench)",
+      "title": "Supreme Court Advocates-on-Record Assn. v. Union of India (NJAC Case, 2015)",
+      "code": "(2016) 5 SCC 1",
+      "page_start": null
+    },
+    {
+      "id": "judg_kihoto",
+      "node_type": "Judicial",
+      "subcategory": "Landmark Judgment (5-Judge Bench)",
+      "title": "Kihoto Hollohon v. Zachilhu (Anti-Defection Case, 1992)",
+      "code": "1992 Supp (2) SCC 651",
+      "page_start": null
+    },
+    {
+      "id": "judg_navtej",
+      "node_type": "Judicial",
+      "subcategory": "Landmark Judgment (5-Judge Bench)",
+      "title": "Navtej Singh Johar v. Union of India (2018)",
+      "code": "(2018) 10 SCC 1",
+      "page_start": null
+    },
+    {
+      "id": "judg_shreya_singhal",
+      "node_type": "Judicial",
+      "subcategory": "Landmark Judgment",
+      "title": "Shreya Singhal v. Union of India (2015)",
+      "code": "(2015) 5 SCC 1",
+      "page_start": null
+    },
+    {
+      "id": "judg_olga_tellis",
+      "node_type": "Judicial",
+      "subcategory": "Landmark Judgment (5-Judge Bench)",
+      "title": "Olga Tellis v. Bombay Municipal Corporation (1985)",
+      "code": "(1985) 3 SCC 545",
+      "page_start": null
+    },
+    {
+      "id": "judg_dk_basu",
+      "node_type": "Judicial",
+      "subcategory": "Landmark Judgment",
+      "title": "D.K. Basu v. State of West Bengal (1997)",
+      "code": "(1997) 1 SCC 416",
+      "page_start": null
+    },
+    {
+      "id": "judg_art370",
+      "node_type": "Judicial",
+      "subcategory": "Landmark Judgment (5-Judge Bench)",
+      "title": "In Re: Article 370 of the Constitution (2023)",
+      "code": "2023 INSC 1058",
+      "page_start": null
+    },
+    {
+      "id": "hist_goi_1935",
+      "node_type": "Historical",
+      "subcategory": "Pre-1950 Constitutional Antecedent",
+      "title": "Government of India Act, 1935",
+      "code": "1935 Act (Repealed by Art. 395)",
+      "page_start": null
+    },
+    {
+      "id": "hist_const_assembly",
+      "node_type": "Historical",
+      "subcategory": "Founding Institution",
+      "title": "Constituent Assembly of India & Debates (1946–1949)",
+      "code": "9 Dec 1946 – 26 Nov 1949",
+      "page_start": null
+    },
+    {
+      "id": "hist_obj_resolution",
+      "node_type": "Historical",
+      "subcategory": "Foundational Charter",
+      "title": "Objectives Resolution (Moved 13 Dec 1946, Adopted 22 Jan 1947)",
+      "code": "13 Dec 1946",
+      "page_start": null
+    },
+    {
+      "id": "hist_drafting_comm",
+      "node_type": "Historical",
+      "subcategory": "Founding Committee",
+      "title": "Drafting Committee (Chaired by Dr. B.R. Ambedkar) & Constitutional Adviser B.N. Rau",
+      "code": "29 Aug 1947",
+      "page_start": null
+    },
+    {
+      "id": "hist_adoption_1949",
+      "node_type": "Historical",
+      "subcategory": "Constitutional Milestone",
+      "title": "Adoption (26 Nov 1949) & Commencement of the Constitution (26 Jan 1950)",
+      "code": "Art. 394",
+      "page_start": null
+    },
+    {
+      "id": "amend_1",
+      "node_type": "Constitutional",
+      "subcategory": "Constitutional Amendment",
+      "title": "First Constitutional Amendment Act, 1951",
+      "code": "1st Amendment (1951)",
+      "page_start": null
+    },
+    {
+      "id": "amend_42",
+      "node_type": "Constitutional",
+      "subcategory": "Constitutional Amendment",
+      "title": "Forty-Second Constitutional Amendment Act, 1976",
+      "code": "42nd Amendment (1976)",
+      "page_start": null
+    },
+    {
+      "id": "amend_44",
+      "node_type": "Constitutional",
+      "subcategory": "Constitutional Amendment",
+      "title": "Forty-Fourth Constitutional Amendment Act, 1978",
+      "code": "44th Amendment (1978)",
+      "page_start": null
+    },
+    {
+      "id": "amend_73_74",
+      "node_type": "Constitutional",
+      "subcategory": "Constitutional Amendment",
+      "title": "73rd & 74th Constitutional Amendment Acts, 1992 (Panchayats & Municipalities)",
+      "code": "73rd & 74th Amendments (1992)",
+      "page_start": null
+    },
+    {
+      "id": "amend_86",
+      "node_type": "Constitutional",
+      "subcategory": "Constitutional Amendment",
+      "title": "Eighty-Sixth Constitutional Amendment Act, 2002 (Right to Education)",
+      "code": "86th Amendment (2002)",
+      "page_start": null
+    },
+    {
+      "id": "amend_101",
+      "node_type": "Constitutional",
+      "subcategory": "Constitutional Amendment",
+      "title": "One Hundred and First Constitutional Amendment Act, 2016 (Goods and Services Tax)",
+      "code": "101st Amendment (2016)",
+      "page_start": null
+    },
+    {
+      "id": "amend_106",
+      "node_type": "Constitutional",
+      "subcategory": "Constitutional Amendment",
+      "title": "One Hundred and Sixth Constitutional Amendment Act, 2023 (Nari Shakti Vandan Adhiniyam)",
+      "code": "106th Amendment (2023)",
+      "page_start": null
+    },
+    {
+      "id": "proc_ordinary_bill",
+      "node_type": "Process",
+      "subcategory": "Legislative Process",
+      "title": "How an Ordinary Bill Becomes an Act of Parliament",
+      "code": "Arts. 107, 108, 111",
+      "page_start": null
+    },
+    {
+      "id": "proc_money_bill",
+      "node_type": "Process",
+      "subcategory": "Financial Legislative Process",
+      "title": "Money Bill Procedure & Union Budget (Annual Financial Statement)",
+      "code": "Arts. 109, 110, 112–117",
+      "page_start": null
+    },
+    {
+      "id": "proc_const_amend_bill",
+      "node_type": "Process",
+      "subcategory": "Constituent Process",
+      "title": "Constitutional Amendment Process (Article 368)",
+      "code": "Art. 368",
+      "page_start": null
+    },
+    {
+      "id": "proc_govt_formation",
+      "node_type": "Process",
+      "subcategory": "Democratic Process",
+      "title": "General Elections, Formation of Government & Collective Responsibility",
+      "code": "Arts. 74, 75, 81, 324, 326",
+      "page_start": null
+    },
+    {
+      "id": "proc_judicial_review",
+      "node_type": "Process",
+      "subcategory": "Constitutional Remedy",
+      "title": "Judicial Review & Writ Jurisdiction (Articles 13, 32, 226)",
+      "code": "Arts. 13, 32, 226",
+      "page_start": null
+    },
+    {
+      "id": "proc_emergency",
+      "node_type": "Process",
+      "subcategory": "Emergency Provisions",
+      "title": "Emergency Provisions (National, State/President's Rule, Financial)",
+      "code": "Part XVIII (Arts. 352–360)",
+      "page_start": null
+    },
+    {
+      "id": "proc_rpa_1951",
+      "node_type": "Process",
+      "subcategory": "Statutory Electoral Framework",
+      "title": "Representation of the People Acts, 1950 & 1951",
+      "code": "Art. 327 Statutes",
+      "page_start": null
+    }
+  ]
+}

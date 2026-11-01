@@ -1,0 +1,2828 @@
+{
+  "pdfPages": 402,
+  "articleRecords": 470,
+  "normalizedMatches": 343,
+  "method": "Remove synthetic Article prefix; normalize whitespace; compare whole imported article against claimed source-page interval. A match does not validate boundaries, legal status or current law.",
+  "results": [
+    {
+      "id": "art_1",
+      "pageStart": 33,
+      "pageEnd": 33,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_2",
+      "pageStart": 33,
+      "pageEnd": 33,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_3",
+      "pageStart": 33,
+      "pageEnd": 34,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_4",
+      "pageStart": 34,
+      "pageEnd": 35,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_5",
+      "pageStart": 35,
+      "pageEnd": 35,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_6",
+      "pageStart": 35,
+      "pageEnd": 35,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_7",
+      "pageStart": 35,
+      "pageEnd": 36,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_8",
+      "pageStart": 36,
+      "pageEnd": 36,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_9",
+      "pageStart": 36,
+      "pageEnd": 36,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_10",
+      "pageStart": 36,
+      "pageEnd": 36,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_11",
+      "pageStart": 36,
+      "pageEnd": 37,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_12",
+      "pageStart": 37,
+      "pageEnd": 37,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_13",
+      "pageStart": 37,
+      "pageEnd": 37,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_14",
+      "pageStart": 37,
+      "pageEnd": 37,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_15",
+      "pageStart": 37,
+      "pageEnd": 39,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_16",
+      "pageStart": 39,
+      "pageEnd": 40,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_17",
+      "pageStart": 40,
+      "pageEnd": 40,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_18",
+      "pageStart": 40,
+      "pageEnd": 40,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_19",
+      "pageStart": 40,
+      "pageEnd": 42,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_20",
+      "pageStart": 42,
+      "pageEnd": 42,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_21",
+      "pageStart": 42,
+      "pageEnd": 42,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_21A",
+      "pageStart": 42,
+      "pageEnd": 42,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_22",
+      "pageStart": 42,
+      "pageEnd": 45,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_23",
+      "pageStart": 45,
+      "pageEnd": 45,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_24",
+      "pageStart": 45,
+      "pageEnd": 45,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_25",
+      "pageStart": 45,
+      "pageEnd": 45,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_26",
+      "pageStart": 45,
+      "pageEnd": 46,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_27",
+      "pageStart": 46,
+      "pageEnd": 46,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_28",
+      "pageStart": 46,
+      "pageEnd": 46,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_29",
+      "pageStart": 46,
+      "pageEnd": 46,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_30",
+      "pageStart": 46,
+      "pageEnd": 47,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_31A",
+      "pageStart": 47,
+      "pageEnd": 49,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_31B",
+      "pageStart": 49,
+      "pageEnd": 49,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_31C",
+      "pageStart": 49,
+      "pageEnd": 50,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_32",
+      "pageStart": 50,
+      "pageEnd": 50,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_33",
+      "pageStart": 50,
+      "pageEnd": 50,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_34",
+      "pageStart": 51,
+      "pageEnd": 51,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_35",
+      "pageStart": 51,
+      "pageEnd": 52,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_36",
+      "pageStart": 52,
+      "pageEnd": 52,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_37",
+      "pageStart": 52,
+      "pageEnd": 52,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_38",
+      "pageStart": 52,
+      "pageEnd": 52,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_39",
+      "pageStart": 52,
+      "pageEnd": 53,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_39A",
+      "pageStart": 53,
+      "pageEnd": 53,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_40",
+      "pageStart": 53,
+      "pageEnd": 53,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_41",
+      "pageStart": 53,
+      "pageEnd": 53,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_42",
+      "pageStart": 53,
+      "pageEnd": 53,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_43",
+      "pageStart": 53,
+      "pageEnd": 53,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_43A",
+      "pageStart": 53,
+      "pageEnd": 53,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_43B",
+      "pageStart": 54,
+      "pageEnd": 54,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_44",
+      "pageStart": 54,
+      "pageEnd": 54,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_45",
+      "pageStart": 54,
+      "pageEnd": 54,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_46",
+      "pageStart": 54,
+      "pageEnd": 54,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_47",
+      "pageStart": 54,
+      "pageEnd": 54,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_48",
+      "pageStart": 54,
+      "pageEnd": 54,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_48A",
+      "pageStart": 54,
+      "pageEnd": 54,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_49",
+      "pageStart": 55,
+      "pageEnd": 55,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_50",
+      "pageStart": 55,
+      "pageEnd": 55,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_51",
+      "pageStart": 55,
+      "pageEnd": 56,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_51A",
+      "pageStart": 56,
+      "pageEnd": 57,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_52",
+      "pageStart": 57,
+      "pageEnd": 57,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_53",
+      "pageStart": 57,
+      "pageEnd": 57,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_54",
+      "pageStart": 57,
+      "pageEnd": 57,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_55",
+      "pageStart": 57,
+      "pageEnd": 58,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_56",
+      "pageStart": 58,
+      "pageEnd": 58,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_57",
+      "pageStart": 59,
+      "pageEnd": 59,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_58",
+      "pageStart": 59,
+      "pageEnd": 59,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_59",
+      "pageStart": 59,
+      "pageEnd": 59,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_60",
+      "pageStart": 59,
+      "pageEnd": 60,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_61",
+      "pageStart": 60,
+      "pageEnd": 60,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_62",
+      "pageStart": 60,
+      "pageEnd": 60,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_63",
+      "pageStart": 60,
+      "pageEnd": 60,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_64",
+      "pageStart": 60,
+      "pageEnd": 61,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_65",
+      "pageStart": 61,
+      "pageEnd": 61,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_66",
+      "pageStart": 61,
+      "pageEnd": 62,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_67",
+      "pageStart": 62,
+      "pageEnd": 62,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_68",
+      "pageStart": 62,
+      "pageEnd": 62,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_69",
+      "pageStart": 62,
+      "pageEnd": 63,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_70",
+      "pageStart": 63,
+      "pageEnd": 63,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_71",
+      "pageStart": 63,
+      "pageEnd": 63,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_72",
+      "pageStart": 63,
+      "pageEnd": 64,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_73",
+      "pageStart": 64,
+      "pageEnd": 65,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_74",
+      "pageStart": 65,
+      "pageEnd": 65,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_75",
+      "pageStart": 65,
+      "pageEnd": 66,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_76",
+      "pageStart": 66,
+      "pageEnd": 66,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_77",
+      "pageStart": 66,
+      "pageEnd": 66,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_78",
+      "pageStart": 67,
+      "pageEnd": 67,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_79",
+      "pageStart": 67,
+      "pageEnd": 67,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_80",
+      "pageStart": 67,
+      "pageEnd": 68,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_81",
+      "pageStart": 68,
+      "pageEnd": 69,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_82",
+      "pageStart": 69,
+      "pageEnd": 70,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_83",
+      "pageStart": 70,
+      "pageEnd": 70,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_84",
+      "pageStart": 70,
+      "pageEnd": 70,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_85",
+      "pageStart": 71,
+      "pageEnd": 71,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_86",
+      "pageStart": 71,
+      "pageEnd": 71,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_87",
+      "pageStart": 71,
+      "pageEnd": 71,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_88",
+      "pageStart": 71,
+      "pageEnd": 72,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_89",
+      "pageStart": 72,
+      "pageEnd": 72,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_90",
+      "pageStart": 72,
+      "pageEnd": 72,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_91",
+      "pageStart": 72,
+      "pageEnd": 72,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_92",
+      "pageStart": 72,
+      "pageEnd": 73,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_93",
+      "pageStart": 73,
+      "pageEnd": 73,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_94",
+      "pageStart": 73,
+      "pageEnd": 73,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_95",
+      "pageStart": 73,
+      "pageEnd": 73,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_96",
+      "pageStart": 74,
+      "pageEnd": 74,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_97",
+      "pageStart": 74,
+      "pageEnd": 74,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_98",
+      "pageStart": 74,
+      "pageEnd": 75,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_99",
+      "pageStart": 75,
+      "pageEnd": 75,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_100",
+      "pageStart": 75,
+      "pageEnd": 75,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_101",
+      "pageStart": 75,
+      "pageEnd": 76,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_102",
+      "pageStart": 77,
+      "pageEnd": 77,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_103",
+      "pageStart": 77,
+      "pageEnd": 78,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_104",
+      "pageStart": 78,
+      "pageEnd": 78,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_105",
+      "pageStart": 78,
+      "pageEnd": 79,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_106",
+      "pageStart": 79,
+      "pageEnd": 79,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_107",
+      "pageStart": 79,
+      "pageEnd": 79,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_108",
+      "pageStart": 79,
+      "pageEnd": 80,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_109",
+      "pageStart": 80,
+      "pageEnd": 81,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_110",
+      "pageStart": 81,
+      "pageEnd": 82,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_111",
+      "pageStart": 82,
+      "pageEnd": 82,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_112",
+      "pageStart": 82,
+      "pageEnd": 83,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_113",
+      "pageStart": 83,
+      "pageEnd": 84,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_114",
+      "pageStart": 84,
+      "pageEnd": 84,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_115",
+      "pageStart": 84,
+      "pageEnd": 85,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_116",
+      "pageStart": 85,
+      "pageEnd": 85,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_117",
+      "pageStart": 85,
+      "pageEnd": 86,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_118",
+      "pageStart": 86,
+      "pageEnd": 86,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_119",
+      "pageStart": 86,
+      "pageEnd": 86,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_120",
+      "pageStart": 87,
+      "pageEnd": 87,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_121",
+      "pageStart": 87,
+      "pageEnd": 87,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_122",
+      "pageStart": 87,
+      "pageEnd": 87,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_123",
+      "pageStart": 87,
+      "pageEnd": 88,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_124",
+      "pageStart": 88,
+      "pageEnd": 89,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_124A",
+      "pageStart": 89,
+      "pageEnd": 90,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_124B",
+      "pageStart": 90,
+      "pageEnd": 90,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_124C",
+      "pageStart": 90,
+      "pageEnd": 90,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_125",
+      "pageStart": 90,
+      "pageEnd": 91,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_126",
+      "pageStart": 91,
+      "pageEnd": 91,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_127",
+      "pageStart": 91,
+      "pageEnd": 91,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_128",
+      "pageStart": 91,
+      "pageEnd": 92,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_129",
+      "pageStart": 92,
+      "pageEnd": 92,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_130",
+      "pageStart": 92,
+      "pageEnd": 92,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_131",
+      "pageStart": 92,
+      "pageEnd": 92,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_132",
+      "pageStart": 92,
+      "pageEnd": 93,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_133",
+      "pageStart": 93,
+      "pageEnd": 93,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_134",
+      "pageStart": 93,
+      "pageEnd": 94,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_134A",
+      "pageStart": 94,
+      "pageEnd": 94,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_135",
+      "pageStart": 94,
+      "pageEnd": 94,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_136",
+      "pageStart": 94,
+      "pageEnd": 94,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_137",
+      "pageStart": 94,
+      "pageEnd": 94,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_138",
+      "pageStart": 95,
+      "pageEnd": 95,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_139",
+      "pageStart": 95,
+      "pageEnd": 95,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_139A",
+      "pageStart": 95,
+      "pageEnd": 95,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_140",
+      "pageStart": 95,
+      "pageEnd": 95,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_141",
+      "pageStart": 96,
+      "pageEnd": 96,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_142",
+      "pageStart": 96,
+      "pageEnd": 96,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_143",
+      "pageStart": 96,
+      "pageEnd": 96,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_144",
+      "pageStart": 96,
+      "pageEnd": 96,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_145",
+      "pageStart": 96,
+      "pageEnd": 98,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_146",
+      "pageStart": 98,
+      "pageEnd": 98,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_147",
+      "pageStart": 99,
+      "pageEnd": 99,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_148",
+      "pageStart": 99,
+      "pageEnd": 99,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_149",
+      "pageStart": 100,
+      "pageEnd": 100,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_150",
+      "pageStart": 100,
+      "pageEnd": 100,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_151",
+      "pageStart": 100,
+      "pageEnd": 101,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_152",
+      "pageStart": 101,
+      "pageEnd": 101,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_153",
+      "pageStart": 101,
+      "pageEnd": 101,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_154",
+      "pageStart": 101,
+      "pageEnd": 101,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_155",
+      "pageStart": 101,
+      "pageEnd": 101,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_156",
+      "pageStart": 101,
+      "pageEnd": 102,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_157",
+      "pageStart": 102,
+      "pageEnd": 102,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_158",
+      "pageStart": 102,
+      "pageEnd": 102,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_159",
+      "pageStart": 102,
+      "pageEnd": 102,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_160",
+      "pageStart": 103,
+      "pageEnd": 103,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_161",
+      "pageStart": 103,
+      "pageEnd": 103,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_162",
+      "pageStart": 103,
+      "pageEnd": 103,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_163",
+      "pageStart": 103,
+      "pageEnd": 103,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_164",
+      "pageStart": 103,
+      "pageEnd": 105,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_165",
+      "pageStart": 105,
+      "pageEnd": 105,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_166",
+      "pageStart": 105,
+      "pageEnd": 106,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_167",
+      "pageStart": 106,
+      "pageEnd": 106,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_168",
+      "pageStart": 106,
+      "pageEnd": 107,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_169",
+      "pageStart": 107,
+      "pageEnd": 107,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_170",
+      "pageStart": 107,
+      "pageEnd": 108,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_171",
+      "pageStart": 109,
+      "pageEnd": 110,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_172",
+      "pageStart": 110,
+      "pageEnd": 110,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_173",
+      "pageStart": 110,
+      "pageEnd": 111,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_174",
+      "pageStart": 111,
+      "pageEnd": 111,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_175",
+      "pageStart": 111,
+      "pageEnd": 111,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_176",
+      "pageStart": 111,
+      "pageEnd": 111,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_177",
+      "pageStart": 112,
+      "pageEnd": 112,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_178",
+      "pageStart": 112,
+      "pageEnd": 112,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_179",
+      "pageStart": 112,
+      "pageEnd": 112,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_180",
+      "pageStart": 112,
+      "pageEnd": 112,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_181",
+      "pageStart": 113,
+      "pageEnd": 113,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_182",
+      "pageStart": 113,
+      "pageEnd": 113,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_183",
+      "pageStart": 113,
+      "pageEnd": 113,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_184",
+      "pageStart": 113,
+      "pageEnd": 114,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_185",
+      "pageStart": 114,
+      "pageEnd": 114,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_186",
+      "pageStart": 114,
+      "pageEnd": 114,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_187",
+      "pageStart": 114,
+      "pageEnd": 115,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_188",
+      "pageStart": 115,
+      "pageEnd": 115,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_189",
+      "pageStart": 115,
+      "pageEnd": 116,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_190",
+      "pageStart": 116,
+      "pageEnd": 116,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_191",
+      "pageStart": 117,
+      "pageEnd": 117,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_192",
+      "pageStart": 117,
+      "pageEnd": 118,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_193",
+      "pageStart": 118,
+      "pageEnd": 118,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_194",
+      "pageStart": 118,
+      "pageEnd": 119,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_195",
+      "pageStart": 119,
+      "pageEnd": 119,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_196",
+      "pageStart": 119,
+      "pageEnd": 119,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_197",
+      "pageStart": 119,
+      "pageEnd": 120,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_198",
+      "pageStart": 120,
+      "pageEnd": 121,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_199",
+      "pageStart": 121,
+      "pageEnd": 122,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_200",
+      "pageStart": 122,
+      "pageEnd": 122,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_201",
+      "pageStart": 122,
+      "pageEnd": 123,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_202",
+      "pageStart": 123,
+      "pageEnd": 123,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_203",
+      "pageStart": 123,
+      "pageEnd": 124,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_204",
+      "pageStart": 124,
+      "pageEnd": 124,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_205",
+      "pageStart": 124,
+      "pageEnd": 125,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_206",
+      "pageStart": 125,
+      "pageEnd": 126,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_207",
+      "pageStart": 126,
+      "pageEnd": 126,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_208",
+      "pageStart": 126,
+      "pageEnd": 127,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_209",
+      "pageStart": 127,
+      "pageEnd": 127,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_210",
+      "pageStart": 127,
+      "pageEnd": 128,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_211",
+      "pageStart": 128,
+      "pageEnd": 128,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_212",
+      "pageStart": 128,
+      "pageEnd": 128,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_213",
+      "pageStart": 128,
+      "pageEnd": 129,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_214",
+      "pageStart": 130,
+      "pageEnd": 130,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_215",
+      "pageStart": 130,
+      "pageEnd": 130,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_216",
+      "pageStart": 130,
+      "pageEnd": 130,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_217",
+      "pageStart": 130,
+      "pageEnd": 132,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_218",
+      "pageStart": 132,
+      "pageEnd": 132,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_219",
+      "pageStart": 132,
+      "pageEnd": 132,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_220",
+      "pageStart": 132,
+      "pageEnd": 132,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_221",
+      "pageStart": 132,
+      "pageEnd": 133,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_222",
+      "pageStart": 133,
+      "pageEnd": 133,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_223",
+      "pageStart": 133,
+      "pageEnd": 133,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_224",
+      "pageStart": 133,
+      "pageEnd": 134,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_224A",
+      "pageStart": 134,
+      "pageEnd": 134,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_225",
+      "pageStart": 135,
+      "pageEnd": 135,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_226",
+      "pageStart": 135,
+      "pageEnd": 136,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_227",
+      "pageStart": 136,
+      "pageEnd": 137,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_228",
+      "pageStart": 137,
+      "pageEnd": 138,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_229",
+      "pageStart": 138,
+      "pageEnd": 138,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_230",
+      "pageStart": 138,
+      "pageEnd": 139,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_231",
+      "pageStart": 139,
+      "pageEnd": 139,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_233",
+      "pageStart": 139,
+      "pageEnd": 140,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_233A",
+      "pageStart": 140,
+      "pageEnd": 140,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_234",
+      "pageStart": 140,
+      "pageEnd": 140,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_235",
+      "pageStart": 141,
+      "pageEnd": 141,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_236",
+      "pageStart": 141,
+      "pageEnd": 141,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_237",
+      "pageStart": 141,
+      "pageEnd": 143,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_239",
+      "pageStart": 143,
+      "pageEnd": 143,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_239A",
+      "pageStart": 143,
+      "pageEnd": 143,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_239AA",
+      "pageStart": 144,
+      "pageEnd": 146,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_239AB",
+      "pageStart": 146,
+      "pageEnd": 147,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_239B",
+      "pageStart": 147,
+      "pageEnd": 148,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_240",
+      "pageStart": 148,
+      "pageEnd": 149,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_241",
+      "pageStart": 149,
+      "pageEnd": 150,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_243",
+      "pageStart": 150,
+      "pageEnd": 150,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_243A",
+      "pageStart": 150,
+      "pageEnd": 150,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_243B",
+      "pageStart": 150,
+      "pageEnd": 150,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_243C",
+      "pageStart": 150,
+      "pageEnd": 151,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_243D",
+      "pageStart": 152,
+      "pageEnd": 152,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_243E",
+      "pageStart": 153,
+      "pageEnd": 153,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_243F",
+      "pageStart": 153,
+      "pageEnd": 153,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_243G",
+      "pageStart": 154,
+      "pageEnd": 154,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_243H",
+      "pageStart": 154,
+      "pageEnd": 154,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_243I",
+      "pageStart": 154,
+      "pageEnd": 155,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_243J",
+      "pageStart": 155,
+      "pageEnd": 155,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_243K",
+      "pageStart": 155,
+      "pageEnd": 156,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_243L",
+      "pageStart": 156,
+      "pageEnd": 156,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_243M",
+      "pageStart": 156,
+      "pageEnd": 157,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_243N",
+      "pageStart": 157,
+      "pageEnd": 157,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_243O",
+      "pageStart": 157,
+      "pageEnd": 158,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_243P",
+      "pageStart": 158,
+      "pageEnd": 158,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_243Q",
+      "pageStart": 158,
+      "pageEnd": 159,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_243R",
+      "pageStart": 159,
+      "pageEnd": 159,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_243S",
+      "pageStart": 160,
+      "pageEnd": 160,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_243T",
+      "pageStart": 160,
+      "pageEnd": 161,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_243U",
+      "pageStart": 161,
+      "pageEnd": 161,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_243V",
+      "pageStart": 162,
+      "pageEnd": 162,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_243W",
+      "pageStart": 162,
+      "pageEnd": 162,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_243X",
+      "pageStart": 162,
+      "pageEnd": 163,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_243Y",
+      "pageStart": 163,
+      "pageEnd": 163,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_243Z",
+      "pageStart": 163,
+      "pageEnd": 163,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_243ZA",
+      "pageStart": 164,
+      "pageEnd": 164,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_243ZB",
+      "pageStart": 164,
+      "pageEnd": 164,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_243ZC",
+      "pageStart": 164,
+      "pageEnd": 164,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_243ZD",
+      "pageStart": 164,
+      "pageEnd": 165,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_243ZE",
+      "pageStart": 165,
+      "pageEnd": 166,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_243ZF",
+      "pageStart": 167,
+      "pageEnd": 167,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_243ZG",
+      "pageStart": 167,
+      "pageEnd": 168,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_243ZH",
+      "pageStart": 168,
+      "pageEnd": 168,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_243ZI",
+      "pageStart": 168,
+      "pageEnd": 168,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_243ZJ",
+      "pageStart": 169,
+      "pageEnd": 169,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_243ZK",
+      "pageStart": 170,
+      "pageEnd": 170,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_243ZL",
+      "pageStart": 170,
+      "pageEnd": 171,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_243ZM",
+      "pageStart": 171,
+      "pageEnd": 171,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_243ZN",
+      "pageStart": 171,
+      "pageEnd": 171,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_243ZO",
+      "pageStart": 172,
+      "pageEnd": 172,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_243ZP",
+      "pageStart": 172,
+      "pageEnd": 172,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_243ZQ",
+      "pageStart": 172,
+      "pageEnd": 173,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_243ZR",
+      "pageStart": 173,
+      "pageEnd": 173,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_243ZS",
+      "pageStart": 173,
+      "pageEnd": 173,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_243ZT",
+      "pageStart": 173,
+      "pageEnd": 174,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_244",
+      "pageStart": 174,
+      "pageEnd": 174,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_244A",
+      "pageStart": 174,
+      "pageEnd": 176,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_245",
+      "pageStart": 176,
+      "pageEnd": 176,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_246",
+      "pageStart": 176,
+      "pageEnd": 176,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_246A",
+      "pageStart": 176,
+      "pageEnd": 177,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_247",
+      "pageStart": 177,
+      "pageEnd": 177,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_248",
+      "pageStart": 177,
+      "pageEnd": 177,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_249",
+      "pageStart": 177,
+      "pageEnd": 177,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_250",
+      "pageStart": 178,
+      "pageEnd": 178,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_251",
+      "pageStart": 178,
+      "pageEnd": 178,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_252",
+      "pageStart": 178,
+      "pageEnd": 179,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_253",
+      "pageStart": 179,
+      "pageEnd": 179,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_254",
+      "pageStart": 179,
+      "pageEnd": 179,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_255",
+      "pageStart": 179,
+      "pageEnd": 180,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_256",
+      "pageStart": 180,
+      "pageEnd": 180,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_257",
+      "pageStart": 180,
+      "pageEnd": 181,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_258",
+      "pageStart": 181,
+      "pageEnd": 181,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_258A",
+      "pageStart": 181,
+      "pageEnd": 181,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_260",
+      "pageStart": 181,
+      "pageEnd": 181,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_261",
+      "pageStart": 182,
+      "pageEnd": 182,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_262",
+      "pageStart": 182,
+      "pageEnd": 182,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_263",
+      "pageStart": 182,
+      "pageEnd": 183,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_264",
+      "pageStart": 183,
+      "pageEnd": 183,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_265",
+      "pageStart": 183,
+      "pageEnd": 183,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_266",
+      "pageStart": 183,
+      "pageEnd": 183,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_267",
+      "pageStart": 183,
+      "pageEnd": 184,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_268",
+      "pageStart": 184,
+      "pageEnd": 184,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_269",
+      "pageStart": 185,
+      "pageEnd": 185,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_269A",
+      "pageStart": 185,
+      "pageEnd": 186,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_270",
+      "pageStart": 186,
+      "pageEnd": 187,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_271",
+      "pageStart": 187,
+      "pageEnd": 187,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_273",
+      "pageStart": 187,
+      "pageEnd": 188,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_274",
+      "pageStart": 188,
+      "pageEnd": 188,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_275",
+      "pageStart": 188,
+      "pageEnd": 189,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_276",
+      "pageStart": 189,
+      "pageEnd": 190,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_277",
+      "pageStart": 190,
+      "pageEnd": 190,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_279",
+      "pageStart": 190,
+      "pageEnd": 190,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_279A",
+      "pageStart": 191,
+      "pageEnd": 193,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_280",
+      "pageStart": 193,
+      "pageEnd": 193,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_281",
+      "pageStart": 194,
+      "pageEnd": 194,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_282",
+      "pageStart": 194,
+      "pageEnd": 194,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_283",
+      "pageStart": 194,
+      "pageEnd": 194,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_284",
+      "pageStart": 194,
+      "pageEnd": 195,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_285",
+      "pageStart": 195,
+      "pageEnd": 195,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_286",
+      "pageStart": 195,
+      "pageEnd": 195,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_287",
+      "pageStart": 195,
+      "pageEnd": 196,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_288",
+      "pageStart": 196,
+      "pageEnd": 196,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_289",
+      "pageStart": 196,
+      "pageEnd": 197,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_290",
+      "pageStart": 197,
+      "pageEnd": 197,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_290A",
+      "pageStart": 197,
+      "pageEnd": 198,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_292",
+      "pageStart": 198,
+      "pageEnd": 198,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_293",
+      "pageStart": 198,
+      "pageEnd": 198,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_294",
+      "pageStart": 198,
+      "pageEnd": 199,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_295",
+      "pageStart": 199,
+      "pageEnd": 199,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_296",
+      "pageStart": 199,
+      "pageEnd": 200,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_297",
+      "pageStart": 200,
+      "pageEnd": 200,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_298",
+      "pageStart": 200,
+      "pageEnd": 200,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_299",
+      "pageStart": 201,
+      "pageEnd": 201,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_300",
+      "pageStart": 201,
+      "pageEnd": 201,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_300A",
+      "pageStart": 201,
+      "pageEnd": 202,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_301",
+      "pageStart": 202,
+      "pageEnd": 202,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_302",
+      "pageStart": 202,
+      "pageEnd": 202,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_303",
+      "pageStart": 202,
+      "pageEnd": 202,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_304",
+      "pageStart": 202,
+      "pageEnd": 203,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_305",
+      "pageStart": 203,
+      "pageEnd": 203,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_307",
+      "pageStart": 203,
+      "pageEnd": 204,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_308",
+      "pageStart": 204,
+      "pageEnd": 204,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_309",
+      "pageStart": 204,
+      "pageEnd": 204,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_310",
+      "pageStart": 204,
+      "pageEnd": 205,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_311",
+      "pageStart": 205,
+      "pageEnd": 205,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_312",
+      "pageStart": 206,
+      "pageEnd": 206,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_312A",
+      "pageStart": 206,
+      "pageEnd": 207,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_313",
+      "pageStart": 208,
+      "pageEnd": 208,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_315",
+      "pageStart": 208,
+      "pageEnd": 208,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_316",
+      "pageStart": 208,
+      "pageEnd": 209,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_317",
+      "pageStart": 210,
+      "pageEnd": 210,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_318",
+      "pageStart": 210,
+      "pageEnd": 211,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_319",
+      "pageStart": 211,
+      "pageEnd": 211,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_320",
+      "pageStart": 211,
+      "pageEnd": 213,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_321",
+      "pageStart": 213,
+      "pageEnd": 213,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_322",
+      "pageStart": 213,
+      "pageEnd": 213,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_323",
+      "pageStart": 213,
+      "pageEnd": 214,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_323A",
+      "pageStart": 214,
+      "pageEnd": 215,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_323B",
+      "pageStart": 215,
+      "pageEnd": 217,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_324",
+      "pageStart": 217,
+      "pageEnd": 218,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_325",
+      "pageStart": 218,
+      "pageEnd": 218,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_326",
+      "pageStart": 218,
+      "pageEnd": 218,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_327",
+      "pageStart": 218,
+      "pageEnd": 218,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_328",
+      "pageStart": 219,
+      "pageEnd": 219,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_329",
+      "pageStart": 219,
+      "pageEnd": 220,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_330",
+      "pageStart": 220,
+      "pageEnd": 220,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_330A",
+      "pageStart": 221,
+      "pageEnd": 221,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_331",
+      "pageStart": 221,
+      "pageEnd": 221,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_332",
+      "pageStart": 221,
+      "pageEnd": 223,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_332A",
+      "pageStart": 223,
+      "pageEnd": 223,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_333",
+      "pageStart": 223,
+      "pageEnd": 223,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_334",
+      "pageStart": 223,
+      "pageEnd": 224,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_334A",
+      "pageStart": 224,
+      "pageEnd": 224,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_335",
+      "pageStart": 224,
+      "pageEnd": 225,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_336",
+      "pageStart": 225,
+      "pageEnd": 225,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_337",
+      "pageStart": 225,
+      "pageEnd": 225,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_338",
+      "pageStart": 226,
+      "pageEnd": 227,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_338A",
+      "pageStart": 227,
+      "pageEnd": 229,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_338B",
+      "pageStart": 229,
+      "pageEnd": 231,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_339",
+      "pageStart": 231,
+      "pageEnd": 231,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_340",
+      "pageStart": 231,
+      "pageEnd": 231,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_341",
+      "pageStart": 231,
+      "pageEnd": 232,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_342",
+      "pageStart": 232,
+      "pageEnd": 232,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_342A",
+      "pageStart": 233,
+      "pageEnd": 234,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_343",
+      "pageStart": 234,
+      "pageEnd": 234,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_344",
+      "pageStart": 234,
+      "pageEnd": 235,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_345",
+      "pageStart": 235,
+      "pageEnd": 235,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_346",
+      "pageStart": 235,
+      "pageEnd": 236,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_347",
+      "pageStart": 236,
+      "pageEnd": 236,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_348",
+      "pageStart": 236,
+      "pageEnd": 237,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_349",
+      "pageStart": 237,
+      "pageEnd": 237,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_350",
+      "pageStart": 237,
+      "pageEnd": 237,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_350A",
+      "pageStart": 237,
+      "pageEnd": 237,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_350B",
+      "pageStart": 238,
+      "pageEnd": 238,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_351",
+      "pageStart": 238,
+      "pageEnd": 239,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_352",
+      "pageStart": 239,
+      "pageEnd": 241,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_353",
+      "pageStart": 241,
+      "pageEnd": 242,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_354",
+      "pageStart": 242,
+      "pageEnd": 242,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_355",
+      "pageStart": 242,
+      "pageEnd": 242,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_356",
+      "pageStart": 242,
+      "pageEnd": 245,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_357",
+      "pageStart": 245,
+      "pageEnd": 246,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_358",
+      "pageStart": 246,
+      "pageEnd": 247,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_359",
+      "pageStart": 247,
+      "pageEnd": 248,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_360",
+      "pageStart": 248,
+      "pageEnd": 250,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_361",
+      "pageStart": 250,
+      "pageEnd": 250,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_361A",
+      "pageStart": 251,
+      "pageEnd": 251,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_361B",
+      "pageStart": 251,
+      "pageEnd": 252,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_363",
+      "pageStart": 252,
+      "pageEnd": 252,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_363A",
+      "pageStart": 252,
+      "pageEnd": 253,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_364",
+      "pageStart": 253,
+      "pageEnd": 253,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_365",
+      "pageStart": 253,
+      "pageEnd": 253,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_366",
+      "pageStart": 253,
+      "pageEnd": 258,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_367",
+      "pageStart": 258,
+      "pageEnd": 259,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_368",
+      "pageStart": 259,
+      "pageEnd": 261,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_369",
+      "pageStart": 261,
+      "pageEnd": 261,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_370",
+      "pageStart": 262,
+      "pageEnd": 263,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_371",
+      "pageStart": 264,
+      "pageEnd": 264,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_371A",
+      "pageStart": 264,
+      "pageEnd": 268,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_371C",
+      "pageStart": 268,
+      "pageEnd": 268,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_371D",
+      "pageStart": 268,
+      "pageEnd": 272,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_371E",
+      "pageStart": 272,
+      "pageEnd": 272,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_371F",
+      "pageStart": 272,
+      "pageEnd": 275,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_371G",
+      "pageStart": 275,
+      "pageEnd": 275,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_371H",
+      "pageStart": 275,
+      "pageEnd": 276,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_371I",
+      "pageStart": 276,
+      "pageEnd": 276,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_371J",
+      "pageStart": 276,
+      "pageEnd": 277,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_372",
+      "pageStart": 277,
+      "pageEnd": 278,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_372A",
+      "pageStart": 278,
+      "pageEnd": 278,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_373",
+      "pageStart": 279,
+      "pageEnd": 279,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_374",
+      "pageStart": 279,
+      "pageEnd": 279,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_375",
+      "pageStart": 280,
+      "pageEnd": 280,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_376",
+      "pageStart": 280,
+      "pageEnd": 280,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_377",
+      "pageStart": 280,
+      "pageEnd": 280,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_378",
+      "pageStart": 281,
+      "pageEnd": 281,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_378A",
+      "pageStart": 281,
+      "pageEnd": 282,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_392",
+      "pageStart": 282,
+      "pageEnd": 283,
+      "normalizedTextMatch": false
+    },
+    {
+      "id": "art_393",
+      "pageStart": 283,
+      "pageEnd": 283,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_394",
+      "pageStart": 283,
+      "pageEnd": 283,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_394A",
+      "pageStart": 283,
+      "pageEnd": 283,
+      "normalizedTextMatch": true
+    },
+    {
+      "id": "art_395",
+      "pageStart": 283,
+      "pageEnd": 283,
+      "normalizedTextMatch": true
+    }
+  ]
+}

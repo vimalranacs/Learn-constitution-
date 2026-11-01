@@ -1,0 +1,84 @@
+{
+  "nodes": 635,
+  "edges": 1255,
+  "node_types": {
+    "Administrative": 7,
+    "Cluster": 16,
+    "Constitutional": 542,
+    "Historical": 5,
+    "Institutional": 25,
+    "Judicial": 22,
+    "Philosophical": 11,
+    "Process": 7
+  },
+  "duplicate_node_ids": [],
+  "duplicate_edge_triples": [],
+  "dangling_edges": [],
+  "edges_without_reference": 0,
+  "edges_without_evidence_id": 1255,
+  "edges_without_stable_id": 1255,
+  "article_records": 470,
+  "nodes_without_page": 84,
+  "journeys": 8,
+  "simulations": 6,
+  "scope": "Structural checks only; these counts do not verify legal accuracy or current law.",
+  "sqlite_integrity": "ok",
+  "sqlite_foreign_key_violations": [],
+  "sqlite_schema": [
+    [
+      "ai_enrichment",
+      "CREATE TABLE ai_enrichment (\n            node_id TEXT PRIMARY KEY,\n            beginner_explanation TEXT,\n            intermediate_explanation TEXT,\n            advanced_explanation TEXT,\n            research_explanation TEXT,\n            FOREIGN KEY(node_id) REFERENCES nodes(id)\n        )"
+    ],
+    [
+      "edges",
+      "CREATE TABLE edges (\n            id INTEGER PRIMARY KEY AUTOINCREMENT,\n            source TEXT NOT NULL,\n            target TEXT NOT NULL,\n            type TEXT NOT NULL,\n            category TEXT,\n            ref TEXT,\n            explanation TEXT,\n            confidence TEXT DEFAULT 'Verified (1.0)',\n            FOREIGN KEY(source) REFERENCES nodes(id),\n            FOREIGN KEY(target) REFERENCES nodes(id)\n        )"
+    ],
+    [
+      "fts_nodes",
+      "CREATE VIRTUAL TABLE fts_nodes USING fts5(\n            id UNINDEXED,\n            title,\n            code,\n            node_type,\n            subcategory,\n            constitutional_basis,\n            summary,\n            full_text\n        )"
+    ],
+    [
+      "fts_nodes_config",
+      "CREATE TABLE 'fts_nodes_config'(k PRIMARY KEY, v) WITHOUT ROWID"
+    ],
+    [
+      "fts_nodes_content",
+      "CREATE TABLE 'fts_nodes_content'(id INTEGER PRIMARY KEY, c0, c1, c2, c3, c4, c5, c6, c7)"
+    ],
+    [
+      "fts_nodes_data",
+      "CREATE TABLE 'fts_nodes_data'(id INTEGER PRIMARY KEY, block BLOB)"
+    ],
+    [
+      "fts_nodes_docsize",
+      "CREATE TABLE 'fts_nodes_docsize'(id INTEGER PRIMARY KEY, sz BLOB)"
+    ],
+    [
+      "fts_nodes_idx",
+      "CREATE TABLE 'fts_nodes_idx'(segid, term, pgno, PRIMARY KEY(segid, term)) WITHOUT ROWID"
+    ],
+    [
+      "nodes",
+      "CREATE TABLE nodes (\n            id TEXT PRIMARY KEY,\n            node_type TEXT NOT NULL,\n            subcategory TEXT,\n            title TEXT NOT NULL,\n            code TEXT,\n            cluster_id TEXT,\n            authority_type TEXT,\n            constitutional_basis TEXT,\n            page_start INTEGER,\n            page_end INTEGER,\n            is_omitted INTEGER DEFAULT 0,\n            summary TEXT,\n            full_text TEXT,\n            metadata_json TEXT\n        )"
+    ],
+    [
+      "source_references",
+      "CREATE TABLE source_references (\n            id INTEGER PRIMARY KEY AUTOINCREMENT,\n            node_id TEXT NOT NULL,\n            source_id TEXT NOT NULL,\n            page_start INTEGER,\n            page_end INTEGER,\n            citation_note TEXT,\n            FOREIGN KEY(node_id) REFERENCES nodes(id),\n            FOREIGN KEY(source_id) REFERENCES sources(id)\n        )"
+    ],
+    [
+      "sources",
+      "CREATE TABLE sources (\n            id TEXT PRIMARY KEY,\n            title TEXT NOT NULL,\n            category TEXT,\n            authority TEXT,\n            publication_date TEXT,\n            url TEXT,\n            verification_status TEXT,\n            pages INTEGER\n        )"
+    ],
+    [
+      "sqlite_sequence",
+      "CREATE TABLE sqlite_sequence(name,seq)"
+    ]
+  ],
+  "source_reference_distribution": [
+    [
+      "src_const_2026_leg",
+      635
+    ]
+  ],
+  "json_sqlite_node_ids_match": true
+}

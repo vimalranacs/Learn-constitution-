@@ -1,0 +1,31 @@
+{
+  "generated_at": "2026-10-31T21:08:07.605130Z",
+  "source_pdf": "88cca69e868e50b217f855be2fb8bdba.pdf",
+  "edition": "1st May, 2026 (Incorporating up to the 106th Constitutional Amendment Act, 2023)",
+  "total_pdf_pages": 402,
+  "preamble_extracted": true,
+  "parts_extracted": 25,
+  "chapters_extracted": 23,
+  "total_articles_extracted": 470,
+  "toc_articles_count": 470,
+  "active_articles_count": 449,
+  "omitted_or_repealed_articles_count": 21,
+  "missing_articles": [],
+  "schedules_extracted": 12,
+  "appendices_extracted": 3,
+  "total_knowledge_graph_nodes": 635,
+  "total_knowledge_graph_edges": 1255,
+  "node_counts_by_type": {
+    "Constitutional": 542,
+    "Cluster": 16,
+    "Institutional": 25,
+    "Administrative": 7,
+    "Philosophical": 11,
+    "Judicial": 22,
+    "Historical": 5,
+    "Process": 7
+  },
+  "mandatory_journeys_verified": 8,
+  "interactive_simulations_verified": 6,
+  "status": "100% PASS — ZERO MISSING ARTICLES OR SCHEDULES"
+}

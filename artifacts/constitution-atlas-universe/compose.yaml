@@ -1,0 +1,9 @@
+services:
+  atlas:
+    build: .
+    ports: ["3000:3000"]
+    env_file: .env
+    volumes: ["atlas-data:/data"]
+    restart: unless-stopped
+volumes:
+  atlas-data:

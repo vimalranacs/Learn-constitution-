@@ -1,0 +1,16 @@
+**/node_modules/
+**/venv/
+**/__pycache__/
+**/.env
+**/.env.local
+**/.dev.vars
+**/dist/
+**/.wrangler/
+**/.next/
+tmp/
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+**/*.sqlite
+**/*.sqlite-shm
+**/*.sqlite-wal

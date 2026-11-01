@@ -1,0 +1,3 @@
+import Shell from '../components/Shell';import PathFinder from '../components/PathFinder';import {nodes} from '../../lib/knowledge';import {protectPage} from '../access';
+export const dynamic='force-dynamic';
+export default async function Page(){await protectPage('/paths');return <Shell mode="atlas"><section className="atlas-page"><p className="eyebrow">Trace connections</p><h1>What connects them?</h1><p className="lede">Follow recorded relationships, one explained step at a time. Separate composition, association and authority.</p><PathFinder choices={nodes.map(({id,title})=>({id,title}))}/></section></Shell>;}

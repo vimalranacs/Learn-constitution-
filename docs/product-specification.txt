@@ -1,0 +1,1380 @@
+CONSTITUTION ATLAS
+COMPREHENSIVE CODEX MASTER BUILD PROMPT
+Private, website-first constitutional research and intelligent learning platform
+Version 1.0 | 1 November 2026
+
+================================================================================
+READ THIS FIRST: THE PROJECT YOU ARE BEING ASKED TO BUILD
+================================================================================
+
+You are Codex acting as the principal software architect, product designer,
+full-stack engineer, knowledge-graph engineer, educational systems architect,
+data engineer, and QA lead for Constitution Atlas.
+
+Build a beautiful, coherent, source-grounded WEB APPLICATION for exploring and
+learning the architecture of Indian democracy. This is a serious personal
+research and educational product, not a demo, mockup, PDF viewer, or generic AI
+chatbot. Initially it will serve the owner and approximately three or four
+friends. It must be deployable at a real HTTPS URL using a genuinely practical
+free or no-mandatory-payment hosting path. It must be easy for a computer-science
+student to run, maintain, and deploy. It may eventually grow into a commercial
+product, but do not build billing, large-scale infrastructure, or enterprise
+features now.
+
+THERE ARE TWO DISTINCT EXPERIENCES WITHIN ONE WEBSITE:
+
+  ATLAS MODE  = explore, inspect, trace, compare, research.
+  LEARNING MODE = start at zero, study, practice, apply, remember.
+
+They share one evidence-based constitutional knowledge core, canonical entity
+identifiers, search, AI infrastructure, and carefully separated user data. They
+must have separate, high-quality UIs and different interaction patterns. Neither
+mode should be an afterthought or a reskinned copy of the other.
+
+CRITICAL REQUIREMENTS THAT OVERRIDE ANY EARLIER DRAFT:
+
+1. This is a WEBSITE. Do not make Electron, a native mobile app, or a desktop
+   binary the primary deliverable. Optional PWA installation is permissible,
+   but a normal browser URL is mandatory.
+2. USE THE EXISTING GEMINI ARGON PROJECT ZIP/DIRECTORY AS INPUT. Inspect it
+   first; recover and reuse validated constitutional content, graph nodes,
+   relationships, source mappings, simulations, Python ingestion tools, and
+   other useful work. The old monolithic HTML frontend may be replaced.
+3. Do NOT discard functioning code or data blindly. Do NOT treat all old data
+   as verified merely because the old UI displays a verification badge.
+4. The previous UI is too crowded, colorful, small-text, and panel-heavy. You
+   must reimagine its product information architecture and visual hierarchy.
+5. Learning Mode must actually TEACH beginners how India works, from the
+   absolute foundations to advanced constitutional and political reasoning,
+   with simple examples, real-life administrative cases, lessons, active
+   learning, a contextual Gemini tutor, structured navigation, assessments,
+   and revision. No walls of AI-generated textbook filler.
+6. Implement prepared, sourced, high-quality lesson content first. Gemini
+   enhances learning and research; it is not the only teaching mechanism.
+7. Initially only approximately five approved people may access the website.
+   Private access MUST be enforced server-side, and personal progress must
+   be separated by authenticated identity. Avoid public signup.
+8. Build ONE coherent website with ONE lightweight application/API boundary
+   and a sensible database strategy. Avoid distributed microservices.
+9. Be mindful of actual free-tier CPU/storage/API limits, but do not prematurely
+   optimize for 100,000 users. Spend the effort on UX, accuracy, and depth.
+10. Work incrementally with independently testable milestones. Do not attempt
+    the full specification in one giant code generation pass. Maintain a
+    persistent implementation plan and accurate completion reports. Continue
+    implementation after planning until genuinely blocked or the session ends.
+11. The final code must be deployable with explicit Windows PowerShell steps,
+    environment variable instructions, and real browser verification.
+12. Make every important factual/legal claim traceable to a reliable source;
+    explain the difference between constitutional text, statute, case law,
+    administrative practice, convention, philosophical argument, and analogy.
+
+The objective is to build a platform that gives users both a powerful research
+map of Indian institutions and a highly effective way to develop a mental model
+of how India's government, law, administration, and democracy function.
+
+================================================================================
+SECTION 1 - AUDIT AND REUSE THE EXISTING ARGON MATERIAL
+================================================================================
+
+The user will supply the previous Gemini Argon-produced ZIP or an extracted
+project directory. It may contain, among other things:
+
+  atlas_data.json
+  constitution_atlas.db
+  curated_knowledge.py
+  ingest_constitution.py
+  extraction_validation_report.json
+  main.py
+  requirements.txt
+  test_constitution_atlas.py
+  .env.example
+  existing frontend HTML/CSS/JS and perhaps other files
+
+Previously observed on-screen figures included approximately 635 nodes and
+1,255 edges, though these are UI-reported values, NOT audited ground truth.
+The prior implementation also appears to expose constitutional parts,
+schedules, institutional metadata, source text, graph trails, and a FastAPI API.
+Use actual files rather than these descriptions to determine reality.
+
+MANDATORY INITIAL WORKFLOW:
+
+A. Inventory every project file and assess whether code or data is generated,
+   authoritative, manually curated, or unverified.
+B. Run the old project using its documented environment when feasible; record
+   commands, paths, screenshots, and visible failures. A FastAPI response like
+   {"detail":"Not Found"} at GET / may simply mean the API has no root route;
+   inspect routes before declaring the server broken.
+C. Read the SQLite schema, JSON structure, extraction scripts, graph-building
+   rules, old frontend entry points, tests, and source metadata.
+D. Profile data quality: duplicate node IDs, broken foreign references,
+   unverifiable edges, ambiguous relationship directions, missing provenance,
+   missing Articles, inconsistent clause parsing, spurious 'verified' labels,
+   and errors in constitutional descriptions.
+E. Create docs/legacy-audit.md with a reuse matrix: REUSE / REFACTOR /
+   MIGRATE / REPLACE / RETAIN AS REFERENCE / DROP WITH JUSTIFICATION.
+F. Preserve original files in Git (or a safe legacy/ reference directory as
+   justified) before migrations. Do not reset or delete uncommitted user work.
+G. Produce a data migration and compatibility plan. Prefer canonical IDs,
+   deterministic exports, and reversible migrations where feasible.
+H. Preserve validated curated graph and administrative knowledge, the
+   extraction and validation tools, evidence links, and relevant tests.
+I. If existing constitutional facts are inaccurate, annotate, quarantine, or
+   repair them. Never promote AI-drafted content into 'official text'.
+J. Use actual source files when provided. If official PDFs are missing, create
+   a documented import path and work with available verified inputs; do not
+   fabricate page numbers or missing constitutional text.
+
+At the end of this phase show: working baseline, original feature inventory,
+reusable assets, key risks, target architecture, and the next concrete coding
+milestone. Then CONTINUE CODING; do not stop at the audit.
+
+================================================================================
+SECTION 2 - PRODUCT MODEL AND CORE USER QUESTIONS
+================================================================================
+
+The platform covers these connected domains:
+
+* Constitution: Preamble, Parts, Articles, clauses, Schedules, amendments,
+  sources, cross-references, rights, duties, centre-state relations.
+* Government: Union, states, local governments, ministries, offices, officials,
+  executive/legislative/judicial functions, constitutional bodies.
+* Politics: political representation, election systems, legislators, parties,
+  government formation, accountability, opposition, political influence.
+* Administration: ministries, civil services, district/revenue administration,
+  police, municipalities, Panchayati Raj, public spending and service delivery.
+* Law and judiciary: constitutional/statutory powers, procedures, courts,
+  judicial review, rights enforcement, judgments, doctrines, remedies.
+* Political philosophy: legitimacy, sovereignty, liberty, justice, equality,
+  fraternity, secularism, democracy, federalism, constitutionalism, rule of law.
+* History: Constituent Assembly, colonial institutions, constitutional
+  development, amendments, landmark developments and their chronology.
+* Civic practice: who is responsible for a road, land records, government
+  budgets, public complaints, accountability, and institutional interactions.
+
+Every important concept should make the following questions answerable:
+
+  WHAT IS IT?                       Definition and mental model.
+  WHY DOES IT EXIST?                Purpose and historical rationale.
+  HOW DOES IT WORK?                 Process, examples, daily operation.
+  WHAT IS THE SOURCE OF AUTHORITY?  Article, Act, rule, convention, judgment.
+  WHAT ARE ITS LIMITS?              Constraints, checks, exceptions.
+  HOW DOES IT CONNECT?              Graph-linked institutions and ideas.
+  WHAT CAN I READ TO VERIFY THIS?   Precise, date-aware source citations.
+
+Two distinct user journeys:
+
+EXPLORER: 'Why is the Prime Minister connected to the President, Council of
+Ministers, Lok Sabha, and Articles 74-75? Show the source, edge labels, and
+constitutional consequences.'
+
+LEARNER: 'I do not know what a government is. Explain with a village example,
+introduce the concepts in the right order, let me ask questions, and show me
+how all the parts of India fit together.'
+
+The interface should be intellectually ambitious but never intimidating.
+
+================================================================================
+SECTION 3 - PRODUCT INFORMATION ARCHITECTURE AND NAVIGATION
+================================================================================
+
+Use a unified top-level application shell with persistent, clearly labeled
+[Atlas] [Learn] mode switch, universal search, saved items, and profile/settings.
+Give each mode its own contextual navigation; DO NOT expose every possible
+feature as an always-visible row of tabs.
+
+SUGGESTED INFORMATION ARCHITECTURE (adapt to a better design if justified):
+
+Constitution Atlas
+  Home / entry
+  Atlas
+    Knowledge Universe
+    Constitution Explorer
+    Government & Institutions
+    Trace the Power
+    Procedures & Simulations
+    Judiciary, Judgments & History
+    Philosophy & Constitutional Ideas
+    Research Workspace
+  Learn
+    Learning Home
+    Start From Zero
+    Courses / Learning Paths
+    Lesson Reader
+    How India Works (Civic Lab)
+    Practice & Review
+    AI Tutor
+    My Learning
+  Universal Search
+  Personal Library / Bookmarks / Notes
+  Profile, Theme, Language & Settings
+
+ROUTING AND DEEP LINKS:
+
+* Stable route for canonical graph entity, Article, course, and lesson.
+* Opening 'Explore in Atlas' from a lesson focuses the same canonical node.
+* Opening 'Learn This' from an Atlas entity selects an existing linked lesson.
+* If no complete structured lesson exists, explain that clearly and optionally
+  provide a sourced AI explanation WITHOUT inventing a completed lesson.
+* Return-to-lesson preserves section, scroll position, current activity, notes.
+* Back/forward navigation works, even across mode switches.
+* Shareable internal URLs should resolve for approved signed-in users.
+* Search is accessible from everywhere, with keyboard shortcuts where useful.
+
+First-use entry may offer two understated choices: 'Explore the Atlas' and
+'Learn how India works'. Do not show this repeatedly. Remember last mode.
+
+================================================================================
+SECTION 4 - DESIGN SYSTEM: EDITORIAL, SCHOLARLY, RESTRAINED
+================================================================================
+
+Your screenshots reveal specific problems to eliminate: tiny graph labels;
+node and label overlap; unreadable edge annotations; a squeezed graph between
+always-visible sidebars; excessive nested scrolling; many bright competing
+colors; too many controls on the same row; a dense 'dashboard' feel; and poor
+information prioritization. Fix these at system-design level, not by cosmetic
+CSS tweaks alone.
+
+TARGET FEEL: modern digital atlas + beautiful scholarly publication + fast
+research interface + calm learning environment. Think editorial hierarchy,
+meaningful whitespace, subtle motion, polished typography, legible information.
+DO NOT create a neon/cyberpunk design, rainbow dashboard, generic SaaS cards,
+overdone gradients, excessive badges, oversized hero animations, or an AI-slop
+chatbot wrapper.
+
+GLOBAL VISUAL PRINCIPLES:
+
+* Light theme first, elegant dark theme second; both fully usable.
+* Neutral background, readable surfaces, graphite/dark ink text, one restrained
+  teal/blue-green interactive accent, optional warm brass highlight.
+* Suggested tokens: background #F8F8F5; surface #FFFFFF; muted surface
+  #F1F3F0; primary text #202B30; secondary text #58686D; border #E2E7E3;
+  accent #285F62; accent soft #E6F0ED; warm highlight #98794C.
+  These are reference tokens, not permission to use all colors at once.
+* Avoid assigning saturated colors to every graph cluster; use subtle palettes
+  and redundant labels/shapes for semantic types. Never rely on color alone.
+* Clean sans-serif UI such as Inter/Geist; refined editorial serif (e.g.
+  Source Serif 4) for article/lesson headings; restrained mono for source IDs.
+* Readable text sizes and line heights. Learning columns ~65-78 characters
+  where practical. No tiny all-caps body text.
+* Consistent spacing scale, sensible border radii, restrained shadows, fewer
+  nested cards, clear focus states, and accessible responsive hit targets.
+* Prefer icons plus text for non-obvious actions, not mystery icons or emojis.
+* Support reduced motion, visible keyboard focus, contrast, semantic HTML,
+  WCAG 2.2 AA goals, and text alternatives to graph-only content.
+* Design accessible empty/loading/error/partial-data states that are useful.
+* Use animation only for intentional transitions: panel emergence, concept
+  reveal, graph traversal, lesson progression. Keep it short and reversible.
+
+DIFFERENT PERSONALITIES, SHARED BRAND:
+
+Atlas: immersive, analytical, graph-forward, dense only on demand. Progressive
+inspector panels and precise evidence labels.
+
+Learn: calm, literary, welcoming, reading-first, generous whitespace, optional
+tutor drawer, short lesson steps and meaningful visuals. Do not place a giant
+graph, analytics, quiz widgets, and chat panels on every lesson simultaneously.
+
+Create design tokens, a compact component library, a typography scale,
+responsive layout rules, and docs/design-system.md. Validate in actual browser
+screenshots at desktop and narrow mobile viewports. Rework until clean.
+
+================================================================================
+SECTION 5 - ATLAS MODE: COMPLETE EXPLORATION EXPERIENCE
+================================================================================
+
+ATLAS HOME:
+
+Start with a coherent 'Constitutional Universe' overview made of a small number
+of intelligible thematic domains. Never show every detail at first paint. The
+user should be able to choose an area (rights, Parliament, courts, government,
+administration, philosophy, historical development), search, or resume recent
+research. Include a short contextual explanation of what the graph encodes.
+
+ATLAS MAIN VIEW:
+
+* Graph is the dominant canvas, not trapped between two open permanent panels.
+* Compact left explorer rail or collapsible browser for domains, filters,
+  saved views, and recent paths.
+* Selected node opens a contextual right inspector or well-designed floating/
+  drawer detail surface. Inspector is dismissible and resizable if helpful.
+* Clean floating toolbar: zoom, fit, layout, neighborhood depth, focus,
+  filters, relation legend; secondary options go under a clear menu.
+* Visible breadcrumb of exploration and a meaningful back/forward history.
+* Never expose every layout, filter, and journey all at once by default.
+
+GRAPH ENGINE:
+
+Use a mature library: Cytoscape.js is a strong default, but evaluate concrete
+needs (edge labels, selection, layout algorithms, accessibility, mobile).
+Use suitable extensions if justified; document the choice.
+
+Required:
+
+- Smooth pan and zoom, selection and focus.
+- Overview clusters and progressively revealed nodes.
+- Expand/collapse and 1-hop / 2-hop exploration.
+- Shortest path and directed relationship paths with explanation.
+- Multi-node comparison / optional side-by-side inspector.
+- Node type, relationship type, and source-verification filters.
+- Search-to-focus and stable node IDs.
+- Layout options appropriate to task: overview, hierarchical, focused network,
+  constitutional process, compare, pathway.
+- Deterministic/stable layouts when reasonable; keep mental map stable when
+  expanding; avoid continuous chaotic relayout.
+- Label decluttering, zoom-dependent detail, collision-aware layout, robust
+  wrapping/truncation with accessible full names on hover/focus.
+- Interactive edge inspection: plain-language relationship, direction,
+  evidence, status, limitations, date if applicable.
+- Saved views, recent paths, appropriate shareable URLs.
+- Progressive data loading; no need to load full judgment texts for overview.
+- Keyboard-accessible list/tree/table alternative to graph-only exploration.
+
+SEMANTIC GRAPH MODEL:
+
+Nodes: Constitutional Part, Article, Clause, Schedule, Amendment, Institution,
+Political Office, Administrative Office, Statutory Body, Court, Judgment,
+Doctrine, Government Process, Historical Event, Political Philosophy Concept,
+Legal Power, Jurisdiction, Source Document, etc.
+
+Edges must be typed and directed as appropriate: CONTAINS, ESTABLISHES,
+EMPOWERS, LIMITS, ADVISES, APPOINTS, ELECTS, ACCOUNTABLE_TO, INTERPRETS,
+AMENDS, IMPLEMENTS, REGULATES, ADMINISTERS, RELATED_TO, etc. Not every edge is
+hierarchical and not every connection is a legal power. Use separate edge
+classes for association vs evidence-backed legal relationships.
+
+For each edge: stable ID, source/target, type, human-readable explanation,
+source evidence reference, legal/practical distinction, source date, status.
+Audit existing Argon edges for inappropriate 'CONTAINS' usage or confusing
+institutional relations. Do not imply that President, Parliament, Prime
+Minister, and ministries form a simple chain of command. Account for legal
+nuance and the distinction between appointment, advice, responsibility, and
+executive administration.
+
+ENTITY INSPECTOR:
+
+Show a concise overview first, then organized disclosure for:
+- What is it / why it matters.
+- Constitutional/statutory basis.
+- Powers, duties and functions (where relevant).
+- How the office is selected / institution constituted.
+- Limits, accountability and oversight.
+- Important related Articles, judgments, institutions, doctrines.
+- Visual relationships and paths.
+- Sources and source edition.
+- Learn This / Ask Research AI / Save / Compare.
+
+Keep long source texts in a dedicated reader, not an overstuffed side panel.
+
+================================================================================
+SECTION 6 - CONSTITUTION READER AND SOURCE EXPLORATION
+================================================================================
+
+Build a premium digital primary-source reader independent of the graph view.
+
+Use navigable constitutional Parts, Articles, clauses, and Schedules; a reliable
+search; a central wide reading surface; and an optional contextual side panel.
+Users should be able to navigate Parts/Articles without an endless flat list.
+
+For a provision include:
+- Citation and canonical identifier.
+- Verbatim official text of the particular source edition, preserved without
+  rewriting, including inserted/omitted provisions where relevant.
+- Clauses/subclauses with precise boundaries where extraction supports them.
+- Cross-referenced provisions.
+- Beginner, standard, deep, and research explanations, clearly NOT official
+  text; avoid unexplained jargon.
+- Constitutional/legal implications and limitations.
+- Relevant institutions, doctrines, and sourced judgments.
+- Historical background/amendments where verified.
+- Source version, publisher, date, source URL, page/section pointers.
+- Open in Atlas, Learn This, notes, bookmarks, compare where meaningful.
+
+Provide split views only if they improve reading; don't force three columns on
+small screens. Mark content with provenance statuses such as VERIFIED SOURCE,
+CURATED EXPLANATION, AI ASSISTED, NEEDS REVIEW. A badge like '470 ARTICLES
+VERIFIED' is unacceptable without a documented counting method and clear
+meaning of verified. In particular, extracted record count must not be
+presented as the number of presently operative constitutional Articles.
+
+Constitutional text is not sufficient on its own to describe all the statutes,
+state rules, and administrative processes. Link to additional authoritative
+sources where verified; mark unsourced topics as such instead of guessing.
+
+================================================================================
+SECTION 7 - INSTITUTIONS, ADMINISTRATION, AUTHORITY, AND GOVERNMENT
+================================================================================
+
+Create a structured explorer, not just a giant graph, for understanding the
+actual functioning of Indian government.
+
+MAJOR COVERAGE:
+
+Union: President, Vice President, Prime Minister, Union Council of Ministers,
+Cabinet, Parliament, Lok Sabha, Rajya Sabha, Speaker, Parliamentary Committees,
+Ministries, Departments, Secretaries, Cabinet Secretariat, constitutional and
+statutory bodies, civil services.
+
+States: Governor, Chief Minister, State Council of Ministers, Legislative
+Assembly, Legislative Council where present, State Secretariats, departments,
+state public-service agencies and relevant constitutional bodies.
+
+District/local: District Magistrate / Collector, Additional DM, SDM, Tehsildar,
+police administration, revenue offices, municipal structures, Gram Sabha,
+Gram Panchayat, intermediate and district Panchayats, district agencies and
+public-service bodies, subject to state-specific arrangements.
+
+Politics: election systems, constituencies, MPs, MLAs, MLCs, party politics,
+coalitions, confidence, opposition, oversight, elected official vs appointed
+official, formal power vs influence.
+
+Judiciary: Supreme Court, High Courts, district judiciary, jurisdiction,
+judicial independence, constitutional remedies, judicial review, case law.
+
+ENTITY PAGE TEMPLATE:
+
+What is it? Why is it needed? How is it constituted? Who occupies the office?
+How selected or appointed? What legal authority exists? What does it actually
+do? Which level of government? Who holds it accountable? What limits apply?
+What varies by jurisdiction? What processes does it participate in? What
+citations back each answer? How does it connect to other entities?
+
+TRACE THE POWER FEATURE:
+
+User enters questions such as 'Can an MLA order the police to arrest someone?',
+'Who controls police administration?', 'Who can challenge a law?', 'Can the
+Prime Minister remove a judge?', 'Who approves public spending?', 'Who repairs
+a village road?', 'Who supervises a Tehsildar?'
+
+1. Identify jurisdiction, date, and relevant legal context; ask if essential.
+2. Retrieve authoritative provisions, statutes, rules and institution data.
+3. Display a concise answer with formal powers and explicit limits.
+4. Show a readable typed-edge authority diagram (not arbitrary arrows).
+5. Distinguish constitutional power, statutory power, delegated executive
+   power, political influence, convention, and informal practice.
+6. Show sources and uncertainty, particularly for state-specific variations.
+7. Offer Learn This, Related Powers, and Open in Atlas.
+
+Implement responsible scope limitation. A simplified demonstration must never
+claim to be an official real-time legal assessment.
+
+================================================================================
+SECTION 8 - PHILOSOPHY, CASES, HISTORY, AND PROCEDURES
+================================================================================
+
+PHILOSOPHY EXPLORER:
+
+Cover sovereignty, legitimate authority, constitutionalism, liberty,
+equality, justice, fraternity, democracy, secularism, federalism, separation
+of powers, rule of law, citizenship, rights and responsibilities, constitutional
+morality, individual vs collective interests. For each: basic definition,
+competing interpretations, historical development, Indian constitutional
+application, relevant institutions/provisions, sources, and reading paths.
+Differentiate contestable philosophical arguments from binding constitutional
+text. Invite critical thinking rather than presenting one perspective as fact.
+
+CASES AND DOCTRINES:
+
+Include sourced and reviewed landmark judgments only. Track case name,
+judgment date, court, key holdings, cited constitutional provisions, source
+location, subsequent legal developments and uncertainty. Avoid hallucinated
+citations. When the app cannot verify a case, mark it unavailable/unverified.
+
+HISTORY AND TIMELINES:
+
+Timeline of constitution-making, major constitutional developments, amendments,
+judgments and institutional changes, with dates and source links. Avoid
+flattening contentious historical claims into simplistic one-line answers.
+
+PROCESS EXPLORER:
+
+Interactive process diagrams for: ordinary Bill to law, money/financial Bill
+nuances, constitutional amendment, government formation, budget authorization,
+executive policy implementation, electoral process, judicial remedies, and
+centre-state interaction. Every step explains actors, authority, exceptions,
+and sources. Use diagrams that are accessible without reading tiny labels.
+
+================================================================================
+SECTION 9 - LEARNING MODE: A SEPARATE EDUCATIONAL PRODUCT
+================================================================================
+
+The purpose of Learning Mode is to TEACH, not to display a beginner-filtered
+Atlas graph. Build it as a complete user experience with an understandable
+curriculum, an exceptional lesson-reading interface, interactive examples, a
+prerequisite engine, personalized progress, practice, structured review, and a
+context-aware Gemini tutor.
+
+A person who initially does not know the differences among government,
+Parliament, MPs, MLAs, judiciary, districts, laws and the Constitution must be
+able to start from zero and gradually understand how India works.
+
+LEARNING HOME - VERY CLEAN:
+
+- Calm title, e.g., 'Understand How India Works.'
+- One clear action: 'Start from the beginning' or 'Continue lesson'.
+- Current course and next recommended lesson.
+- Readable roadmap of modules, not a rainbow grid of cards.
+- Quiet access to 'All courses', 'Practice', 'How India Works', notes.
+- If there is no progress, a delightful empty state explaining how to start.
+- No badges/XP/leaderboards/achievement confetti by default.
+- The home should feel like a serious independent-study environment.
+
+LESSON VIEW - DESKTOP:
+
+  top: breadcrumb, lesson title, location in track, Atlas/Learn switch.
+  left (optional): compact course table of contents.
+  CENTER: a comfortable editorial text column with meaningful visuals.
+  right (closed by default): contextual AI tutor drawer or inspector.
+  footer/inline: previous and next lesson, save note, review later.
+
+Mobile: single-column reading, accessible lesson nav, optional bottom-sheet
+AI tutor. Include a true Focus Reading mode hiding secondary controls.
+
+CONCEPT POPOVERS:
+
+In any educational paragraph the learner may select an unfamiliar term or
+click a linked concept to get: one-sentence definition, simple example,
+related concept, Learn More, Show in Atlas. The user should not constantly
+lose their place or leave the lesson to understand a term.
+
+DEPTH CONTROLS:
+
+Simple / Standard / Detailed / Advanced / Research. These control explanation
+presentation; they are not a substitute for the structured curriculum. The
+same topic may be explored at different levels. Label legal and philosophical
+nuance rather than pretending simplified analogies are complete descriptions.
+
+LANGUAGE:
+
+English by default, optional simple English, Hindi, Hinglish explanations.
+Maintain accurate technical names and distinguish official translations from
+AI interpretations. Use reasonable fallback if curated translations are absent.
+
+================================================================================
+SECTION 10 - COMPLETE BEGINNER-TO-ADVANCED LEARNING SCOPE
+================================================================================
+
+Create a data-driven curriculum registry, not hundreds of handcrafted React
+pages. Cover the following tracks progressively, each with actual lesson IDs,
+objectives, prerequisites and graph links. Scope is a long-term content map;
+DO NOT create empty fake lessons claiming completion. Mark planned material
+clearly and complete one excellent foundational course first.
+
+TRACK 0 - BEFORE GOVERNMENT
+  Society, collective problems, rules, norms, authority, power, legitimate
+  authority, state/nation/country/government distinctions, sovereignty, law,
+  institutions, constitutions, rights and restrictions.
+
+TRACK 1 - DEMOCRACY AND REPRESENTATION
+  Direct and representative democracy, political participation, citizenship,
+  constituencies, voting, elections, political parties, majority and minority
+  rights, accountability, government vs opposition, constitutional democracy.
+
+TRACK 2 - BUILDING THE INDIAN CONSTITUTIONAL STATE
+  Colonial and independence context, Constituent Assembly, drafting, adoption,
+  commencement, Preamble, republic, parliamentary government, federalism,
+  constitutional supremacy, equality, liberty, justice, fraternity.
+
+TRACK 3 - ELECTED REPRESENTATIVES AND POLITICS
+  MP, MLA, MLC, political parties, parliamentary and assembly constituencies,
+  Election Commission, electoral systems, majority, coalition, opposition,
+  Prime Minister and Chief Minister formation, representation vs administrative
+  authority, political influence vs formal legal power.
+
+TRACK 4 - LEGISLATURE AND LAWMAKING
+  Parliament's constitutional composition, Lok Sabha, Rajya Sabha, presiding
+  officers, state legislatures, Bills of different types, debates, committees,
+  legislative procedure, budget, confidence/no confidence, oversight and
+  accountability, parliamentary privileges and constitutional limits.
+
+TRACK 5 - EXECUTIVE AND MINISTERS
+  President, Vice President, PM, Union Council of Ministers, Cabinet,
+  ministries, constitutional advice, Governor, CM, state ministers, executive
+  power, formal appointment, convention, responsibility and limitations.
+
+TRACK 6 - ADMINISTRATION AND CIVIL SERVICES
+  Civil services, ministries vs departments, secretariats, district
+  administration, DM/Collector, SDM, Tehsildar, revenue administration, police,
+  municipalities, Gram Sabha/Panchayats, official powers, delegated authority,
+  accountability, state-specific differences.
+
+TRACK 7 - JUDICIARY AND LEGAL SYSTEM
+  Why courts exist, judicial independence, Supreme/High/District Courts,
+  jurisdiction, judicial review, civil vs criminal vs administrative matters,
+  remedies, constitutional enforcement, PIL, doctrines and judgments.
+
+TRACK 8 - COMPLETE CONSTITUTION EXPLAINED
+  Preamble; relevant Parts, Articles, clauses and Schedules; Fundamental
+  Rights; Directive Principles; Fundamental Duties; Union-State relations;
+  constitutional bodies; emergency powers; amendments; special provisions;
+  jurisprudence and institutional links.
+
+TRACK 9 - HOW INDIA WORKS IN EVERYDAY LIFE
+  Budgets, taxation, public money, departments, schemes, roads, public health,
+  education, local services, public complaints, land records, implementation,
+  centre-state-local responsibility, oversight and accountability.
+
+TRACK 10 - CONSTITUTIONAL AND POLITICAL PHILOSOPHY
+  Legitimacy, sovereignty, political obligation, rule of law, liberty,
+  equality, justice, fraternity, secularism, federalism, constitutional
+  morality, limits of power, tensions between rights and public purposes.
+
+TRACK 11 - ADVANCED RESEARCH
+  Judicial interpretation, landmark constitutional cases, basic structure,
+  debates in constitutional law, administrative law, comparative government,
+  public policy analysis, historical controversies, argument construction,
+  primary-source research and legal method.
+
+Each track should show which lessons are truly available vs planned.
+
+================================================================================
+SECTION 11 - EVIDENCE-INFORMED PEDAGOGY AND LESSON CONTENT SYSTEM
+================================================================================
+
+Use established instructional design principles without claiming to know a
+universal 'psychologically best' method or assigning fixed learning styles.
+
+* SCAFFOLDING: teach prerequisites, then slowly remove support.
+* CONCRETE -> ABSTRACT: introduce intuitive problems before formal terms.
+* WORKED EXAMPLES: model reasoning and show intermediate decision points.
+* RETRIEVAL PRACTICE: occasional recall/application, not constant interruption.
+* SPACED REVIEW: simple due-date scheduling; make it adjustable and optional.
+* INTERLEAVING: compare concepts such as PM vs President, MP vs MLA, Council of
+  Ministers vs Cabinet, legal authority vs political influence.
+* ELABORATION: why does this institution exist, who limits it, what changes if
+  it is removed, what constitutional problem is being solved?
+* COGNITIVE LOAD: teach in manageable chunks; no 25 nodes at the first step.
+* DUAL REPRESENTATION: combine text, clear diagrams, timelines and tables when
+  each contributes information, not as decoration.
+* FORMATIVE ASSESSMENT: feedback explains why, not just correct/incorrect.
+* TRANSFER: ask learners to apply principles to new hypothetical scenarios.
+* METACOGNITION: 'I am confused', 'simplify', 'give example', 'go deeper'.
+* USER AUTONOMY: learners may skip, explore independently, or ask directly.
+
+REUSABLE LESSON SCHEMA (extend thoughtfully):
+
+lessonId, version, trackId, moduleId, title, summary, difficulty,
+learningObjectives[], prerequisiteConceptIds[], graphNodeIds[],
+sourceReferences[], sections[], examples[], interactiveBlocks[],
+knowledgeChecks[], summaryPoints[], nextLessonIds[], reviewConceptIds[],
+publicationStatus, reviewStatus, lastReviewed.
+
+Section/block kinds may include:
+  narrative, callout, concept-definition, worked-example, analogy-with-limit,
+  diagram, focused-graph, process-stepper, comparison-table, scenario,
+  interactive-decision, knowledge-check, citations, recap, AI-action.
+
+DO NOT hardcode each lesson as bespoke JSX. Build a typed content schema,
+validators, reusable renderers, source-reference widgets, and editorial QA.
+Do not auto-generate huge quantities of unsourced lessons to satisfy a count.
+
+LESSON EXPERIENCE TEMPLATE (adapt per concept):
+
+1. Hook: a simple, intriguing problem or question.
+2. Intuition: a relatable example, perhaps a village, city, school or budget.
+3. Core concept: clear, precise definition.
+4. Explanation: how and why, building on prerequisites.
+5. Worked example / interactive diagram.
+6. Formal constitutional, statutory or institutional basis with citations.
+7. A small, focused knowledge graph reveal (optional if useful).
+8. Conceptual application check with feedback.
+9. Recap and 'what you should now understand'.
+10. Meaningful next lesson and optional research link.
+
+Use caution with analogies: a school principal is not constitutionally the
+same as a Prime Minister. Label where simplification stops being accurate.
+Avoid presenting interpretation, philosophy or convention as binding law.
+
+BUILT-IN EXPLANATION TOOLS:
+  Explain simply | Another example | Why does this exist? | Show a diagram |
+  Compare | What is its legal basis? | How does it work in practice? |
+  Explain in Hindi / Hinglish | Check my understanding | Go deeper |
+  Explore in Atlas.
+
+ASSESSMENT ENGINE:
+  Multiple choice, relationship recognition, correct process ordering,
+  open response, institution comparison, and realistic decisions. Include
+  reasoning-focused feedback and targeted remediation. Never equate time spent
+  or one multiple-choice answer with mastery. Allow skipping when appropriate.
+
+PROGRESS STATES:
+  Not started / In progress / Needs review / Demonstrated understanding.
+  Record lesson completion, recall outcomes, dates, confidence self-reports,
+  review history, notes and bookmarks by user. Do not invent psychological
+  diagnoses or algorithmic 'intelligence scores'.
+
+================================================================================
+SECTION 12 - FIRST COMPLETE LEARNING JOURNEY (PRIORITY DELIVERY)
+================================================================================
+
+Before scaling to dozens of tracks or hundreds of lessons, implement ONE
+excellent, complete, carefully authored course: 'Understanding How India
+Works - From Zero'. Include at least the following fifteen substantive lessons
+with functional teaching elements, source references, navigation, and review:
+
+01. Why Do Societies Need Rules?
+02. What Is Power and Legitimate Authority?
+03. What Is Government, and Why Do We Need It?
+04. State, Nation, Country, and Government: What's Different?
+05. What Is Democracy and Political Representation?
+06. Why Do Countries Need a Constitution?
+07. How India's Constitution Was Made and What It Establishes.
+08. How Elections, Constituencies, MPs, and MLAs Work.
+09. What Is Parliament? Why Two Houses?
+10. President, Prime Minister, Cabinet, and Accountability.
+11. How Does Parliament Make Laws?
+12. How Do State Governments Differ from the Union Government?
+13. What Do Civil Servants, District Magistrates, and Tehsildars Do?
+14. Why Do Courts Exist and How Does Judicial Review Work?
+15. Follow One Public Problem Through India's Government.
+
+Quality gate for EVERY lesson:
+- Clear learning objectives and prerequisites.
+- Sourced, reviewed narrative; technically accurate but beginner-friendly.
+- Concrete, relevant example and explicit caveats where necessary.
+- At least one useful interactive explanatory element (not necessarily a graph).
+- Links to real canonical entities and source citations.
+- At least one substantive reasoning-based understanding check and feedback.
+- Summary, next concept, notes/bookmarks, and AI tutor contextual integration.
+- Correct persistence and resume behavior.
+- No placeholder cards, fake quizzes, or AI-generated filler presented as final.
+
+Example lesson: 'Why does India have Parliament?'
+Start with a large community that cannot deliberate in one room. Explain
+representation, election, lawmaking and government oversight. Then introduce
+Parliament and the roles of its Houses, then accurate legal distinctions,
+constitutionally qualified processes, labeled graph relationships, and a
+question on why executive accountability is needed. All stages grounded.
+
+Ensure the first course is actually usable offline from AI when possible.
+
+================================================================================
+SECTION 13 - LEARNING MODE: SPECIAL INTERACTIVES AND CIVIC LAB
+================================================================================
+
+Create 'HOW INDIA WORKS', a dedicated scenario-based civic lab inside Learn.
+Present a learner-friendly real-world question first, then reveal institutions,
+authorities, dependencies, legal references, and possible routes of action.
+
+Priority scenario designs:
+
+A. Village Road: Who is responsible? What determines jurisdiction? Which local
+   body/department may maintain it? Who allocates money? Who checks the work?
+   Make road ownership and state-specific responsibility explicit.
+B. Land Records and Revenue Administration: Tehsil, Tehsildar, SDM, Collector,
+   sources of authority, district processes, and state-specific limitations.
+C. How an Ordinary Bill Becomes Law: introduce proposal, introduction,
+   legislative consideration, Houses, assent, commencement; explain exceptions
+   for other Bill types.
+D. Form a Parliamentary Government: fictional election arithmetic, majority,
+   support, invitation/appointment, confidence, accountability.
+E. What Can an MLA Actually Do?: political influence vs legislative power vs
+   administrative direction; show what an MLA cannot order merely by position.
+F. Where Does Public Money Go?: taxation, budgets, appropriations,
+   departments, implementation, audit.
+G. A Hypothetical Rights Violation: rights, limits, jurisdiction, courts,
+   constitutional remedies; not individualized legal advice.
+H. A Government Scheme Reaches a Citizen: policymaking, funding,
+   state/district implementation, official responsibilities, accountability.
+
+Each scenario: premise -> identify question -> optional hints -> visual steps ->
+user decision -> explanation/feedback -> source evidence -> related concepts ->
+Learn/Atlas transitions. Label fiction as illustrative; do not imply nationwide
+uniformity where law or administrative arrangements differ.
+
+'BIG PICTURE' TEACHING TOOL:
+  In a lesson click 'Where does this fit?' to progressively zoom from a
+  concept (e.g. Tehsildar) to district administration, relevant statutory
+  hierarchy and state government. Explain edge meaning; preserve lesson
+  state on return. Show only evidence-backed relations.
+
+'CONCEPT COMPARISON' TOOL:
+  President/PM, Governor/CM, MP/MLA, MLA/DM, Lok Sabha/Rajya Sabha,
+  Parliament/Cabinet, Legislature/Executive, Law/Policy, Constitution/Act,
+  Fundamental Rights/Directive Principles. Compare role, legal basis,
+  selection, powers, limits, examples, and common misunderstandings.
+
+================================================================================
+SECTION 14 - GEMINI AI: TWO SPECIALIZED EXPERIENCES
+================================================================================
+
+Gemini must augment the platform, not replace the prepared data and lessons.
+Never expose API credentials to the browser; call securely from backend.
+Make model IDs environment-configurable and test actual API availability;
+consumer subscription access does not imply free developer API access.
+
+ATLAS RESEARCH AI:
+  Deep research into constitutional connections, traced authority, statutes,
+  institutions, case analysis, historical and philosophical disagreements,
+  article explanations, source comparison, structured graph navigation.
+  Show precise citations and uncertainty; don't pretend every argument is law.
+
+LEARNING TUTOR AI:
+  Understand current track, lesson, active section, current graph entities,
+  selected language/depth, prerequisites, assessment trends and consented
+  relevant user progress. Teach clearly; give examples; correct misconceptions;
+  answer direct questions directly; don't endlessly respond with Socratic
+  questions. Support 'Explain simply', 'Give an example', 'Why?', 'What power?',
+  'Show me in Atlas', 'Compare', 'Ask me a question', 'Go deeper', and Hindi /
+  Hinglish explanations. Avoid unrelated tangents and unnecessary chatter.
+
+GROUNDING PIPELINE:
+  question -> intent/context -> full-text/search retrieval -> top relevant
+  constitutional/source passages + graph subgraph + lesson context ->
+  evidence-restricted prompt -> model response -> schema validation ->
+  UI response with source citations + optional approved UI actions.
+
+Technical specifics:
+- Use SQLite/D1 full-text search or equivalent indexing for the initial
+  corpus; add semantic retrieval only if it measurably helps and is deployable.
+- Do NOT upload the entire Constitution into each model request. Retrieve
+  relevant chunks and graph neighborhood with bounded token budget.
+- Attribute source passage IDs and editions. Never fabricate an exact quote,
+  page, judgment or link; reject invalid IDs.
+- Treat retrieved document content as untrusted instructions; prevent prompt
+  injection from overriding system behavior or security rules.
+- Return structured UI actions (focus_node, open_article, open_lesson,
+  highlight_path) only if IDs match canonical stored entities.
+- Distinguish 'from the Constitution', 'from a statute', 'court has held',
+  'administrative practice', 'possible philosophical interpretation'.
+- AI may draft study questions/explanations; label as AI-assisted and do not
+  automatically promote drafts into curated, verified course material.
+- Never let AI write to authoritative knowledge tables without explicit
+  human review/validation.
+- Maintain brief conversation context, not unlimited unfiltered chat history.
+- Gracefully handle quota failures, model errors, absence of key, and timeouts.
+- Cache safe, source-versioned reusable responses where helpful. Never mix
+  different users' private content through a shared response cache.
+- Token and call budgets should be reasonable, not artificially low. There
+  are only ~5 users; prioritize answer quality while respecting actual quotas.
+
+Provide a model/provider adapter, env example such as:
+  GEMINI_API_KEY=
+  GEMINI_TUTOR_MODEL=
+  GEMINI_RESEARCH_MODEL=
+
+Never check secrets into Git. Include error states and a functioning no-AI
+fallback for all curated educational and research resources.
+
+================================================================================
+SECTION 15 - PERSONAL STUDY LIBRARY AND WORKSPACE
+================================================================================
+
+For each approved user provide independent:
+- Bookmarks, notes, saved Articles, graph views, collections.
+- Lesson position and progress, review history, confidence signals.
+- Research trails, saved comparisons, optional saved AI explanations.
+- Language, theme, explanation depth, preferences.
+
+Build a focused workspace, not a Notion clone. Useful export/import of notes and
+progress is beneficial. Design a future-compatible personal document pipeline
+for constitutional law books, government manuals, academic papers and notes.
+For a first release, a reliable limited import process is better than a fake
+upload UI. Respect copyright, privacy, source attribution, and state that an
+uploaded textbook is not an official legal source. If browser uploads cannot
+be safely supported on the chosen free stack, use an explicitly documented
+local/owner import utility with honest UI status.
+
+================================================================================
+SECTION 16 - AUTHENTICATION, PRIVACY, AND FIVE-USER REALITY
+================================================================================
+
+This is a SMALL PRIVATE WEBSITE, NOT a public service. Only owner + 3-4 friends.
+The URL may be reachable publicly, but private UI and API endpoints require
+strong authorization. Prefer a low-maintenance identity provider / approved
+email allowlist, e.g., Cloudflare Access if it satisfies both authentication
+and verified per-user identity needs. Google sign-in with allowlist is also
+acceptable if deployment and complexity justify it.
+
+REQUIREMENTS:
+- No public signup, payment, subscriptions, organizations, or team roles.
+- Allowlist is enforced server-side, NOT just frontend route hiding.
+- Verify identity tokens/session on every private API call; do not trust a
+  browser-supplied email or user ID.
+- Ensure per-user notes, progress, bookmarks, uploads, and AI histories are
+  accessible only to the authenticated owner of those records.
+- If using an edge access product, document how backend validates its trusted
+  identity assertion, issuer/audience/signature, and how local dev auth works.
+- Do not put secrets, debug logs, or raw tokens in publicly available assets.
+- Basic request validation and rate controls protect Gemini API costs.
+- No fake authentication, shared plaintext password, or client-only allowlist.
+- Design simple owner procedure for adding/revoking friends' access.
+- Keep easy future migration path for real accounts if commercialized later.
+
+If authentication complicates local development, build an explicitly
+local-only development identity adapter guarded from production use; never
+silently ship an auth bypass.
+
+================================================================================
+SECTION 17 - WEBSITE-FIRST ARCHITECTURE AND REALISTIC FREE HOSTING
+================================================================================
+
+This must deploy as an actual website at a normal HTTPS URL. Do not substitute
+an Electron app, native app, downloadable desktop binary, or local-only site.
+A PWA manifest/optional installability may be added after core website works.
+
+PREFERRED STACK TO EVALUATE, NOT A NONNEGOTIABLE RELIGION:
+
+  Frontend      React + TypeScript + Vite
+  UI            Tailwind + small accessible component primitives + design tokens
+  Graph         Cytoscape.js and appropriate layout helpers
+  Router        A coherent, typed React router
+  Backend       ONE Cloudflare Worker / TypeScript API layer (Hono optional)
+  Persistence   Cloudflare D1 for small durable structured records if suitable
+  Data          versioned prebuilt constitutional/graph static artifacts and/or
+                D1 records, whichever is simpler and reliable
+  Search        local/precomputed index plus D1/SQLite FTS if beneficial
+  Ingestion     existing Python + PyMuPDF OFFLINE, retained as project tool
+  AI            Gemini API securely through Worker
+  Auth          Cloudflare Access or appropriate low-maintenance allowlist auth
+  Tests         Vitest, component tests, Playwright, Python ingestion tests
+  Hosting       Cloudflare Workers Static Assets + Worker API + D1, if suitable
+
+VERIFY actual present-day free plans and compatibility before committing. Do
+not assume any particular model is free, or that CPU, storage, execution time,
+identity provider, or database capacity is unlimited. If a preferred service
+requires billing, a credit card, or an unavailable plan for the intended
+setup, explain precisely and choose an alternative with the fewest moving
+pieces. Never quietly add paid infrastructure.
+
+ONE COHERENT WEBSITE, ONE LIGHTWEIGHT API:
+
+browser -> static React website / interactive graph and lessons
+                -> lightweight authenticated API -> D1/user records
+                                          -> Gemini when requested
+
+offline developer import -> validate PDF/curation -> deterministic versioned
+                             structured data/indexes -> deployed assets/DB
+
+Do not parse large PDFs during live request handling. Do not run expensive
+server graph layouts on a CPU-constrained edge function. Heavy extraction and
+validation should run locally/build-time. Prefer on-demand small datasets and
+client-side graph layout. Keep the backend modular but not a microservice zoo.
+
+If the existing FastAPI backend offers critical working functions, evaluate:
+(a) convert them to offline Python import/export and simple TypeScript APIs,
+(b) preserve FastAPI only if an actually practical free hosting architecture
+    exists, with honest runtime tradeoffs.
+Choose based on real requirements and explain the decision in docs/architecture.md.
+
+DATA STORAGE:
+- Canonical verified constitutional source records and curated knowledge are
+  read-mostly and should be versioned/exportable.
+- Per-user state is mutable and must be persistent, isolated and authenticated.
+- Database migrations are explicit, tested, idempotent where appropriate.
+- Avoid giant all-in-one JSON responses for every page; partition by domain,
+  section, graph neighborhood, and article as appropriate.
+- Minimize dependencies; keep Windows local-development steps straightforward.
+
+================================================================================
+SECTION 18 - DATA EXTRACTION, PROVENANCE, VERSIONING, AND SAFETY
+================================================================================
+
+REUSE/IMPROVE ORIGINAL ARGON PYTHON INGESTION:
+
+  source official PDF -> extract text/layout -> detect Parts/Articles/clauses/
+  Schedules/amendments -> source pointers -> validate -> preserve raw+parsed
+  records -> deterministic graph/reader/search exports -> version manifest.
+
+VALIDATE:
+- Incorrect/missing/duplicate Article labels or inserted numbering.
+- Clauses and subclause boundaries.
+- Schedules and constitutional Part references.
+- Cross-references that point nowhere.
+- Unsupported edge direction, questionable institutional claims.
+- Source edition metadata, official source link, retrieval date, page numbers.
+- Inconsistent record counts and misleading 'verified' metrics.
+- Whether current law may have changed since the source edition.
+
+SOURCE TYPES MUST REMAIN DISTINCT:
+1. Official constitutional text.
+2. Statutes, rules and delegated legislation.
+3. Verified judgments and binding/interpretive developments.
+4. Government manuals and institutional sources.
+5. Historical records and research.
+6. Academic/philosophical commentary.
+7. Curated educational explanations.
+8. AI-assisted explanations (not primary legal evidence).
+
+PROVENANCE AND DATE-AWARENESS:
+- Source URL and publisher where known; source edition/date; passage or page.
+- Data extracted/reviewed date; validity status; explicit uncertainty.
+- State-specific administrative source context where applicable.
+- Do not imply an outdated source is the latest law.
+- No invented case references or citations.
+- Claims should be individually supportable, not merely dressed with generic
+  bibliography links.
+
+Treat personal legal scenarios as educational, not specific legal counsel.
+For political controversies, provide grounded multiple relevant perspectives
+without partisan advocacy or false equivalence.
+
+================================================================================
+SECTION 19 - PERFORMANCE, RESPONSIVE UX, AND ACCESSIBILITY
+================================================================================
+
+Optimize for an ordinary student Windows laptop and mobile browser, NOT for
+100,000 concurrent users. Avoid gratuitous limits on useful local analysis,
+but make interactions responsive and avoid wasteful Gemini requests.
+
+TECHNICAL:
+- Code-split feature routes; lazy-load graph-heavy modules.
+- Render only the relevant graph neighborhood at fine detail; progressive load.
+- Search index for fast first-result feedback.
+- Debounce expensive search and layout operations thoughtfully.
+- Stable IDs, memoized derived state where justified, prevent rerender storms.
+- Prefer streaming/pagination for long source results where supported.
+- Cache versioned static data, not personal private data without correct scope.
+- Robust error boundaries and loading states; no blank screen after bad API call.
+- Ensure a real browser can access the landing and correct frontend route;
+  distinguish an API's /health endpoint from the frontend root.
+
+MOBILE:
+- Atlas: full viewport canvas; compact controls; bottom-sheet inspector;
+  searchable entity alternative when touch navigation is difficult.
+- Learn: mobile-first readable single column, drawers for course/tutor,
+  sticky lesson navigation only when it doesn't consume reading space.
+- Comfortable touch targets, accessible contrast, keyboard support on desktop.
+
+ACCESSIBILITY:
+- Semantic landmarks and headings, live feedback, form labels.
+- Keyboard controls, focus indication, non-color status cues.
+- Reduced motion, appropriate text scaling and screen-reader alternatives.
+- Make graph facts available in list/table/text mode; no education concept
+  should require motor precision or color recognition to understand.
+
+================================================================================
+SECTION 20 - REUSABLE FRONTEND COMPONENTS AND MODULAR CODE
+================================================================================
+
+Avoid one monolithic HTML/JS file. Use a maintainable folder organization.
+An example, adapt to actual needs:
+
+constitution-atlas/
+  apps/web/src/
+    app/                 routes, providers, shell
+    design-system/       tokens, typography, primitives
+    features/atlas/      graph, inspector, layouts, exploration
+    features/constitution/ reader, Article navigation
+    features/institutions/ entities, authority panels
+    features/learn/      learning dashboard, lesson engine, progress
+    features/civic-lab/  scenarios, simulations, process steps
+    features/ai/         tutor and research UI
+    features/search/     universal search
+    features/workspace/  notes, bookmarks, saved views
+    services/            API clients, caching
+    state/               scoped frontend state
+    types/
+  worker/                routes, auth, retrieval, AI, DB
+  tools/ingestion/       existing Python migration/extraction pipeline
+  data/                  validated content and versioned exports
+  tests/                 unit/integration/e2e
+  docs/
+  README.md
+  .env.example
+
+Prefer a single repository and the minimum number of packages that keep code
+understandable. Do not split into packages merely to sound enterprise-grade.
+
+DESIGN-SYSTEM COMPONENTS (share when appropriate):
+AppShell, ModeSwitcher, UniversalSearch, Breadcrumbs, SourceCitation,
+NodeInspector, GraphToolbar, GraphLegend, ArticleReader, EntityProfile,
+ConceptPopover, LessonReader, TutorDrawer, ExampleBlock, InteractiveDiagram,
+KnowledgeCheck, ProcessStepper, CompareView, LearningRoadmap, NotesPanel,
+EmptyState, ErrorBoundary, FocusMode, LoadingSkeleton.
+
+Reuse styles, components and data. Keep business logic outside presentational
+components. Type-check API responses and validate imported content schemas.
+
+================================================================================
+SECTION 21 - EXECUTION PLAN: NO GIANT ONE-PASS GENERATION
+================================================================================
+
+MANDATORY WORK STYLE:
+
+- Do NOT attempt to implement this entire specification in a single coding
+  pass. The previous Argon version became overcompressed into a large HTML
+  file; avoid repeating this mistake.
+- First inspect and run the provided legacy project. Then establish target
+  architecture and a prioritized, dependency-aware plan.
+- Maintain docs/IMPLEMENTATION_PLAN.md (status per feature), docs/DECISIONS.md
+  (important tradeoffs), and docs/NEXT_STEPS.md (current stopping point).
+- Implement working vertical slices and test them; keep main usable.
+- Make safe commits or checkpoints; preserve original data and migration path.
+- Never claim a task is done solely because a component file was created.
+- For each phase provide completed, tested, blocked, remaining, and next step.
+- Use the tools available in the coding environment to build and test.
+- When blocked on provider keys or account access, finish all other code and
+  provide exact manual setup instructions; do not stall all development.
+- If time/context runs out, document exact continuation steps and known state
+  so the next Codex session can resume without repeating the whole audit.
+
+PHASE 0 - DISCOVER AND PRESERVE
+  Extract/inventory Argon ZIP, run tests and old app, audit data/graph/source
+  quality, establish a baseline, make migration plan.
+  EXIT: audit and original functionality inventory committed/documented.
+
+PHASE 1 - WEBSITE FOUNDATION / DEPLOYMENT SPIKE
+  Pick the practical free stack, create modular React frontend and backend,
+  route handling, deployment configuration, private auth integration plan,
+  database connectivity, env handling, simple CI/build/tests. Deploy an early
+  functioning shell to the chosen free host when credentials allow.
+  EXIT: live site or proven reproducible deploy with verified constraints.
+
+PHASE 2 - VISUAL DESIGN SYSTEM / SHELL
+  Build branding, typography, layouts, desktop/mobile shell, Atlas/Learn
+  switcher, universal navigation, theme controls and core components.
+  EXIT: clean responsive screens; tested navigation and no clutter.
+
+PHASE 3 - KNOWLEDGE MIGRATION / SOURCE SYSTEM
+  Import validated Argon constitutional data, IDs, graph relationships,
+  sources and search; establish provenance and validation reporting.
+  EXIT: all imported important entities trace to source/migration audit.
+
+PHASE 4 - ATLAS CORE
+  Graph overview, focus/search, layout, inspectors, typed edges, relationship
+  explanations, constitutional reader, evidence access and saved views.
+  EXIT: core Atlas research journey works end-to-end.
+
+PHASE 5 - LEARNING FOUNDATION
+  Curriculum/lesson typed schema, learning dashboard, lesson renderer,
+  course navigation, concept popovers, progress storage, Learn<->Atlas links.
+  EXIT: can start, continue, complete, and resume a real lesson.
+
+PHASE 6 - FIRST COMPLETE LEARNING JOURNEY
+  Author/review fifteen actual beginner lessons with examples, visuals,
+  assessments, citations, graph links, recap, and prerequisites.
+  EXIT: a genuine usable end-to-end 'How India Works From Zero' course.
+
+PHASE 7 - GEMINI RESEARCH AND TUTOR
+  Secure API integration, source retrieval, graph-context tools, structured
+  validated actions, distinct mode instructions, user-context guardrails,
+  quota/error handling and no-AI fallback.
+  EXIT: sourced Atlas and Learn AI flows pass realistic manual tests.
+
+PHASE 8 - CIVIC LAB / ADVANCED TOOLS
+  Prioritize substantive simulations, Trace the Power, Big Picture,
+  comparisons, process explorer, philosophy/judicial/historical exploration.
+  Deliver useful experiences rather than many placeholders.
+
+PHASE 9 - PRIVATE USERS / HARDENING
+  Allowlist access, per-user data isolation, export/import, authorization
+  tests, input validation, rate limits, performance, accessibility, quality.
+  EXIT: unauthorized visitor blocked, friend accounts isolated.
+
+PHASE 10 - PRODUCTION WEBSITE / DESIGN AND CONTENT QA
+  Deploy production, test direct URLs and routing, verify frontend/API,
+  sources, AI keys, graph, lessons, progress, mobile UI, auth, test reports.
+  Provide manual steps for user-owned Cloudflare/Gemini configuration.
+  EXIT: real HTTPS website works, or every external blocker documented with
+  exact remaining steps and truthful status.
+
+You may reorder adjacent phases where dependencies require (for example,
+security scaffold may need to be earlier); document reason. Do not leave all
+real deployment work to the final day. Validate hosting early.
+
+================================================================================
+SECTION 22 - SPECIFIC END-TO-END ACCEPTANCE SCENARIOS
+================================================================================
+
+A. ATLAS: Search Article 21 -> official Article text and edition -> relevant
+   privacy doctrine / verified cases -> source links -> graph path -> save node.
+
+B. INSTITUTION: Open Prime Minister -> relevant Articles 74/75 -> President,
+   Council of Ministers, Lok Sabha -> typed source-backed relationships ->
+   explain limitations and accountability without flattening legal nuance.
+
+C. POWER: Ask 'Can an MLA order the police to arrest someone?' -> distinguish
+   political influence vs legal executive/operational authority, show relevant
+   jurisdictional qualifications and sources, open graph links.
+
+D. LEARNING: As a first-time beginner choose Start From Zero -> complete a
+   lesson with concrete examples, educational graphic, source citations and
+   reasoning check -> persist progress -> reopen at correct section.
+
+E. CROSS MODE: Learn Parliament -> click Explore in Atlas -> selected real
+   Parliament node and relationships -> return to lesson at original position.
+
+F. AI TUTOR: Ask a naive follow-up about PM vs President -> tutor uses the
+   current lesson context, gives correct simple explanation, qualified example,
+   real references, and optional graph action without inventing sources.
+
+G. NO AI: Remove API key -> whole site still browsable, curated lessons and
+   exercises still functional, AI displays honest unavailable state.
+
+H. PRIVATE SECURITY: Unauthorized visitor blocked from UI/data/API; friend A
+   cannot access friend B's notes/progress by altering identifiers.
+
+I. MOBILE: Search Article 21, read a lesson, open a node inspector without
+   overlapping menus or horizontal scrolling.
+
+J. QUALITY: Legal source version and 'verified' status have a documented,
+   meaningful basis; no fake figures or malformed Article references.
+
+K. DEPLOYMENT: Public HTTPS URL works in a clean browser session with correct
+   access behavior, deep links, refresh, API health, and persistent user data.
+
+Provide automated tests for core logic and Playwright flows wherever feasible;
+report actual pass/fail status rather than generic assurances.
+
+================================================================================
+SECTION 23 - TESTING, SECURITY, AND QUALITY GATES
+================================================================================
+
+TESTS:
+- Python extraction/validation unit tests using known source fixtures.
+- Graph referential integrity, edge type and direction, source citation checks.
+- Knowledge content schema and lesson prerequisite validation.
+- Frontend component and navigation unit/integration tests.
+- Search relevance for representative Articles and entities.
+- Learning assessment scoring and review scheduler behavior.
+- API authentication/authorization and per-user isolation.
+- AI grounding/structured actions with mocked provider responses.
+- Playwright journeys for Atlas, Learn, cross-mode, mobile and no-AI.
+
+VISUAL QA:
+- Actually run in a browser; screenshot at ~1440px desktop, ~1024px tablet,
+  ~390px mobile and inspect for collisions/overflow/illegible text.
+- Check initial graph overview, focused institution, Article reader, learning
+  home, complete lesson, AI tutor, popover, user notes.
+- Fix old clutter, overlapping labels, poor text width and dense controls.
+- Do not declare UI finished because it builds.
+
+SECURITY:
+- Backend-enforced private auth, properly validated identities, secret safety.
+- Input/schema validation, reasonable size/rate controls, safe handling of
+  markdown, AI output and imported source text, no XSS and prompt-injection
+  privilege escalation.
+- No unreviewed AI writing to verified legal knowledge or arbitrary API tools.
+- Clean error handling and appropriate logs without leaking private material.
+
+ACCESSIBILITY:
+- Semantic, keyboard operable, screen-reader supportive, reduced-motion safe.
+- Textual navigation alternative for graph knowledge.
+
+PERFORMANCE:
+- Responsive ordinary laptops; avoid giant bundles, giant graph payloads,
+  blocking graph layout and repeated unnecessary network/model requests.
+
+================================================================================
+SECTION 24 - DOCUMENTATION AND USER-READY DEPLOYMENT
+================================================================================
+
+CREATE / MAINTAIN:
+
+README.md                         high-level overview, quick start
+.env.example                      placeholders only; no secrets
+docs/legacy-audit.md               what was reused from Argon and why
+docs/architecture.md               final technology and system diagram
+docs/DECISIONS.md                  key stack and UX tradeoffs
+docs/IMPLEMENTATION_PLAN.md        status, milestones, exact remaining work
+docs/NEXT_STEPS.md                 precise resume point for coding agent
+docs/design-system.md              tokens/components/layout conventions
+docs/knowledge-model.md            canonical nodes/edges and provenance
+docs/sources-and-validation.md     editions, citations, import/report methods
+docs/learning-system.md            curriculum, lessons, pedagogy, revision
+docs/ai-system.md                  models, retrieval, grounding, fallbacks
+docs/authentication.md            small approved-user setup and isolation
+docs/local-development.md         Windows PowerShell commands
+docs/deployment.md                exact free website deployment steps
+docs/testing.md                   actual tests run and manual QA
+
+Instructions must include:
+1. Prerequisite software on Windows.
+2. Where to extract the Argon ZIP and how to run import/migration.
+3. Exact npm/Python installation commands.
+4. How to start the website and API locally.
+5. How to verify API health vs frontend URL.
+6. How to set Gemini API key/model securely.
+7. How to create/bind the production database, run migrations and seed data.
+8. How to configure authorized email addresses / identity provider.
+9. How to deploy website to its free host, and verify the HTTPS URL.
+10. How to add a friend, revoke access, back up progress, update sources.
+11. Free-plan limits, provider quotas, and any manual steps still required.
+12. Which features genuinely work without AI.
+
+Do not require paid domain, enterprise DevOps, Kubernetes, or complex hosting.
+If the selected path requires an external owner login/credential, document it
+clearly; do not pretend you performed that step or invented deployment success.
+
+================================================================================
+SECTION 25 - EXPLICIT NON-GOALS AND GUARDRAILS
+================================================================================
+
+DO NOT:
+- Build the final application as a single HTML file.
+- Discard the existing Argon work without inspecting its reusable value.
+- Replace the website with a native/desktop app.
+- Build a generic colorful admin dashboard or 'AI-slop' design.
+- Crowd all features into permanently visible panels.
+- Fake legal citations, judicial holdings, data-validation counts or content.
+- Present automatically generated summaries as official constitutional text.
+- Make hundreds of empty lesson pages and call the curriculum complete.
+- Require Gemini for every lesson or ordinary graph/navigation action.
+- Add subscriptions, payment gateways, ads, public signup or enterprise admin.
+- Add microservices, complex orchestration or an always-on paid server without
+  a demonstrated requirement and explicit user consent.
+- Assume free provider/API capacity is unlimited.
+- Weaken private-data security because the user count is small.
+- Spend all time on planning; implement code and test working slices.
+- Claim deployed success without testing a real production URL.
+- Claim a source is verified without documenting what was checked.
+
+DO:
+- Optimize for beautiful simplicity with serious depth underneath.
+- Preserve and validate valuable pre-existing constitutional data.
+- Build the full research and learning experiences distinctly.
+- Use verified, date-aware, linkable sources.
+- Guide beginners carefully from intuition to formal concepts.
+- Make relationships explainable and legally meaningful.
+- Keep the code modular, student-maintainable and deployment-ready.
+- Use the initial five-user scope to invest in product quality, not needless
+  concurrency engineering.
+- Build the website early and test often.
+- Leave truthful, detailed status reports and clear continuation instructions.
+
+================================================================================
+SECTION 26 - EXACT FIRST RESPONSE AND FIRST ACTIONS FOR CODEX
+================================================================================
+
+DO NOT REPLY WITH ONLY A DESIGN ESSAY OR A FUTURE PLAN.
+
+FIRST ACTIONS:
+
+1. Locate and inspect the attached Argon ZIP/project directory.
+2. Confirm which files, constitutional sources, data, tests, and graph features
+   actually exist; do not assume the above filename list is exhaustive.
+3. Run the baseline/tests if possible and identify actual errors.
+4. Create docs/legacy-audit.md and docs/IMPLEMENTATION_PLAN.md.
+5. Choose the simplest realistic WEBSITE-first deployment architecture and
+   document any tradeoffs or current-provider assumptions.
+6. Make a safe initial checkpoint of original project and begin migrating the
+   first vertical slice: modular app shell, two-mode switcher, one real imported
+   Atlas entity and graph, one real sourced beginner lesson, navigation between
+   them, and a simple deployment-ready API skeleton.
+7. Run the code/tests. Examine screenshots. Fix defects. Then continue through
+   the milestones, updating the plan as actual progress is made.
+8. Ask me only for inputs truly unavailable to you (e.g., Gemini key, official
+   PDF if not supplied, hosting account access, approved emails). Continue all
+   other implementable work without waiting.
+
+AT EVERY SESSION END REPORT:
+- Which original Argon assets were reused.
+- What was refactored/rewritten, with reason.
+- Features completed AND tested.
+- Tests run with actual results.
+- Known legal/data/UX limitations.
+- Whether a real HTTPS deployment exists or exact owner action remains.
+- The precise next implementation task.
+
+FINAL PRINCIPLE:
+
+Build Constitution Atlas as one elegant PRIVATE WEBSITE with two great
+experiences: an advanced source-grounded Atlas for understanding relationships
+and a beautiful intelligent school for learning how Indian government works
+from first principles. Reuse Argon's valuable knowledge; replace its crowded
+presentation; teach with reliable prepared content enhanced by Gemini; finish
+one complete beginner course before pretending to have mastered every topic;
+implement in small tested phases; and make deployment on a free-tier HTTPS
+website a verified engineering deliverable, not an afterthought.
+
+BEGIN INSPECTING THE PROVIDED PROJECT NOW.

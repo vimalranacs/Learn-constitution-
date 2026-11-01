@@ -1,0 +1,72 @@
+[
+  {
+    "path": "constitution_atlas_fullstack/constitution_atlas_fullstack/backend/.env.example",
+    "bytes": 255,
+    "sha256": "1c8b6b65c7d6dd71ee793d0ffc928dc29e27f6e04fa9e271d92ad53ca6150d55"
+  },
+  {
+    "path": "constitution_atlas_fullstack/constitution_atlas_fullstack/backend/atlas_data.json",
+    "bytes": 2648696,
+    "sha256": "bd847bdce6ccad0d0f346c3a598576053cee53852a690a6f20c7beb7f657a67d"
+  },
+  {
+    "path": "constitution_atlas_fullstack/constitution_atlas_fullstack/backend/constitution_atlas.db",
+    "bytes": 4976640,
+    "sha256": "354df01f9344fc3c363017f3f975f708a966d3dacc4e31e68ed1b0888a3fb285"
+  },
+  {
+    "path": "constitution_atlas_fullstack/constitution_atlas_fullstack/backend/curated_knowledge.py",
+    "bytes": 172915,
+    "sha256": "08a9bbc021ad934e047e32f65c1473731286aebc1c3e351c093ae246b95241a7"
+  },
+  {
+    "path": "constitution_atlas_fullstack/constitution_atlas_fullstack/backend/extraction_validation_report.json",
+    "bytes": 966,
+    "sha256": "94bc70c311a1c9d1e3a54f39fa6d8cd6614b1ef21faee8ee058d6c2c125118f3"
+  },
+  {
+    "path": "constitution_atlas_fullstack/constitution_atlas_fullstack/backend/ingest_constitution.py",
+    "bytes": 50761,
+    "sha256": "02673f6a5b7301a847085c08b8f63e44e3b176c1c4e30846335cf397bbdaa6ee"
+  },
+  {
+    "path": "constitution_atlas_fullstack/constitution_atlas_fullstack/backend/main.py",
+    "bytes": 13858,
+    "sha256": "23e042fe10170b016a19719e2fd0c382495e0ebfa9d54c597a56045daabf4605"
+  },
+  {
+    "path": "constitution_atlas_fullstack/constitution_atlas_fullstack/backend/requirements.txt",
+    "bytes": 139,
+    "sha256": "1bffa9437f96553bdd65a566c0fcd911c9113209ea7fe0888733f14dbd64ad1e"
+  },
+  {
+    "path": "constitution_atlas_fullstack/constitution_atlas_fullstack/frontend/package.json",
+    "bytes": 639,
+    "sha256": "75515ff1faf4e8820bc237b3f6af91dfa51edd2e3e209dd5670e8c4ac1920cd7"
+  },
+  {
+    "path": "constitution_atlas_fullstack/constitution_atlas_fullstack/frontend/src/App.tsx",
+    "bytes": 5601,
+    "sha256": "4cb5e2d970ed98ef6846b2b720a926bd117618dd560fcd51a9d8e2813aa18a31"
+  },
+  {
+    "path": "constitution_atlas_fullstack/constitution_atlas_fullstack/frontend/src/store/useAtlasStore.ts",
+    "bytes": 1870,
+    "sha256": "a5c031985c6d8dc2069e5c23f39a8c7fd99ea3242b4be475bda9907845d9b7a5"
+  },
+  {
+    "path": "constitution_atlas_fullstack/constitution_atlas_fullstack/README.md",
+    "bytes": 5089,
+    "sha256": "18ee58ef6508d2207deff313e03d3bb68e137777b0b2a2b7dde7617fd0842458"
+  },
+  {
+    "path": "constitution_atlas_fullstack/constitution_atlas_fullstack/tests/test_constitution_atlas.py",
+    "bytes": 5636,
+    "sha256": "39e146e2f04d749879eda85f5dad80ce45c5b2fc102c694a36070ff79cbd14c7"
+  },
+  {
+    "path": "constitution_atlas_explore_the_architecture_of_indian_democracy.html",
+    "bytes": 1841204,
+    "sha256": "47f531f31c64c9a250a09ae67934a727b85c552acc71a5d34a71839a7850b4cd"
+  }
+]

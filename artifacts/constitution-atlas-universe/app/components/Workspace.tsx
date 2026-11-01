@@ -1,0 +1,17 @@
+'use client';
+import ecosystem from '../../content/ecosystem.json';
+import {readObject} from '../../lib/http';
+import {useEffect,useState} from 'react';
+
+import {course} from '../../content/course';
+import {nextReview} from '../../lib/personal.mjs';
+type Item={kind:string;key:string;value:Record<string,any>;updatedAt:number};
+export default function Workspace(){
+ const [rows,setRows]=useState<Item[]>([]),[error,setError]=useState(''),[filter,setFilter]=useState('all'),[loading,setLoading]=useState(true);
+ async function load(){try{const r=await fetch('/api/personal');const d=await readObject(r);if(!r.ok)throw Error(d.error);setRows(d.records);setError('');}catch(e){setError(e instanceof Error?e.message:'Unable to load');}finally{setLoading(false)}}
+ useEffect(()=>{load()},[]);
+ async function change(item:Item,method:string,value?:unknown){try{const r=await fetch('/api/personal',{method,headers:{'Content-Type':'application/json'},body:JSON.stringify({kind:item.kind,key:item.key,...(method==='POST'?{value}: {})})});if(!r.ok)throw Error((await readObject(r)).error);await load();}catch(e){setError(String(e));}}
+ function exportData(){const a=document.createElement('a');const url=URL.createObjectURL(new Blob([JSON.stringify({version:1,exportedAt:new Date().toISOString(),records:rows},null,2)],{type:'application/json'}));a.href=url;a.download='constitution-atlas-workspace.json';a.click();URL.revokeObjectURL(url);}
+ return <><div className="tool-row"><label>Show <select value={filter} onChange={e=>setFilter(e.target.value)}><option value="all">Everything</option>{['note','bookmark','progress','review','view'].map(k=><option key={k}>{k}</option>)}</select></label><button className="secondary" onClick={exportData} disabled={!rows.length}>Export my data</button></div>{loading&&<p>Loading your workspace…</p>}{error&&<p role="alert">{error} <button onClick={load}>Retry</button></p>}{!loading&&!error&&!rows.length&&<p className="empty">Your workspace is ready. Save an Atlas entity, add a note, or complete a lesson to begin.</p>}<div className="workspace-list">{rows.filter(x=>filter==='all'||x.kind===filter).map(item=><section key={item.kind+item.key}><span className="eyebrow">{item.kind}</span><h2><a href={(item.value.universe?'/explore':item.value.explorer?'/explore?restore='+encodeURIComponent(item.key):ecosystem.lessons.some(l=>l.id===item.key)?'/courses/'+encodeURIComponent(item.key):(course.some(l=>l.id===item.key)||item.key==='parliament-composition'?'/learn/':'/atlas/')+encodeURIComponent(item.key))+(item.kind==='view'&&!item.value.explorer&&!item.value.universe?'?'+new URLSearchParams({depth:String(item.value.depth||1),reviewed:String(item.value.reviewed||false),layout:String(item.value.layout||'breadthfirst'),nodeType:String(item.value.nodeType||''),relation:String(item.value.relation||'')}):'')}>{item.value.title||item.key.replaceAll('_',' ')}</a></h2>{item.kind==='note'&&<p className="note-text">{item.value.text}</p>}{item.kind==='progress'&&<p>{item.value.status.replaceAll('_',' ')}</p>}{item.kind==='review'&&<><p>Review due: {new Date(item.value.due).toLocaleDateString()}</p><div className="tool-row"><button onClick={()=>change(item,'POST',nextReview(item.value,true))}>Recalled independently</button><button className="secondary" onClick={()=>change(item,'POST',nextReview(item.value,false))}>Review tomorrow</button></div></>}<button className="quiet" onClick={()=>change(item,'DELETE')}>Remove this {item.kind}</button></section>)}</div></>;
+}
+

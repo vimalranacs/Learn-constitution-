@@ -1,0 +1,3 @@
+import Explorer from '../components/Explorer';import {nodes,edges} from '../../lib/knowledge';import ecosystem from '../../content/ecosystem.json';
+export const dynamic='force-dynamic';
+export default async function Page({searchParams}:{searchParams:Promise<{selected?:string;lesson?:string}>}){const q=await searchParams;return <Explorer nodes={nodes.map(({id,title,type,category,part,summary,status,page})=>({id,title,type,category,part,summary,status,page}))} edges={edges} selectedId={q.selected||'const_india'} lesson={ecosystem.lessons.some(l=>l.id===q.lesson)?q.lesson:undefined} lessonMap={Object.fromEntries(nodes.map(n=>[n.id,ecosystem.lessons.filter(l=>l.sources.includes(n.id)).map(l=>({id:l.id,title:l.title}))]))}/>}

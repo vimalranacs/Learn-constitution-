@@ -1,0 +1,10 @@
+
+import Shell from '../../components/Shell';
+import {protectPage} from '../../access';
+import source from '../../../content/source-pages.json';
+export const dynamic='force-dynamic';
+export default async function Page({searchParams}:{searchParams:Promise<{page?:string}>}){
+ const query=await searchParams;const requested=Number(query.page||1);const page=Number.isInteger(requested)?Math.max(1,Math.min(source.pages.length,requested)):1;
+ await protectPage('/sources/constitution?page='+page);
+ return <Shell mode="atlas"><section className="atlas-page"><p className="eyebrow">Primary source / {source.edition}</p><h1>Constitution source pages.</h1><p className="lede">Read text extracted directly from the supplied Constitution PDF, alongside the individual Article reader.</p><p className="fine">{source.scope} File page numbers differ from printed page numbers.</p><form className="tool-row" action="/sources/constitution"><label>PDF file page <input name="page" type="number" min="1" max={source.pages.length} defaultValue={page}/></label><button type="submit">Read page</button><a href={source.url+'#page='+page} target="_blank" rel="noreferrer">Original PDF ↗</a></form><nav className="tool-row" aria-label="Source pagination">{page>1&&<a href={'?page='+(page-1)}>← Previous</a>}<span>Page {page} of {source.pages.length}</span>{page<source.pages.length&&<a href={'?page='+(page+1)}>Next →</a>}</nav><article className="source-text" aria-label={'PDF page '+page}>{source.pages[page-1]||'No extractable text on this page. Open the original PDF.'}</article><details><summary>Edition and provenance</summary><p>{source.publisher}. Edition preface: {source.edition}.</p><p className="fine" style={{overflowWrap:'anywhere'}}>Supplied PDF SHA-256: {source.sha256}</p><p>343 of 470 imported Article records matched normalized text within their claimed source pages. Matching does not establish correct Article boundaries or legal interpretation. Other records require investigation.</p></details></section></Shell>;
+}

@@ -1,0 +1,1 @@
+import {resolve} from 'node:path';process.env.ATLAS_DATABASE_PATH ||= resolve('data/atlas.sqlite');await import('../.next/standalone/server.js');
