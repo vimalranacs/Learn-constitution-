@@ -1,11 +1,5 @@
-# Release — 2 November 2026
-
-Previous source 66bda89 retained: public knowledge API, no-path wrapper, Compare GET form and curriculum metadata cleanup. No constitutional claims or relationships added.
-
-Trace now validates IDs and always returns an object for no-path. Data-aware controls explain and disable unavailable direction/evidence filters. Search has a timeout, cancellation, stale-result protection, busy state, endpoint swap and destination link. Shared HTTP errors are readable; a route error boundary offers recovery. Universe reader has loading/error/retry states; Article-number search and fullscreen error handling improved. Compare uses select defaultValue with native GET.
-
-No dependencies, migrations, secrets or hosting settings changed. Current hosting audience is custom and URL https://constitutionatlas.blondebarge1.chatgpt.site; preserve both. Native anchors remain required for Vinext navigation.
-
-Audit: 635 nodes, 1258 edges (3 checked), 23 isolated entities; 20 ecosystem lessons with 261 sections; no dangling edges or unknown lesson anchors. Run node scripts/audit-content.mjs. Root docs/ARGON_DATA_BRIEF.md supplies prioritized research batches and evidence contract.
-
-17 Node tests and TypeScript passed. Final browser/build/deployment evidence is in the root handoff. Broader accessibility, legal review and full activity implementation remain open.
+# Release - 2 November 2026: desktop pickers and adaptive universe
+Large native entity selects in Trace/Compare caused blank popup rendering on desktop. Replaced with shared in-page EntityPicker: bounded search results, explicit colors, keyboard selection, Escape, labelled combobox/listbox and form hidden values. Compare preserves native GET navigation. Native select/option colors are explicit for remaining small lists.
+Universe automatic spacing now projects ALL visible nodes apart with46world-unit gaps, preserves the origin, and animates settled positions with GSAP. Selection/expansion frames nearby connections using available viewport space. Drag release can re-space; automatic mode can be disabled and Arrange this view restores it. Graph IDs and typed links are unchanged by layout.
+Argon: preserved full input batch; actual55nodepatches(24add/31update),36sources,24edgeproposals,2lessonpatches,9unresolved. Generated PASS report is not independent verification. stage-argon.mjs records evidence/endpoint/quote checks. /data-review exposes explicitly unaccepted proposals and unresolved research. Only art_2 and separate art_2A use exact bundled PDFpage33 extraction; both remain needs_review. No proposed legal edges or temporal conclusions automatically imported. Source-control history preserves original art_2. Review remaining patches and activities before publication.
+No new dependencies, DB migrations, secret/environment or hosting changes. Current audience custom; preserve it. Tests/build/browser outcomes in root handoff.

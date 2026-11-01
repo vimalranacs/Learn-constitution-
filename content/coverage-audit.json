@@ -1,5 +1,5 @@
 {
-  "nodes": 635,
+  "nodes": 636,
   "edges": 1258,
   "edgeStatus": {
     "source_checked": 3,
@@ -122,6 +122,10 @@
     {
       "id": "proc_emergency",
       "title": "Emergency Provisions (National, State/President's Rule, Financial)"
+    },
+    {
+      "id": "art_2A",
+      "title": "Article 2A — Sikkim to be associated with the Union [Omitted]"
     }
   ],
   "danglingEdges": [],

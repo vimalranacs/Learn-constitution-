@@ -1,0 +1,276 @@
+{
+  "batchId": "argon-2026-11-02-unified-p0-to-p3-import-contract",
+  "asOf": "2026-11-02",
+  "counts": {
+    "sources": 36,
+    "nodePatches": 55,
+    "nodeAdds": 24,
+    "nodeUpdates": 31,
+    "edgeProposals": 24,
+    "lessonPatches": 2,
+    "unresolved": 9
+  },
+  "duplicateNodeIds": [],
+  "evidenceErrors": [],
+  "endpointErrors": [],
+  "unknownLessons": [],
+  "quoteChecks": [
+    {
+      "id": "src_p0_art2_2a",
+      "start": 33,
+      "end": 33,
+      "exactNormalizedMatch": false,
+      "note": "A match does not establish claim scope, current law or correct boundaries."
+    },
+    {
+      "id": "src_p0_art19_1f",
+      "start": 40,
+      "end": 41,
+      "exactNormalizedMatch": false,
+      "note": "A match does not establish claim scope, current law or correct boundaries."
+    },
+    {
+      "id": "src_p0_art22_uncommenced",
+      "start": 44,
+      "end": 44,
+      "exactNormalizedMatch": false,
+      "note": "A match does not establish claim scope, current law or correct boundaries."
+    },
+    {
+      "id": "src_p0_art30_31",
+      "start": 46,
+      "end": 47,
+      "exactNormalizedMatch": false,
+      "note": "A match does not establish claim scope, current law or correct boundaries."
+    },
+    {
+      "id": "src_p0_art31c_31d",
+      "start": 49,
+      "end": 49,
+      "exactNormalizedMatch": false,
+      "note": "A match does not establish claim scope, current law or correct boundaries."
+    },
+    {
+      "id": "src_p0_art32_32a",
+      "start": 50,
+      "end": 50,
+      "exactNormalizedMatch": false,
+      "note": "A match does not establish claim scope, current law or correct boundaries."
+    },
+    {
+      "id": "src_p0_art131_131a",
+      "start": 92,
+      "end": 92,
+      "exactNormalizedMatch": false,
+      "note": "A match does not establish claim scope, current law or correct boundaries."
+    },
+    {
+      "id": "src_p0_art144_144a",
+      "start": 96,
+      "end": 96,
+      "exactNormalizedMatch": true,
+      "note": "A match does not establish claim scope, current law or correct boundaries."
+    },
+    {
+      "id": "src_p0_art226_226a",
+      "start": 135,
+      "end": 136,
+      "exactNormalizedMatch": true,
+      "note": "A match does not establish claim scope, current law or correct boundaries."
+    },
+    {
+      "id": "src_p0_art228_228a",
+      "start": 137,
+      "end": 138,
+      "exactNormalizedMatch": true,
+      "note": "A match does not establish claim scope, current law or correct boundaries."
+    },
+    {
+      "id": "src_p0_art231_232",
+      "start": 139,
+      "end": 139,
+      "exactNormalizedMatch": true,
+      "note": "A match does not establish claim scope, current law or correct boundaries."
+    },
+    {
+      "id": "src_p0_art237_238",
+      "start": 141,
+      "end": 142,
+      "exactNormalizedMatch": false,
+      "note": "A match does not establish claim scope, current law or correct boundaries."
+    },
+    {
+      "id": "src_p0_art241_242",
+      "start": 149,
+      "end": 149,
+      "exactNormalizedMatch": true,
+      "note": "A match does not establish claim scope, current law or correct boundaries."
+    },
+    {
+      "id": "src_p0_art257_257a_258a_259",
+      "start": 180,
+      "end": 181,
+      "exactNormalizedMatch": false,
+      "note": "A match does not establish claim scope, current law or correct boundaries."
+    },
+    {
+      "id": "src_p0_art268_268a_271_272_277_278_290a_291",
+      "start": 184,
+      "end": 184,
+      "exactNormalizedMatch": false,
+      "note": "A match does not establish claim scope, current law or correct boundaries."
+    },
+    {
+      "id": "src_p0_art305_306_313_314_329_329a",
+      "start": 203,
+      "end": 203,
+      "exactNormalizedMatch": false,
+      "note": "A match does not establish claim scope, current law or correct boundaries."
+    },
+    {
+      "id": "src_p0_art359_359a_361b_362",
+      "start": 247,
+      "end": 248,
+      "exactNormalizedMatch": false,
+      "note": "A match does not establish claim scope, current law or correct boundaries."
+    },
+    {
+      "id": "src_p0_art371a_371b",
+      "start": 264,
+      "end": 268,
+      "exactNormalizedMatch": false,
+      "note": "A match does not establish claim scope, current law or correct boundaries."
+    },
+    {
+      "id": "src_p0_art378a_379_391",
+      "start": 281,
+      "end": 282,
+      "exactNormalizedMatch": false,
+      "note": "A match does not establish claim scope, current law or correct boundaries."
+    },
+    {
+      "id": "src_p1_art77_3",
+      "start": 64,
+      "end": 64,
+      "exactNormalizedMatch": false,
+      "note": "A match does not establish claim scope, current law or correct boundaries."
+    },
+    {
+      "id": "src_p1_art15_4_31a_31b",
+      "start": 38,
+      "end": 38,
+      "exactNormalizedMatch": false,
+      "note": "A match does not establish claim scope, current law or correct boundaries."
+    },
+    {
+      "id": "src_p1_amend42_preamble_51a",
+      "start": 32,
+      "end": 32,
+      "exactNormalizedMatch": false,
+      "note": "A match does not establish claim scope, current law or correct boundaries."
+    },
+    {
+      "id": "src_p1_amend44_300a_352_359",
+      "start": 201,
+      "end": 201,
+      "exactNormalizedMatch": false,
+      "note": "A match does not establish claim scope, current law or correct boundaries."
+    },
+    {
+      "id": "src_p1_amend73_74",
+      "start": 151,
+      "end": 151,
+      "exactNormalizedMatch": false,
+      "note": "A match does not establish claim scope, current law or correct boundaries."
+    },
+    {
+      "id": "src_p1_amend86_21a",
+      "start": 41,
+      "end": 41,
+      "exactNormalizedMatch": false,
+      "note": "A match does not establish claim scope, current law or correct boundaries."
+    },
+    {
+      "id": "src_p1_amend101_gst",
+      "start": 176,
+      "end": 176,
+      "exactNormalizedMatch": false,
+      "note": "A match does not establish claim scope, current law or correct boundaries."
+    },
+    {
+      "id": "src_p1_amend106_women",
+      "start": 221,
+      "end": 224,
+      "exactNormalizedMatch": false,
+      "note": "A match does not establish claim scope, current law or correct boundaries."
+    },
+    {
+      "id": "src_p1_art63_64_76_352_394",
+      "start": 60,
+      "end": 60,
+      "exactNormalizedMatch": false,
+      "note": "A match does not establish claim scope, current law or correct boundaries."
+    },
+    {
+      "id": "src_p1_art14_25_50",
+      "start": 37,
+      "end": 37,
+      "exactNormalizedMatch": false,
+      "note": "A match does not establish claim scope, current law or correct boundaries."
+    },
+    {
+      "id": "src_p2_kesavananda_fn",
+      "start": 49,
+      "end": 49,
+      "exactNormalizedMatch": false,
+      "note": "A match does not establish claim scope, current law or correct boundaries."
+    },
+    {
+      "id": "src_p2_minerva_fn",
+      "start": 49,
+      "end": 49,
+      "exactNormalizedMatch": false,
+      "note": "A match does not establish claim scope, current law or correct boundaries."
+    },
+    {
+      "id": "src_p2_njac_fn",
+      "start": 88,
+      "end": 89,
+      "exactNormalizedMatch": false,
+      "note": "A match does not establish claim scope, current law or correct boundaries."
+    },
+    {
+      "id": "src_p2_amend42_dates",
+      "start": 32,
+      "end": 32,
+      "exactNormalizedMatch": false,
+      "note": "A match does not establish claim scope, current law or correct boundaries."
+    },
+    {
+      "id": "src_p2_amend44_dates",
+      "start": 41,
+      "end": 41,
+      "exactNormalizedMatch": false,
+      "note": "A match does not establish claim scope, current law or correct boundaries."
+    },
+    {
+      "id": "src_p3_art13_15_17",
+      "start": 37,
+      "end": 40,
+      "exactNormalizedMatch": false,
+      "note": "A match does not establish claim scope, current law or correct boundaries."
+    },
+    {
+      "id": "src_p3_art1_3_4_11",
+      "start": 33,
+      "end": 34,
+      "exactNormalizedMatch": false,
+      "note": "A match does not establish claim scope, current law or correct boundaries."
+    }
+  ],
+  "decision": "Staged for review. No batch-wide import or verification promotion. Supplied PASS assertions are not independent acceptance.",
+  "applied": [
+    "art_2 boundary correction and art_2A separation, read directly from bundled PDF page33; both remain needs_review."
+  ],
+  "remaining": "Review each proposal against primary sources, temporal scope and migration compatibility. Composite migrations and unresolved items stay quarantined."
+}
