@@ -1,24 +1,4 @@
-# Current release - 2 November 2026
-Trace recovery and capability gating deployed version7.17Node tests, TypeScript, production build, HTTP filter matrix/session isolation and desktop Trace checks passed. Current audience custom, URL https://constitutionatlas.blondebarge1.chatgpt.site . Preserve hosting settings. Curriculum cleanup retained261sections. No new legal assertions. Next work is prioritized in ARGON_DATA_BRIEF.md: extraction repair,23isolated entities, amendment/judgment evidence, then reviewed activities. Broader mobile/accessibility and content acceptance remain open.
-
-# Constitution Atlas implementation plan
-Updated 2026-11-01. Track working behavior and remaining acceptance gates.
-
-| Phase | Status | Evidence / remaining work |
-|---|---|---|
-| Archive and architecture | Implemented | Original Argon preserved; canonical IDs; Sites/D1 and independent Next/SQLite export. |
-| Public access/navigation | Deployed and verified | Native anchors fix intercepted clicks; no login; isolated HttpOnly visitor workspaces and CSRF validation. |
-| Immersive universe | Deployed version6 | Circular white/black map, cumulative expansion, camera animations, drag/zoom/pan, popup, in-canvas reader, typed links, search, trail, minimap, save/restore. Dense graph usability/accessibility review remains. |
-| Learning ecosystem | Reading foundation deployed |20 supplied lessons/300 sections plus original15; resume, tutor and source links. Activity blueprints are not all functional simulations. |
-| Contextual Gemini | Deployed; source-bound response verified |Summary/explain/example/quiz, active entity/section, conversation context and evidence checks. Broader semantic evaluation remains. |
-| Portable release | Built and runtime verified |Source ZIP, Node24/Next/SQLite, Docker configuration and URL guide. Docker image execution not tested. |
-| Source accuracy | Partial |635 entities/1258 edges; Article79/3edges checked. Volume7 held for Article2/2A defect. Review extraction boundaries and jurisprudence before verified labels. |
-| Production acceptance | Core flows verified |Both builds; live and standalone public HTTP/session isolation; graph interactions and save. Comprehensive mobile, accessibility and curriculum acceptance remains. |
-
-## Remaining independent phases
-1. Correct source extraction boundaries and review constitutional/judicial claims against primary sources.
-2. Implement and validate the supplied activity/assessment specifications beyond current reading sections and existing scenarios.
-3. Broaden dense-graph, mobile, keyboard/screen-reader and reduced-motion acceptance.
-4. Connect a user-selected custom domain or deploy to their selected Node/Docker host; exact domain and DNS access are not yet supplied.
-
-Do not mark the entire project complete from component counts or passing builds.
+# Current release - 2 November 2026, desktop selectors and spacing
+Implemented shared searchable desktop pickers for Trace/Compare, explicit colors for remaining native selects, automatic whole-view node spacing, animated viewport-aware branch framing and manual override.19tests/TypeScript/build pass; Compare dropdown/GET and19node spacing inspected; local workspace HTTP checks pass.
+Argon batch staged at /data-review with reproducible audit:55nodepatches,24edges,2lessons,9unresolved. Article2/2A separation applied directly from PDFpage33, still needs_review. Remaining data claims are not accepted wholesale. No dependencies, migration or hosting-setting changes.
+Next: primary-source review of remaining Article patches, amendment/judgment scope, proposed edges and activities; broader mobile/accessibility and dense map acceptance. Read CODEX_RESUME.md and docs/RELEASE_2026-11-02_PICKERS.md.

@@ -1,7 +1,2 @@
 # Next work
-Read CODEX_RESUME.md and docs/ARGON_DATA_BRIEF.md. Prior fixes are integrated; current release focuses on Trace recovery and capability gating.
-1. Repair Article extraction boundaries using primary evidence before expanding content.
-2. Review evidence-backed links for23isolated entities and generic RELATED_TO connections.
-3. Expand amendment effects, judgment holdings/treatment and lesson claim evidence.
-4. Implement reviewed activity specifications and broader mobile/accessibility acceptance.
-Preserve current Sites URL, audience, DB and runtime secret settings. Native anchors remain required. Argon-generated records stay needs_review until independent source review.
+Read CODEX_RESUME.md. Desktop picker and automatic spacing release replaces previous native popup behavior. Argon proposals are staged, not accepted wholesale. Review content/argon-review.json and primary evidence, prioritize remaining Article boundary patches,24edgeproposals and2lessonactivities. Correct report count discrepancies before claiming full acceptance. Preserve unresolved cases and current hosting settings. No automatic verification promotion.

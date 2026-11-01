@@ -14,7 +14,7 @@ Constitution Atlas is an interactive, full-stack educational platform and knowle
 ## 🏛️ Key Features
 
 ### 1. 🌌 Interactive Constitutional Knowledge Graph (`/explore`)
-- **635 canonical constitutional entities** and **1,258 recorded relationships (3 source-checked; remaining relationships await review)**.
+- **636 canonical constitutional entities** and **1,258 recorded relationships (3 source-checked; remaining relationships await review)**.
 - **Dynamic Physics-Based Canvas:** Powered by D3.js and GSAP with smooth collision relaxation, drag/zoom/pan, and interactive minimap.
 - **8 Visual Themes:** Light, dark, and specialized reading palettes.
 - **Progressive Node Discovery:** Expand related nodes in place, explore nearby institutional cards, and inspect legal authorities and constitutional limits.
