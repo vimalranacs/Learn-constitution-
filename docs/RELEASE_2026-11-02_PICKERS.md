@@ -7,3 +7,6 @@ No new dependencies, DB migrations, secret/environment or hosting changes. Curre
 Final validation:19Node tests and TypeScript pass, including dense automatic spacing and Article2/2A separation. Desktop in-page picker search is visibly readable; keyboard selection/Compare GET checked. Native OS popup rendering is avoided on both large lists. Production build and source publication are recorded in handoff.
 
 Published version8 from23e51474e027c9348224a77d501a6b08f3f88014; deployment appgdep_6ae7bbd796a08191b53630350f33bd6a succeeded. Existing audience/settings retained.19node settled browser measurement: minimum boundary gap53worldunits. Public HTTP and isolated workspace checks passed locally.
+
+## Version9 viewport repair
+Fixed non-scrollable graph host and clipped SVG, full-map safe-area framing, resize/restore refit and reserved popup column.20tests/tsc/build pass. Wide2878x1492 browser validation: no clipped circles among29, all page chrome inside viewport, host scroll zero. Deployment appgdep_6ae7bd7a33c08191a0f61fb542ea7070 succeeded from05af855e045e5167941d479d7d473b6e57d9ac10.
