@@ -1,3 +1,2 @@
-'use client';
-export default function ErrorPage({reset}:{error:Error;reset:()=>void}){return <main className="lesson"><p className="eyebrow">Something interrupted this page</p><h1>Let’s try that again.</h1><p>Your saved records remain in your private workspace. If this persists, check the connection and sign in again.</p><button onClick={reset}>Retry page</button> <a href="/">Return home</a></main>;}
-
+"use client";
+export default function ErrorPage({reset}:{error:Error;reset:()=>void}){return <main className="atlas-page"><p className="eyebrow">A momentary interruption</p><h1>This view could not load.</h1><p>Your saved work is unchanged. Try again, or continue exploring the Atlas.</p><div className="tool-row"><button onClick={reset}>Try again</button><a href="/atlas">Return to Atlas</a></div></main>}

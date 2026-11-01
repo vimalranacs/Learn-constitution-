@@ -1,0 +1,132 @@
+{
+  "nodes": 635,
+  "edges": 1258,
+  "edgeStatus": {
+    "source_checked": 3,
+    "needs_review": 1255
+  },
+  "relationshipTypes": {
+    "CONSISTS_OF": 3,
+    "RELATED_TO": 254,
+    "CONTAINS": 881,
+    "IMPLEMENTED_THROUGH": 45,
+    "DEFINES": 7,
+    "DEPENDS_ON": 3,
+    "ACCOUNTABLE_TO": 3,
+    "PROTECTS": 5,
+    "EMPOWERS": 13,
+    "ESTABLISHES": 9,
+    "ILLUSTRATED_BY": 2,
+    "HEADED_BY": 1,
+    "DEFINED_BY": 3,
+    "ESTABLISHED_BY": 3,
+    "INFLUENCED_BY": 1,
+    "ELECTS": 2,
+    "INTERPRETS": 3,
+    "INTERPRETED_BY": 12,
+    "HISTORICALLY_CONNECTED_TO": 1,
+    "CHECKS_AND_BALANCES": 2,
+    "LIMITS": 1,
+    "APPOINTS": 1,
+    "ADVISES": 3
+  },
+  "isolated": [
+    {
+      "id": "admin_cabinet_sec",
+      "title": "Cabinet Secretariat & Prime Minister's Office (PMO)"
+    },
+    {
+      "id": "admin_regulatory_bodies",
+      "title": "Statutory Regulatory Authorities & Accountability Bodies (RBI, SEBI, TRAI, Lokpal, CIC, NHRC)"
+    },
+    {
+      "id": "amend_1",
+      "title": "First Constitutional Amendment Act, 1951"
+    },
+    {
+      "id": "amend_101",
+      "title": "One Hundred and First Constitutional Amendment Act, 2016 (Goods and Services Tax)"
+    },
+    {
+      "id": "amend_106",
+      "title": "One Hundred and Sixth Constitutional Amendment Act, 2023 (Nari Shakti Vandan Adhiniyam)"
+    },
+    {
+      "id": "amend_42",
+      "title": "Forty-Second Constitutional Amendment Act, 1976"
+    },
+    {
+      "id": "amend_44",
+      "title": "Forty-Fourth Constitutional Amendment Act, 1978"
+    },
+    {
+      "id": "amend_73_74",
+      "title": "73rd & 74th Constitutional Amendment Acts, 1992 (Panchayats & Municipalities)"
+    },
+    {
+      "id": "amend_86",
+      "title": "Eighty-Sixth Constitutional Amendment Act, 2002 (Right to Education)"
+    },
+    {
+      "id": "doc_pith_substance",
+      "title": "Doctrines of Pith and Substance, Colourable Legislation & Repugnancy"
+    },
+    {
+      "id": "hist_adoption_1949",
+      "title": "Adoption (26 Nov 1949) & Commencement of the Constitution (26 Jan 1950)"
+    },
+    {
+      "id": "inst_ag",
+      "title": "Attorney-General for India & Advocates-General"
+    },
+    {
+      "id": "inst_vice_president",
+      "title": "Vice-President of India"
+    },
+    {
+      "id": "judg_golaknath",
+      "title": "I.C. Golaknath v. State of Punjab (1967)"
+    },
+    {
+      "id": "judg_gopalan",
+      "title": "A.K. Gopalan v. State of Madras (1950)"
+    },
+    {
+      "id": "judg_navtej",
+      "title": "Navtej Singh Johar v. Union of India (2018)"
+    },
+    {
+      "id": "judg_vishaka",
+      "title": "Vishaka v. State of Rajasthan (1997)"
+    },
+    {
+      "id": "phil_const_morality",
+      "title": "Constitutional Morality"
+    },
+    {
+      "id": "phil_federalism",
+      "title": "Cooperative & Asymmetric Federalism"
+    },
+    {
+      "id": "phil_rule_of_law",
+      "title": "Rule of Law"
+    },
+    {
+      "id": "phil_secularism",
+      "title": "Indian Secularism (Principled Distance & Sarva Dharma Sambhava)"
+    },
+    {
+      "id": "phil_sep_powers",
+      "title": "Separation of Powers & Checks and Balances"
+    },
+    {
+      "id": "proc_emergency",
+      "title": "Emergency Provisions (National, State/President's Rule, Financial)"
+    }
+  ],
+  "danglingEdges": [],
+  "missingReferences": [],
+  "lessons": 20,
+  "sections": 261,
+  "unknownLessonAnchors": []
+}
