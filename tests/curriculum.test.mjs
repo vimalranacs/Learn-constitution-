@@ -6,3 +6,7 @@ test('all curriculum sections retain prose and resolve only canonical graph refe
 test('graph returns to the correct curriculum family',()=>{assert.equal(lessonReturnHref('les_00_01_why_rules'),'/courses/les_00_01_why_rules');assert.equal(lessonReturnHref('two-houses'),'/learn/two-houses')});
 
 test('backticked agent references render as links rather than literal Markdown',()=>{assert.equal(cleanCurriculum('Read `[📜 Preamble](/atlas/preamble)` (PDF p. 32).',labels),'Read [Preamble](/explore?selected=preamble).')});
+
+test('mixed and edition-style PDF citations disappear while structural context stays',()=>{assert.equal(cleanCurriculum('Part III (Official 2026 Constitution PDF, p. 37).',labels),'Part III.');assert.equal(cleanCurriculum('Property (Part XII, Chapter IV, PDF p. 201).',labels),'Property (Part XII, Chapter IV).');assert.equal(cleanCurriculum('Text (PDF pp. 33, 284).',labels),'Text.');});
+
+test('citation-only table columns are removed without losing the teaching columns',()=>{assert.equal(cleanCurriculum('| Provision | PDF Page | Meaning |\n| --- | --- | --- |\n| Rule | 32 | Teaching |',labels),'| Provision | Meaning |\n| --- | --- |\n| Rule | Teaching |')});
