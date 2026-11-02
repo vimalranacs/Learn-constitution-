@@ -2,7 +2,7 @@ import {cpSync,existsSync,mkdirSync,readFileSync,writeFileSync,readdirSync} from
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');const destination=path.resolve(process.argv[2]||path.join(root,'..','artifacts','constitution-atlas-portable'));
 if(destination===root||destination.startsWith(root+path.sep)||existsSync(destination))throw Error('Choose a new export directory outside the source checkout. Existing exports are not overwritten.');
 mkdirSync(destination,{recursive:true});for(const directory of ['app','content','public'])if(existsSync(path.join(root,directory)))cpSync(path.join(root,directory),path.join(destination,directory),{recursive:true});
-mkdirSync(path.join(destination,'lib'));for(const name of ['ai.mjs','graph.mjs','http.ts','knowledge.ts','personal.mjs','tree.mjs','universe.mjs','vanta.d.ts'])cpSync(path.join(root,'lib',name),path.join(destination,'lib',name));
+mkdirSync(path.join(destination,'lib'));for(const name of ['ai.mjs','graph.mjs','http.ts','knowledge.ts','personal.mjs','tree.mjs','universe.mjs','curriculum.mjs','vanta.d.ts'])cpSync(path.join(root,'lib',name),path.join(destination,'lib',name));
 cpSync(path.join(root,'portability/runtime.mjs'),path.join(destination,'lib/runtime.mjs'));
 // Keep exact Origin checks when a reverse proxy changes the internal request URL.
 const personalFile=path.join(destination,'lib/personal.mjs');
